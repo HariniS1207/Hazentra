@@ -1,0 +1,7202 @@
+[
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:00:00.000Z",
+    "waterLevel": 308.74,
+    "rainfall": 0.24,
+    "temp": 25.57,
+    "humidity": 82.37,
+    "soilMoisture": 42.85,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:00:30.000Z",
+    "waterLevel": 309.94,
+    "rainfall": 0.27,
+    "temp": 25.75,
+    "humidity": 88.11,
+    "soilMoisture": 40.92,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:01:00.000Z",
+    "waterLevel": 311.27,
+    "rainfall": 2.92,
+    "temp": 25.86,
+    "humidity": 85.21,
+    "soilMoisture": 42.77,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:01:30.000Z",
+    "waterLevel": 312.02,
+    "rainfall": 0.45,
+    "temp": 25.77,
+    "humidity": 87.98,
+    "soilMoisture": 37.81,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:02:00.000Z",
+    "waterLevel": 308.54,
+    "rainfall": 0,
+    "temp": 25.68,
+    "humidity": 86.49,
+    "soilMoisture": 41.14,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:02:30.000Z",
+    "waterLevel": 309.33,
+    "rainfall": 0.34,
+    "temp": 25.69,
+    "humidity": 83.82,
+    "soilMoisture": 44.4,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:03:00.000Z",
+    "waterLevel": 309.74,
+    "rainfall": 0.24,
+    "temp": 25.86,
+    "humidity": 88.47,
+    "soilMoisture": 39.92,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:03:30.000Z",
+    "waterLevel": 309.52,
+    "rainfall": 0,
+    "temp": 25.08,
+    "humidity": 84.26,
+    "soilMoisture": 42.78,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:04:00.000Z",
+    "waterLevel": 311.69,
+    "rainfall": 0,
+    "temp": 25.55,
+    "humidity": 87.18,
+    "soilMoisture": 41.74,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:04:30.000Z",
+    "waterLevel": 310.6,
+    "rainfall": 0.59,
+    "temp": 25.95,
+    "humidity": 85.34,
+    "soilMoisture": 41.18,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:05:00.000Z",
+    "waterLevel": 310.31,
+    "rainfall": 1.01,
+    "temp": 25.77,
+    "humidity": 85.82,
+    "soilMoisture": 40.6,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:05:30.000Z",
+    "waterLevel": 309.14,
+    "rainfall": 1.53,
+    "temp": 25.65,
+    "humidity": 86.93,
+    "soilMoisture": 39.08,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:06:00.000Z",
+    "waterLevel": 310.81,
+    "rainfall": 0.18,
+    "temp": 26.33,
+    "humidity": 87.98,
+    "soilMoisture": 42.32,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:06:30.000Z",
+    "waterLevel": 307.91,
+    "rainfall": 0.21,
+    "temp": 25.83,
+    "humidity": 85.2,
+    "soilMoisture": 41.64,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:07:00.000Z",
+    "waterLevel": 308.71,
+    "rainfall": 0.53,
+    "temp": 25.41,
+    "humidity": 85.06,
+    "soilMoisture": 41.38,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:07:30.000Z",
+    "waterLevel": 309.01,
+    "rainfall": 0.55,
+    "temp": 25.71,
+    "humidity": 86.54,
+    "soilMoisture": 42.94,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:08:00.000Z",
+    "waterLevel": 313.78,
+    "rainfall": 0.11,
+    "temp": 26.08,
+    "humidity": 87.97,
+    "soilMoisture": 40.0,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:08:30.000Z",
+    "waterLevel": 312.86,
+    "rainfall": 0,
+    "temp": 26.4,
+    "humidity": 84.75,
+    "soilMoisture": 43.01,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:09:00.000Z",
+    "waterLevel": 312.85,
+    "rainfall": 0.3,
+    "temp": 25.42,
+    "humidity": 85.48,
+    "soilMoisture": 42.27,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:09:30.000Z",
+    "waterLevel": 310.68,
+    "rainfall": 0.0,
+    "temp": 25.71,
+    "humidity": 84.6,
+    "soilMoisture": 44.45,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:10:00.000Z",
+    "waterLevel": 309.14,
+    "rainfall": 0.01,
+    "temp": 26.33,
+    "humidity": 83.67,
+    "soilMoisture": 42.4,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:10:30.000Z",
+    "waterLevel": 310.95,
+    "rainfall": 0.24,
+    "temp": 25.68,
+    "humidity": 83.15,
+    "soilMoisture": 41.25,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:11:00.000Z",
+    "waterLevel": 314.8,
+    "rainfall": 0.24,
+    "temp": 25.79,
+    "humidity": 85.73,
+    "soilMoisture": 41.77,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:11:30.000Z",
+    "waterLevel": 309.62,
+    "rainfall": 0,
+    "temp": 26.39,
+    "humidity": 85.02,
+    "soilMoisture": 40.02,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:12:00.000Z",
+    "waterLevel": 311.98,
+    "rainfall": 0,
+    "temp": 25.96,
+    "humidity": 83.79,
+    "soilMoisture": 39.45,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:12:30.000Z",
+    "waterLevel": 313.89,
+    "rainfall": 0.26,
+    "temp": 26.07,
+    "humidity": 84.99,
+    "soilMoisture": 39.77,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:13:00.000Z",
+    "waterLevel": 314.26,
+    "rainfall": 0.01,
+    "temp": 25.4,
+    "humidity": 86.82,
+    "soilMoisture": 43.31,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:13:30.000Z",
+    "waterLevel": 314.36,
+    "rainfall": 0,
+    "temp": 26.03,
+    "humidity": 89.38,
+    "soilMoisture": 39.47,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:14:00.000Z",
+    "waterLevel": 312.83,
+    "rainfall": 0,
+    "temp": 26.07,
+    "humidity": 85.18,
+    "soilMoisture": 44.29,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:14:30.000Z",
+    "waterLevel": 313.47,
+    "rainfall": 0,
+    "temp": 25.75,
+    "humidity": 89.03,
+    "soilMoisture": 39.4,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:15:00.000Z",
+    "waterLevel": 313.7,
+    "rainfall": 0.37,
+    "temp": 25.96,
+    "humidity": 84.27,
+    "soilMoisture": 36.95,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:15:30.000Z",
+    "waterLevel": 311.24,
+    "rainfall": 0.31,
+    "temp": 26.16,
+    "humidity": 87.04,
+    "soilMoisture": 40.32,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:16:00.000Z",
+    "waterLevel": 313.66,
+    "rainfall": 0.59,
+    "temp": 25.96,
+    "humidity": 87.02,
+    "soilMoisture": 42.96,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:16:30.000Z",
+    "waterLevel": 310.82,
+    "rainfall": 0,
+    "temp": 26.59,
+    "humidity": 85.71,
+    "soilMoisture": 40.95,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:17:00.000Z",
+    "waterLevel": 313.88,
+    "rainfall": 0.1,
+    "temp": 25.97,
+    "humidity": 85.47,
+    "soilMoisture": 37.05,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:17:30.000Z",
+    "waterLevel": 311.65,
+    "rainfall": 0.59,
+    "temp": 25.82,
+    "humidity": 82.9,
+    "soilMoisture": 40.53,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:18:00.000Z",
+    "waterLevel": 311.72,
+    "rainfall": 0,
+    "temp": 25.77,
+    "humidity": 84.33,
+    "soilMoisture": 41.3,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:18:30.000Z",
+    "waterLevel": 312.35,
+    "rainfall": 0.03,
+    "temp": 25.95,
+    "humidity": 85.9,
+    "soilMoisture": 44.45,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:19:00.000Z",
+    "waterLevel": 311.96,
+    "rainfall": 0,
+    "temp": 25.77,
+    "humidity": 86.19,
+    "soilMoisture": 37.7,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:19:30.000Z",
+    "waterLevel": 309.8,
+    "rainfall": 0.2,
+    "temp": 26.42,
+    "humidity": 84.87,
+    "soilMoisture": 45.26,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:20:00.000Z",
+    "waterLevel": 308.99,
+    "rainfall": 0,
+    "temp": 26.44,
+    "humidity": 85.22,
+    "soilMoisture": 43.04,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:20:30.000Z",
+    "waterLevel": 309.84,
+    "rainfall": 0.74,
+    "temp": 26.31,
+    "humidity": 86.43,
+    "soilMoisture": 41.78,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:21:00.000Z",
+    "waterLevel": 309.92,
+    "rainfall": 0.36,
+    "temp": 26.29,
+    "humidity": 83.72,
+    "soilMoisture": 41.25,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:21:30.000Z",
+    "waterLevel": 314.13,
+    "rainfall": 0.39,
+    "temp": 26.19,
+    "humidity": 84.84,
+    "soilMoisture": 38.45,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:22:00.000Z",
+    "waterLevel": 310.65,
+    "rainfall": 0.12,
+    "temp": 25.93,
+    "humidity": 88.89,
+    "soilMoisture": 39.12,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:22:30.000Z",
+    "waterLevel": 313.21,
+    "rainfall": 0.41,
+    "temp": 25.59,
+    "humidity": 83.55,
+    "soilMoisture": 38.13,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:23:00.000Z",
+    "waterLevel": 311.18,
+    "rainfall": 0.71,
+    "temp": 26.04,
+    "humidity": 82.27,
+    "soilMoisture": 43.2,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:23:30.000Z",
+    "waterLevel": 311.26,
+    "rainfall": 0.63,
+    "temp": 26.52,
+    "humidity": 82.94,
+    "soilMoisture": 44.5,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:24:00.000Z",
+    "waterLevel": 309.94,
+    "rainfall": 0,
+    "temp": 26.17,
+    "humidity": 83.83,
+    "soilMoisture": 42.81,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:24:30.000Z",
+    "waterLevel": 311.64,
+    "rainfall": 0,
+    "temp": 26.33,
+    "humidity": 85.71,
+    "soilMoisture": 42.12,
+    "vibration": 0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:25:00.000Z",
+    "waterLevel": 310.76,
+    "rainfall": 0.08,
+    "temp": 26.42,
+    "humidity": 81.77,
+    "soilMoisture": 40.78,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:25:30.000Z",
+    "waterLevel": 309.67,
+    "rainfall": 0.42,
+    "temp": 26.1,
+    "humidity": 86.15,
+    "soilMoisture": 39.4,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:26:00.000Z",
+    "waterLevel": 309.43,
+    "rainfall": 0.29,
+    "temp": 26.25,
+    "humidity": 83.75,
+    "soilMoisture": 42.94,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:26:30.000Z",
+    "waterLevel": 311.75,
+    "rainfall": 0,
+    "temp": 26.55,
+    "humidity": 85.47,
+    "soilMoisture": 43.97,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:27:00.000Z",
+    "waterLevel": 308.97,
+    "rainfall": 0.27,
+    "temp": 26.53,
+    "humidity": 86.65,
+    "soilMoisture": 39.53,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:27:30.000Z",
+    "waterLevel": 310.64,
+    "rainfall": 0,
+    "temp": 26.61,
+    "humidity": 88.42,
+    "soilMoisture": 40.47,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:28:00.000Z",
+    "waterLevel": 310.17,
+    "rainfall": 0,
+    "temp": 26.56,
+    "humidity": 85.09,
+    "soilMoisture": 43.23,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:28:30.000Z",
+    "waterLevel": 309.8,
+    "rainfall": 0.44,
+    "temp": 26.42,
+    "humidity": 85.44,
+    "soilMoisture": 39.12,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:29:00.000Z",
+    "waterLevel": 309.78,
+    "rainfall": 0,
+    "temp": 26.02,
+    "humidity": 84.05,
+    "soilMoisture": 42.01,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:29:30.000Z",
+    "waterLevel": 309.94,
+    "rainfall": 0,
+    "temp": 26.63,
+    "humidity": 85.92,
+    "soilMoisture": 42.45,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:30:00.000Z",
+    "waterLevel": 311.13,
+    "rainfall": 0.31,
+    "temp": 26.54,
+    "humidity": 83.8,
+    "soilMoisture": 44.13,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:30:30.000Z",
+    "waterLevel": 310.23,
+    "rainfall": 0.25,
+    "temp": 26.33,
+    "humidity": 85.97,
+    "soilMoisture": 41.03,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:31:00.000Z",
+    "waterLevel": 312.28,
+    "rainfall": 0.14,
+    "temp": 25.97,
+    "humidity": 85.56,
+    "soilMoisture": 40.86,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:31:30.000Z",
+    "waterLevel": 309.93,
+    "rainfall": 0.44,
+    "temp": 25.89,
+    "humidity": 83.43,
+    "soilMoisture": 41.13,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:32:00.000Z",
+    "waterLevel": 314.05,
+    "rainfall": 0.35,
+    "temp": 26.57,
+    "humidity": 84.6,
+    "soilMoisture": 41.5,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:32:30.000Z",
+    "waterLevel": 311.92,
+    "rainfall": 0,
+    "temp": 26.61,
+    "humidity": 84.04,
+    "soilMoisture": 39.41,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:33:00.000Z",
+    "waterLevel": 309.47,
+    "rainfall": 0,
+    "temp": 26.73,
+    "humidity": 83.81,
+    "soilMoisture": 38.97,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:33:30.000Z",
+    "waterLevel": 310.92,
+    "rainfall": 1.63,
+    "temp": 26.05,
+    "humidity": 84.11,
+    "soilMoisture": 38.34,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:34:00.000Z",
+    "waterLevel": 310.92,
+    "rainfall": 0,
+    "temp": 26.67,
+    "humidity": 83.98,
+    "soilMoisture": 39.72,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:34:30.000Z",
+    "waterLevel": 312.64,
+    "rainfall": 0.09,
+    "temp": 26.4,
+    "humidity": 86.41,
+    "soilMoisture": 41.37,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:35:00.000Z",
+    "waterLevel": 312.18,
+    "rainfall": 0,
+    "temp": 26.34,
+    "humidity": 83.4,
+    "soilMoisture": 41.8,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:35:30.000Z",
+    "waterLevel": 313.14,
+    "rainfall": 0,
+    "temp": 26.15,
+    "humidity": 85.61,
+    "soilMoisture": 40.55,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:36:00.000Z",
+    "waterLevel": 313.8,
+    "rainfall": 0,
+    "temp": 26.37,
+    "humidity": 84.84,
+    "soilMoisture": 41.37,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:36:30.000Z",
+    "waterLevel": 309.88,
+    "rainfall": 0.11,
+    "temp": 26.03,
+    "humidity": 84.76,
+    "soilMoisture": 41.59,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:37:00.000Z",
+    "waterLevel": 313.58,
+    "rainfall": 0.08,
+    "temp": 26.28,
+    "humidity": 85.66,
+    "soilMoisture": 39.77,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:37:30.000Z",
+    "waterLevel": 311.94,
+    "rainfall": 0,
+    "temp": 26.67,
+    "humidity": 84.58,
+    "soilMoisture": 42.15,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:38:00.000Z",
+    "waterLevel": 311.84,
+    "rainfall": 0.38,
+    "temp": 25.78,
+    "humidity": 85.53,
+    "soilMoisture": 42.65,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:38:30.000Z",
+    "waterLevel": 311.48,
+    "rainfall": 0.39,
+    "temp": 26.07,
+    "humidity": 84.78,
+    "soilMoisture": 42.1,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:39:00.000Z",
+    "waterLevel": 312.66,
+    "rainfall": 0.0,
+    "temp": 26.04,
+    "humidity": 84.84,
+    "soilMoisture": 44.46,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:39:30.000Z",
+    "waterLevel": 310.65,
+    "rainfall": 0.32,
+    "temp": 26.24,
+    "humidity": 83.46,
+    "soilMoisture": 40.48,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:40:00.000Z",
+    "waterLevel": 312.59,
+    "rainfall": 0.58,
+    "temp": 26.27,
+    "humidity": 83.26,
+    "soilMoisture": 44.62,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:40:30.000Z",
+    "waterLevel": 312.08,
+    "rainfall": 0.21,
+    "temp": 26.83,
+    "humidity": 84.04,
+    "soilMoisture": 38.86,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:41:00.000Z",
+    "waterLevel": 309.38,
+    "rainfall": 0,
+    "temp": 26.47,
+    "humidity": 84.34,
+    "soilMoisture": 39.18,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:41:30.000Z",
+    "waterLevel": 313.86,
+    "rainfall": 0.16,
+    "temp": 26.22,
+    "humidity": 85.63,
+    "soilMoisture": 39.33,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:42:00.000Z",
+    "waterLevel": 313.75,
+    "rainfall": 0.04,
+    "temp": 26.15,
+    "humidity": 81.98,
+    "soilMoisture": 34.0,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:42:30.000Z",
+    "waterLevel": 315.94,
+    "rainfall": 0,
+    "temp": 25.96,
+    "humidity": 83.72,
+    "soilMoisture": 41.83,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:43:00.000Z",
+    "waterLevel": 312.18,
+    "rainfall": 0.33,
+    "temp": 26.81,
+    "humidity": 84.88,
+    "soilMoisture": 42.52,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:43:30.000Z",
+    "waterLevel": 312.73,
+    "rainfall": 0.29,
+    "temp": 26.27,
+    "humidity": 83.96,
+    "soilMoisture": 40.18,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:44:00.000Z",
+    "waterLevel": 313.36,
+    "rainfall": 0.29,
+    "temp": 26.77,
+    "humidity": 84.9,
+    "soilMoisture": 40.88,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:44:30.000Z",
+    "waterLevel": 311.73,
+    "rainfall": 0,
+    "temp": 26.56,
+    "humidity": 83.72,
+    "soilMoisture": 43.7,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:45:00.000Z",
+    "waterLevel": 314.68,
+    "rainfall": 0.54,
+    "temp": 26.47,
+    "humidity": 82.82,
+    "soilMoisture": 40.06,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:45:30.000Z",
+    "waterLevel": 316.53,
+    "rainfall": 0.14,
+    "temp": 26.17,
+    "humidity": 80.04,
+    "soilMoisture": 38.71,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:46:00.000Z",
+    "waterLevel": 313.58,
+    "rainfall": 0.33,
+    "temp": 26.27,
+    "humidity": 82.96,
+    "soilMoisture": 42.25,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:46:30.000Z",
+    "waterLevel": 317.81,
+    "rainfall": 0,
+    "temp": 26.5,
+    "humidity": 86.36,
+    "soilMoisture": 42.38,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:47:00.000Z",
+    "waterLevel": 314.6,
+    "rainfall": 0,
+    "temp": 27.11,
+    "humidity": 85.61,
+    "soilMoisture": 39.32,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:47:30.000Z",
+    "waterLevel": 315.21,
+    "rainfall": 0.17,
+    "temp": 25.91,
+    "humidity": 83.19,
+    "soilMoisture": 39.66,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:48:00.000Z",
+    "waterLevel": 314.88,
+    "rainfall": 0.47,
+    "temp": 26.7,
+    "humidity": 86.22,
+    "soilMoisture": 38.9,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:48:30.000Z",
+    "waterLevel": 311.74,
+    "rainfall": 0.26,
+    "temp": 26.92,
+    "humidity": 83.67,
+    "soilMoisture": 40.19,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:49:00.000Z",
+    "waterLevel": 316.69,
+    "rainfall": 0,
+    "temp": 26.49,
+    "humidity": 85.86,
+    "soilMoisture": 38.13,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:49:30.000Z",
+    "waterLevel": 312.38,
+    "rainfall": 0.32,
+    "temp": 26.78,
+    "humidity": 86.21,
+    "soilMoisture": 40.49,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:50:00.000Z",
+    "waterLevel": 316.97,
+    "rainfall": 0.34,
+    "temp": 26.8,
+    "humidity": 82.49,
+    "soilMoisture": 40.08,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:50:30.000Z",
+    "waterLevel": 314.37,
+    "rainfall": 0,
+    "temp": 26.86,
+    "humidity": 83.32,
+    "soilMoisture": 38.39,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:51:00.000Z",
+    "waterLevel": 316.21,
+    "rainfall": 1.27,
+    "temp": 27.05,
+    "humidity": 83.26,
+    "soilMoisture": 42.33,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:51:30.000Z",
+    "waterLevel": 315.31,
+    "rainfall": 0,
+    "temp": 26.94,
+    "humidity": 85.28,
+    "soilMoisture": 39.01,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:52:00.000Z",
+    "waterLevel": 317.08,
+    "rainfall": 0,
+    "temp": 26.89,
+    "humidity": 83.41,
+    "soilMoisture": 37.82,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:52:30.000Z",
+    "waterLevel": 316.37,
+    "rainfall": 0,
+    "temp": 26.83,
+    "humidity": 82.13,
+    "soilMoisture": 40.24,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:53:00.000Z",
+    "waterLevel": 317.12,
+    "rainfall": 0.45,
+    "temp": 26.8,
+    "humidity": 84.68,
+    "soilMoisture": 42.92,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:53:30.000Z",
+    "waterLevel": 314.3,
+    "rainfall": 0.4,
+    "temp": 27.08,
+    "humidity": 81.94,
+    "soilMoisture": 40.01,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:54:00.000Z",
+    "waterLevel": 315.08,
+    "rainfall": 0,
+    "temp": 26.98,
+    "humidity": 84.29,
+    "soilMoisture": 40.75,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:54:30.000Z",
+    "waterLevel": 316.77,
+    "rainfall": 0.19,
+    "temp": 26.81,
+    "humidity": 84.42,
+    "soilMoisture": 38.5,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:55:00.000Z",
+    "waterLevel": 317.79,
+    "rainfall": 0.25,
+    "temp": 26.43,
+    "humidity": 86.22,
+    "soilMoisture": 39.6,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:55:30.000Z",
+    "waterLevel": 315.37,
+    "rainfall": 0.01,
+    "temp": 27.05,
+    "humidity": 85.07,
+    "soilMoisture": 42.94,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:56:00.000Z",
+    "waterLevel": 317.56,
+    "rainfall": 0.33,
+    "temp": 26.7,
+    "humidity": 86.09,
+    "soilMoisture": 37.92,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:56:30.000Z",
+    "waterLevel": 316.67,
+    "rainfall": 0.48,
+    "temp": 26.47,
+    "humidity": 83.98,
+    "soilMoisture": 41.32,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:57:00.000Z",
+    "waterLevel": 316.06,
+    "rainfall": 0.57,
+    "temp": 26.77,
+    "humidity": 86.87,
+    "soilMoisture": 40.45,
+    "vibration": 0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:57:30.000Z",
+    "waterLevel": 317.06,
+    "rainfall": 0,
+    "temp": 26.06,
+    "humidity": 84.12,
+    "soilMoisture": 44.35,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:58:00.000Z",
+    "waterLevel": 314.81,
+    "rainfall": 0.0,
+    "temp": 27.17,
+    "humidity": 86.06,
+    "soilMoisture": 39.43,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:58:30.000Z",
+    "waterLevel": 317.9,
+    "rainfall": 0.01,
+    "temp": 26.99,
+    "humidity": 83.84,
+    "soilMoisture": 39.97,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:59:00.000Z",
+    "waterLevel": 317.87,
+    "rainfall": 0,
+    "temp": 27.13,
+    "humidity": 83.26,
+    "soilMoisture": 40.2,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T06:59:30.000Z",
+    "waterLevel": 315.9,
+    "rainfall": 0.2,
+    "temp": 27.12,
+    "humidity": 84.0,
+    "soilMoisture": 41.49,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:00:00.000Z",
+    "waterLevel": 315.46,
+    "rainfall": 0,
+    "temp": 27.3,
+    "humidity": 82.79,
+    "soilMoisture": 36.73,
+    "vibration": 0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:00:30.000Z",
+    "waterLevel": 313.69,
+    "rainfall": 0,
+    "temp": 26.97,
+    "humidity": 85.19,
+    "soilMoisture": 44.12,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:01:00.000Z",
+    "waterLevel": 317.36,
+    "rainfall": 0.36,
+    "temp": 27.23,
+    "humidity": 84.14,
+    "soilMoisture": 41.01,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:01:30.000Z",
+    "waterLevel": 314.21,
+    "rainfall": 0.18,
+    "temp": 26.8,
+    "humidity": 84.16,
+    "soilMoisture": 40.85,
+    "vibration": 0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:02:00.000Z",
+    "waterLevel": 314.79,
+    "rainfall": 0.11,
+    "temp": 27.08,
+    "humidity": 84.28,
+    "soilMoisture": 41.6,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:02:30.000Z",
+    "waterLevel": 314.94,
+    "rainfall": 0.21,
+    "temp": 27.13,
+    "humidity": 82.19,
+    "soilMoisture": 38.49,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:03:00.000Z",
+    "waterLevel": 315.76,
+    "rainfall": 0.46,
+    "temp": 27.44,
+    "humidity": 85.36,
+    "soilMoisture": 37.53,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:03:30.000Z",
+    "waterLevel": 317.06,
+    "rainfall": 0.72,
+    "temp": 26.7,
+    "humidity": 83.78,
+    "soilMoisture": 41.11,
+    "vibration": 0.05
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:04:00.000Z",
+    "waterLevel": 315.7,
+    "rainfall": 0.4,
+    "temp": 27.0,
+    "humidity": 84.39,
+    "soilMoisture": 35.97,
+    "vibration": 0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:04:30.000Z",
+    "waterLevel": 317.3,
+    "rainfall": 0,
+    "temp": 26.82,
+    "humidity": 82.47,
+    "soilMoisture": 45.1,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:05:00.000Z",
+    "waterLevel": 318.68,
+    "rainfall": 0.37,
+    "temp": 27.14,
+    "humidity": 84.92,
+    "soilMoisture": 46.2,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:05:30.000Z",
+    "waterLevel": 317.71,
+    "rainfall": 0,
+    "temp": 27.29,
+    "humidity": 81.35,
+    "soilMoisture": 40.08,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:06:00.000Z",
+    "waterLevel": 318.15,
+    "rainfall": 0.34,
+    "temp": 27.13,
+    "humidity": 81.7,
+    "soilMoisture": 42.04,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:06:30.000Z",
+    "waterLevel": 316.2,
+    "rainfall": 0.58,
+    "temp": 27.07,
+    "humidity": 83.46,
+    "soilMoisture": 41.62,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:07:00.000Z",
+    "waterLevel": 318.17,
+    "rainfall": 0,
+    "temp": 26.81,
+    "humidity": 81.7,
+    "soilMoisture": 42.47,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:07:30.000Z",
+    "waterLevel": 319.48,
+    "rainfall": 0.21,
+    "temp": 27.34,
+    "humidity": 80.71,
+    "soilMoisture": 43.41,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:08:00.000Z",
+    "waterLevel": 315.88,
+    "rainfall": 0,
+    "temp": 27.03,
+    "humidity": 84.64,
+    "soilMoisture": 43.82,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:08:30.000Z",
+    "waterLevel": 319.81,
+    "rainfall": 0.3,
+    "temp": 27.75,
+    "humidity": 82.51,
+    "soilMoisture": 44.29,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:09:00.000Z",
+    "waterLevel": 321.09,
+    "rainfall": 0.2,
+    "temp": 27.4,
+    "humidity": 84.89,
+    "soilMoisture": 40.47,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:09:30.000Z",
+    "waterLevel": 317.01,
+    "rainfall": 0.43,
+    "temp": 27.09,
+    "humidity": 86.64,
+    "soilMoisture": 42.26,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:10:00.000Z",
+    "waterLevel": 319.84,
+    "rainfall": 0.11,
+    "temp": 26.72,
+    "humidity": 83.4,
+    "soilMoisture": 42.81,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:10:30.000Z",
+    "waterLevel": 322.99,
+    "rainfall": 0.74,
+    "temp": 27.52,
+    "humidity": 83.22,
+    "soilMoisture": 46.41,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:11:00.000Z",
+    "waterLevel": 322.91,
+    "rainfall": 0,
+    "temp": 26.64,
+    "humidity": 83.31,
+    "soilMoisture": 43.77,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:11:30.000Z",
+    "waterLevel": 318.85,
+    "rainfall": 2.02,
+    "temp": 26.83,
+    "humidity": 84.58,
+    "soilMoisture": 43.19,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:12:00.000Z",
+    "waterLevel": 319.18,
+    "rainfall": 0.31,
+    "temp": 27.28,
+    "humidity": 85.02,
+    "soilMoisture": 39.7,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:12:30.000Z",
+    "waterLevel": 320.94,
+    "rainfall": 0.19,
+    "temp": 26.67,
+    "humidity": 83.73,
+    "soilMoisture": 44.42,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:13:00.000Z",
+    "waterLevel": 319.06,
+    "rainfall": 0.1,
+    "temp": 26.77,
+    "humidity": 84.97,
+    "soilMoisture": 44.53,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:13:30.000Z",
+    "waterLevel": 320.16,
+    "rainfall": 0.16,
+    "temp": 27.42,
+    "humidity": 86.55,
+    "soilMoisture": 42.49,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:14:00.000Z",
+    "waterLevel": 317.89,
+    "rainfall": 0,
+    "temp": 27.46,
+    "humidity": 82.32,
+    "soilMoisture": 40.73,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:14:30.000Z",
+    "waterLevel": 320.39,
+    "rainfall": 0,
+    "temp": 26.79,
+    "humidity": 83.05,
+    "soilMoisture": 40.79,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:15:00.000Z",
+    "waterLevel": 321.36,
+    "rainfall": 0.61,
+    "temp": 27.38,
+    "humidity": 82.2,
+    "soilMoisture": 41.62,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:15:30.000Z",
+    "waterLevel": 319.23,
+    "rainfall": 0.49,
+    "temp": 26.75,
+    "humidity": 81.03,
+    "soilMoisture": 45.07,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:16:00.000Z",
+    "waterLevel": 318.88,
+    "rainfall": 2.11,
+    "temp": 27.16,
+    "humidity": 84.05,
+    "soilMoisture": 39.48,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:16:30.000Z",
+    "waterLevel": 317.14,
+    "rainfall": 0.11,
+    "temp": 26.61,
+    "humidity": 85.99,
+    "soilMoisture": 41.15,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:17:00.000Z",
+    "waterLevel": 322.33,
+    "rainfall": 0.63,
+    "temp": 27.16,
+    "humidity": 84.19,
+    "soilMoisture": 45.68,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:17:30.000Z",
+    "waterLevel": 321.67,
+    "rainfall": 0.36,
+    "temp": 27.0,
+    "humidity": 83.78,
+    "soilMoisture": 41.33,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:18:00.000Z",
+    "waterLevel": 318.84,
+    "rainfall": 0.48,
+    "temp": 27.43,
+    "humidity": 84.5,
+    "soilMoisture": 41.41,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:18:30.000Z",
+    "waterLevel": 316.84,
+    "rainfall": 0.18,
+    "temp": 27.1,
+    "humidity": 87.4,
+    "soilMoisture": 43.2,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:19:00.000Z",
+    "waterLevel": 319.62,
+    "rainfall": 0.31,
+    "temp": 27.39,
+    "humidity": 83.1,
+    "soilMoisture": 39.92,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:19:30.000Z",
+    "waterLevel": 317.71,
+    "rainfall": 0.56,
+    "temp": 27.32,
+    "humidity": 81.3,
+    "soilMoisture": 43.37,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:20:00.000Z",
+    "waterLevel": 316.85,
+    "rainfall": 0.15,
+    "temp": 26.68,
+    "humidity": 85.26,
+    "soilMoisture": 39.52,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:20:30.000Z",
+    "waterLevel": 319.36,
+    "rainfall": 0.46,
+    "temp": 27.4,
+    "humidity": 85.2,
+    "soilMoisture": 43.96,
+    "vibration": 0.05
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:21:00.000Z",
+    "waterLevel": 319.25,
+    "rainfall": 0.08,
+    "temp": 27.14,
+    "humidity": 84.19,
+    "soilMoisture": 40.19,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:21:30.000Z",
+    "waterLevel": 319.12,
+    "rainfall": 0,
+    "temp": 27.18,
+    "humidity": 83.29,
+    "soilMoisture": 41.22,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:22:00.000Z",
+    "waterLevel": 321.29,
+    "rainfall": 0.08,
+    "temp": 27.3,
+    "humidity": 85.04,
+    "soilMoisture": 43.41,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:22:30.000Z",
+    "waterLevel": 319.33,
+    "rainfall": 0.08,
+    "temp": 27.43,
+    "humidity": 85.86,
+    "soilMoisture": 44.0,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:23:00.000Z",
+    "waterLevel": 318.04,
+    "rainfall": 0.17,
+    "temp": 27.38,
+    "humidity": 86.17,
+    "soilMoisture": 43.68,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:23:30.000Z",
+    "waterLevel": 321.48,
+    "rainfall": 0.53,
+    "temp": 27.17,
+    "humidity": 82.15,
+    "soilMoisture": 44.05,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:24:00.000Z",
+    "waterLevel": 318.86,
+    "rainfall": 0.49,
+    "temp": 26.76,
+    "humidity": 85.69,
+    "soilMoisture": 43.15,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:24:30.000Z",
+    "waterLevel": 322.12,
+    "rainfall": 0.39,
+    "temp": 27.74,
+    "humidity": 85.52,
+    "soilMoisture": 44.47,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:25:00.000Z",
+    "waterLevel": 319.85,
+    "rainfall": 0,
+    "temp": 27.43,
+    "humidity": 82.92,
+    "soilMoisture": 40.57,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:25:30.000Z",
+    "waterLevel": 319.9,
+    "rainfall": 0.59,
+    "temp": 28.11,
+    "humidity": 85.86,
+    "soilMoisture": 44.07,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:26:00.000Z",
+    "waterLevel": 320.59,
+    "rainfall": 0.19,
+    "temp": 27.48,
+    "humidity": 86.45,
+    "soilMoisture": 44.97,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:26:30.000Z",
+    "waterLevel": 321.73,
+    "rainfall": 0.16,
+    "temp": 27.07,
+    "humidity": 81.7,
+    "soilMoisture": 40.06,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:27:00.000Z",
+    "waterLevel": 319.69,
+    "rainfall": 0.65,
+    "temp": 26.92,
+    "humidity": 80.26,
+    "soilMoisture": 43.91,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:27:30.000Z",
+    "waterLevel": 319.23,
+    "rainfall": 0,
+    "temp": 27.13,
+    "humidity": 83.28,
+    "soilMoisture": 41.67,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:28:00.000Z",
+    "waterLevel": 319.48,
+    "rainfall": 0,
+    "temp": 27.1,
+    "humidity": 81.71,
+    "soilMoisture": 42.97,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:28:30.000Z",
+    "waterLevel": 321.68,
+    "rainfall": 0.64,
+    "temp": 27.77,
+    "humidity": 86.03,
+    "soilMoisture": 40.16,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:29:00.000Z",
+    "waterLevel": 320.49,
+    "rainfall": 0.6,
+    "temp": 27.68,
+    "humidity": 82.29,
+    "soilMoisture": 43.6,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:29:30.000Z",
+    "waterLevel": 318.15,
+    "rainfall": 0.45,
+    "temp": 27.72,
+    "humidity": 84.01,
+    "soilMoisture": 47.52,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:30:00.000Z",
+    "waterLevel": 318.19,
+    "rainfall": 2.97,
+    "temp": 27.7,
+    "humidity": 82.05,
+    "soilMoisture": 43.43,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:30:30.000Z",
+    "waterLevel": 317.77,
+    "rainfall": 1.78,
+    "temp": 27.29,
+    "humidity": 85.23,
+    "soilMoisture": 45.01,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:31:00.000Z",
+    "waterLevel": 318.57,
+    "rainfall": 0.84,
+    "temp": 27.58,
+    "humidity": 82.85,
+    "soilMoisture": 42.06,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:31:30.000Z",
+    "waterLevel": 318.28,
+    "rainfall": 0.04,
+    "temp": 27.41,
+    "humidity": 82.94,
+    "soilMoisture": 42.17,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:32:00.000Z",
+    "waterLevel": 316.39,
+    "rainfall": 0.31,
+    "temp": 27.26,
+    "humidity": 82.99,
+    "soilMoisture": 41.61,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:32:30.000Z",
+    "waterLevel": 317.78,
+    "rainfall": 0.41,
+    "temp": 27.31,
+    "humidity": 80.17,
+    "soilMoisture": 44.67,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:33:00.000Z",
+    "waterLevel": 317.37,
+    "rainfall": 1.12,
+    "temp": 28.24,
+    "humidity": 81.52,
+    "soilMoisture": 43.2,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:33:30.000Z",
+    "waterLevel": 316.82,
+    "rainfall": 0,
+    "temp": 27.46,
+    "humidity": 79.49,
+    "soilMoisture": 42.5,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:34:00.000Z",
+    "waterLevel": 317.73,
+    "rainfall": 0.69,
+    "temp": 27.21,
+    "humidity": 83.66,
+    "soilMoisture": 41.66,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:34:30.000Z",
+    "waterLevel": 317.89,
+    "rainfall": 0.37,
+    "temp": 27.29,
+    "humidity": 80.95,
+    "soilMoisture": 42.64,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:35:00.000Z",
+    "waterLevel": 319.67,
+    "rainfall": 0.0,
+    "temp": 27.8,
+    "humidity": 82.32,
+    "soilMoisture": 43.84,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:35:30.000Z",
+    "waterLevel": 318.15,
+    "rainfall": 0,
+    "temp": 27.6,
+    "humidity": 81.62,
+    "soilMoisture": 44.5,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:36:00.000Z",
+    "waterLevel": 321.31,
+    "rainfall": 0,
+    "temp": 27.48,
+    "humidity": 83.42,
+    "soilMoisture": 45.28,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:36:30.000Z",
+    "waterLevel": 319.04,
+    "rainfall": 0,
+    "temp": 27.79,
+    "humidity": 81.85,
+    "soilMoisture": 46.42,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:37:00.000Z",
+    "waterLevel": 320.23,
+    "rainfall": 2.03,
+    "temp": 27.75,
+    "humidity": 82.43,
+    "soilMoisture": 39.55,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:37:30.000Z",
+    "waterLevel": 320.79,
+    "rainfall": 0.79,
+    "temp": 27.36,
+    "humidity": 80.83,
+    "soilMoisture": 44.7,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:38:00.000Z",
+    "waterLevel": 324.79,
+    "rainfall": 0.39,
+    "temp": 27.82,
+    "humidity": 84.06,
+    "soilMoisture": 43.59,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:38:30.000Z",
+    "waterLevel": 320.97,
+    "rainfall": 0.45,
+    "temp": 27.66,
+    "humidity": 83.23,
+    "soilMoisture": 44.14,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:39:00.000Z",
+    "waterLevel": 320.73,
+    "rainfall": 0.16,
+    "temp": 27.84,
+    "humidity": 82.99,
+    "soilMoisture": 43.74,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:39:30.000Z",
+    "waterLevel": 321.5,
+    "rainfall": 0,
+    "temp": 28.04,
+    "humidity": 82.83,
+    "soilMoisture": 40.29,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:40:00.000Z",
+    "waterLevel": 322.71,
+    "rainfall": 0.21,
+    "temp": 27.58,
+    "humidity": 83.5,
+    "soilMoisture": 43.49,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:40:30.000Z",
+    "waterLevel": 322.75,
+    "rainfall": 0.42,
+    "temp": 27.79,
+    "humidity": 82.24,
+    "soilMoisture": 45.34,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:41:00.000Z",
+    "waterLevel": 320.65,
+    "rainfall": 0,
+    "temp": 27.75,
+    "humidity": 83.53,
+    "soilMoisture": 39.44,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:41:30.000Z",
+    "waterLevel": 320.35,
+    "rainfall": 0,
+    "temp": 27.81,
+    "humidity": 81.93,
+    "soilMoisture": 44.71,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:42:00.000Z",
+    "waterLevel": 321.43,
+    "rainfall": 0,
+    "temp": 27.46,
+    "humidity": 83.19,
+    "soilMoisture": 39.89,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:42:30.000Z",
+    "waterLevel": 322.88,
+    "rainfall": 0.28,
+    "temp": 27.78,
+    "humidity": 83.77,
+    "soilMoisture": 40.35,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:43:00.000Z",
+    "waterLevel": 320.29,
+    "rainfall": 0,
+    "temp": 27.71,
+    "humidity": 83.58,
+    "soilMoisture": 39.9,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:43:30.000Z",
+    "waterLevel": 321.91,
+    "rainfall": 1.93,
+    "temp": 27.64,
+    "humidity": 83.82,
+    "soilMoisture": 42.76,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:44:00.000Z",
+    "waterLevel": 324.76,
+    "rainfall": 0.15,
+    "temp": 27.51,
+    "humidity": 83.05,
+    "soilMoisture": 44.58,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:44:30.000Z",
+    "waterLevel": 321.39,
+    "rainfall": 0.12,
+    "temp": 27.71,
+    "humidity": 82.78,
+    "soilMoisture": 43.36,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:45:00.000Z",
+    "waterLevel": 324.37,
+    "rainfall": 0,
+    "temp": 28.08,
+    "humidity": 81.48,
+    "soilMoisture": 41.17,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:45:30.000Z",
+    "waterLevel": 323.09,
+    "rainfall": 2.57,
+    "temp": 27.31,
+    "humidity": 82.56,
+    "soilMoisture": 43.55,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:46:00.000Z",
+    "waterLevel": 321.39,
+    "rainfall": 0,
+    "temp": 27.92,
+    "humidity": 83.0,
+    "soilMoisture": 38.3,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:46:30.000Z",
+    "waterLevel": 319.38,
+    "rainfall": 0,
+    "temp": 27.32,
+    "humidity": 84.19,
+    "soilMoisture": 41.77,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:47:00.000Z",
+    "waterLevel": 320.58,
+    "rainfall": 0,
+    "temp": 28.12,
+    "humidity": 82.72,
+    "soilMoisture": 38.66,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:47:30.000Z",
+    "waterLevel": 321.64,
+    "rainfall": 0.39,
+    "temp": 27.69,
+    "humidity": 82.74,
+    "soilMoisture": 37.91,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:48:00.000Z",
+    "waterLevel": 319.5,
+    "rainfall": 0,
+    "temp": 27.61,
+    "humidity": 79.76,
+    "soilMoisture": 37.74,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:48:30.000Z",
+    "waterLevel": 320.67,
+    "rainfall": 0.32,
+    "temp": 27.76,
+    "humidity": 81.22,
+    "soilMoisture": 43.56,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:49:00.000Z",
+    "waterLevel": 320.48,
+    "rainfall": 0.18,
+    "temp": 28.02,
+    "humidity": 83.18,
+    "soilMoisture": 43.66,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:49:30.000Z",
+    "waterLevel": 320.98,
+    "rainfall": 0.19,
+    "temp": 27.76,
+    "humidity": 81.84,
+    "soilMoisture": 45.58,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:50:00.000Z",
+    "waterLevel": 322.53,
+    "rainfall": 0.36,
+    "temp": 27.78,
+    "humidity": 83.99,
+    "soilMoisture": 41.95,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:50:30.000Z",
+    "waterLevel": 319.75,
+    "rainfall": 0.05,
+    "temp": 28.04,
+    "humidity": 82.75,
+    "soilMoisture": 43.16,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:51:00.000Z",
+    "waterLevel": 320.9,
+    "rainfall": 0.59,
+    "temp": 28.15,
+    "humidity": 83.57,
+    "soilMoisture": 41.46,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:51:30.000Z",
+    "waterLevel": 319.33,
+    "rainfall": 0,
+    "temp": 28.03,
+    "humidity": 83.46,
+    "soilMoisture": 43.14,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:52:00.000Z",
+    "waterLevel": 319.04,
+    "rainfall": 0.4,
+    "temp": 27.98,
+    "humidity": 79.5,
+    "soilMoisture": 45.03,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:52:30.000Z",
+    "waterLevel": 321.21,
+    "rainfall": 0.4,
+    "temp": 27.77,
+    "humidity": 83.07,
+    "soilMoisture": 38.79,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:53:00.000Z",
+    "waterLevel": 320.06,
+    "rainfall": 0.21,
+    "temp": 27.78,
+    "humidity": 81.7,
+    "soilMoisture": 43.24,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:53:30.000Z",
+    "waterLevel": 322.35,
+    "rainfall": 0,
+    "temp": 28.51,
+    "humidity": 79.48,
+    "soilMoisture": 41.15,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:54:00.000Z",
+    "waterLevel": 322.31,
+    "rainfall": 0.18,
+    "temp": 27.99,
+    "humidity": 81.03,
+    "soilMoisture": 41.45,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:54:30.000Z",
+    "waterLevel": 319.76,
+    "rainfall": 0.18,
+    "temp": 27.68,
+    "humidity": 80.26,
+    "soilMoisture": 41.34,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:55:00.000Z",
+    "waterLevel": 321.52,
+    "rainfall": 0.19,
+    "temp": 27.94,
+    "humidity": 82.2,
+    "soilMoisture": 40.49,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:55:30.000Z",
+    "waterLevel": 319.35,
+    "rainfall": 0.77,
+    "temp": 28.27,
+    "humidity": 82.04,
+    "soilMoisture": 40.05,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:56:00.000Z",
+    "waterLevel": 322.31,
+    "rainfall": 0.05,
+    "temp": 27.62,
+    "humidity": 82.35,
+    "soilMoisture": 45.13,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:56:30.000Z",
+    "waterLevel": 320.06,
+    "rainfall": 0.42,
+    "temp": 27.95,
+    "humidity": 81.23,
+    "soilMoisture": 43.0,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:57:00.000Z",
+    "waterLevel": 320.87,
+    "rainfall": 0,
+    "temp": 27.38,
+    "humidity": 83.18,
+    "soilMoisture": 44.69,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:57:30.000Z",
+    "waterLevel": 321.53,
+    "rainfall": 0.51,
+    "temp": 28.43,
+    "humidity": 82.86,
+    "soilMoisture": 42.9,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:58:00.000Z",
+    "waterLevel": 321.1,
+    "rainfall": 0.31,
+    "temp": 28.1,
+    "humidity": 82.75,
+    "soilMoisture": 44.28,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:58:30.000Z",
+    "waterLevel": 321.48,
+    "rainfall": 0.33,
+    "temp": 27.71,
+    "humidity": 81.52,
+    "soilMoisture": 44.46,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:59:00.000Z",
+    "waterLevel": 320.58,
+    "rainfall": 0.04,
+    "temp": 27.95,
+    "humidity": 82.4,
+    "soilMoisture": 42.76,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T07:59:30.000Z",
+    "waterLevel": 320.41,
+    "rainfall": 0.1,
+    "temp": 28.01,
+    "humidity": 81.61,
+    "soilMoisture": 44.61,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:00:00.000Z",
+    "waterLevel": 320.62,
+    "rainfall": 0,
+    "temp": 27.94,
+    "humidity": 83.05,
+    "soilMoisture": 40.49,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:00:30.000Z",
+    "waterLevel": 318.68,
+    "rainfall": 0.27,
+    "temp": 28.43,
+    "humidity": 82.42,
+    "soilMoisture": 41.39,
+    "vibration": 0.05
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:01:00.000Z",
+    "waterLevel": 322.68,
+    "rainfall": 0,
+    "temp": 28.06,
+    "humidity": 81.74,
+    "soilMoisture": 43.52,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:01:30.000Z",
+    "waterLevel": 321.52,
+    "rainfall": 0,
+    "temp": 28.08,
+    "humidity": 82.27,
+    "soilMoisture": 41.91,
+    "vibration": 0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:02:00.000Z",
+    "waterLevel": 320.12,
+    "rainfall": 0.25,
+    "temp": 27.68,
+    "humidity": 83.64,
+    "soilMoisture": 40.28,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:02:30.000Z",
+    "waterLevel": 321.06,
+    "rainfall": 0.02,
+    "temp": 28.47,
+    "humidity": 80.65,
+    "soilMoisture": 42.49,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:03:00.000Z",
+    "waterLevel": 320.52,
+    "rainfall": 0.5,
+    "temp": 27.83,
+    "humidity": 81.59,
+    "soilMoisture": 41.94,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:03:30.000Z",
+    "waterLevel": 321.29,
+    "rainfall": 0.31,
+    "temp": 28.06,
+    "humidity": 80.25,
+    "soilMoisture": 41.54,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:04:00.000Z",
+    "waterLevel": 317.91,
+    "rainfall": 0,
+    "temp": 28.1,
+    "humidity": 81.7,
+    "soilMoisture": 39.82,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:04:30.000Z",
+    "waterLevel": 324.67,
+    "rainfall": 0.65,
+    "temp": 28.05,
+    "humidity": 84.17,
+    "soilMoisture": 40.79,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:05:00.000Z",
+    "waterLevel": 320.62,
+    "rainfall": 0.97,
+    "temp": 28.13,
+    "humidity": 80.82,
+    "soilMoisture": 42.81,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:05:30.000Z",
+    "waterLevel": 322.09,
+    "rainfall": 0,
+    "temp": 27.87,
+    "humidity": 81.63,
+    "soilMoisture": 40.09,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:06:00.000Z",
+    "waterLevel": 321.85,
+    "rainfall": 0,
+    "temp": 27.86,
+    "humidity": 82.1,
+    "soilMoisture": 40.87,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:06:30.000Z",
+    "waterLevel": 319.26,
+    "rainfall": 0,
+    "temp": 28.19,
+    "humidity": 81.16,
+    "soilMoisture": 43.79,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:07:00.000Z",
+    "waterLevel": 323.09,
+    "rainfall": 0.08,
+    "temp": 27.96,
+    "humidity": 81.45,
+    "soilMoisture": 41.46,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:07:30.000Z",
+    "waterLevel": 321.65,
+    "rainfall": 0.54,
+    "temp": 28.06,
+    "humidity": 83.99,
+    "soilMoisture": 40.5,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:08:00.000Z",
+    "waterLevel": 320.25,
+    "rainfall": 0,
+    "temp": 27.58,
+    "humidity": 81.6,
+    "soilMoisture": 41.05,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:08:30.000Z",
+    "waterLevel": 320.13,
+    "rainfall": 0.36,
+    "temp": 28.68,
+    "humidity": 81.35,
+    "soilMoisture": 42.74,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:09:00.000Z",
+    "waterLevel": 319.57,
+    "rainfall": 0,
+    "temp": 28.34,
+    "humidity": 81.21,
+    "soilMoisture": 42.45,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:09:30.000Z",
+    "waterLevel": 324.07,
+    "rainfall": 0.16,
+    "temp": 27.7,
+    "humidity": 82.94,
+    "soilMoisture": 38.49,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:10:00.000Z",
+    "waterLevel": 321.85,
+    "rainfall": 0.09,
+    "temp": 27.87,
+    "humidity": 80.65,
+    "soilMoisture": 38.59,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:10:30.000Z",
+    "waterLevel": 319.62,
+    "rainfall": 0.23,
+    "temp": 28.18,
+    "humidity": 82.12,
+    "soilMoisture": 45.89,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:11:00.000Z",
+    "waterLevel": 323.01,
+    "rainfall": 0.18,
+    "temp": 28.43,
+    "humidity": 83.64,
+    "soilMoisture": 41.82,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:11:30.000Z",
+    "waterLevel": 318.45,
+    "rainfall": 0.72,
+    "temp": 28.52,
+    "humidity": 82.86,
+    "soilMoisture": 41.88,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:12:00.000Z",
+    "waterLevel": 323.76,
+    "rainfall": 0.5,
+    "temp": 28.1,
+    "humidity": 81.32,
+    "soilMoisture": 40.1,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:12:30.000Z",
+    "waterLevel": 321.26,
+    "rainfall": 0.13,
+    "temp": 28.37,
+    "humidity": 80.12,
+    "soilMoisture": 41.61,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:13:00.000Z",
+    "waterLevel": 322.46,
+    "rainfall": 0.31,
+    "temp": 28.03,
+    "humidity": 84.85,
+    "soilMoisture": 43.05,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:13:30.000Z",
+    "waterLevel": 323.42,
+    "rainfall": 0.66,
+    "temp": 28.14,
+    "humidity": 80.19,
+    "soilMoisture": 43.2,
+    "vibration": 0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:14:00.000Z",
+    "waterLevel": 322.67,
+    "rainfall": 2.68,
+    "temp": 27.87,
+    "humidity": 80.77,
+    "soilMoisture": 43.29,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:14:30.000Z",
+    "waterLevel": 322.13,
+    "rainfall": 0,
+    "temp": 28.3,
+    "humidity": 82.25,
+    "soilMoisture": 42.62,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:15:00.000Z",
+    "waterLevel": 323.47,
+    "rainfall": 0.33,
+    "temp": 27.89,
+    "humidity": 82.07,
+    "soilMoisture": 40.8,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:15:30.000Z",
+    "waterLevel": 323.05,
+    "rainfall": 1.1,
+    "temp": 28.25,
+    "humidity": 84.21,
+    "soilMoisture": 45.12,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:16:00.000Z",
+    "waterLevel": 321.3,
+    "rainfall": 0.72,
+    "temp": 28.15,
+    "humidity": 80.66,
+    "soilMoisture": 45.55,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:16:30.000Z",
+    "waterLevel": 323.05,
+    "rainfall": 0.69,
+    "temp": 27.81,
+    "humidity": 81.71,
+    "soilMoisture": 40.33,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:17:00.000Z",
+    "waterLevel": 322.37,
+    "rainfall": 0.24,
+    "temp": 28.36,
+    "humidity": 81.98,
+    "soilMoisture": 41.83,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:17:30.000Z",
+    "waterLevel": 322.91,
+    "rainfall": 0,
+    "temp": 28.17,
+    "humidity": 81.78,
+    "soilMoisture": 42.59,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:18:00.000Z",
+    "waterLevel": 322.68,
+    "rainfall": 0,
+    "temp": 28.6,
+    "humidity": 80.47,
+    "soilMoisture": 43.17,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:18:30.000Z",
+    "waterLevel": 323.95,
+    "rainfall": 0.29,
+    "temp": 28.09,
+    "humidity": 80.67,
+    "soilMoisture": 42.01,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:19:00.000Z",
+    "waterLevel": 326.83,
+    "rainfall": 0,
+    "temp": 28.52,
+    "humidity": 81.66,
+    "soilMoisture": 46.05,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:19:30.000Z",
+    "waterLevel": 321.95,
+    "rainfall": 0,
+    "temp": 27.93,
+    "humidity": 81.88,
+    "soilMoisture": 45.58,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:20:00.000Z",
+    "waterLevel": 324.12,
+    "rainfall": 0.67,
+    "temp": 28.66,
+    "humidity": 81.03,
+    "soilMoisture": 46.15,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:20:30.000Z",
+    "waterLevel": 324.93,
+    "rainfall": 0.33,
+    "temp": 28.44,
+    "humidity": 83.06,
+    "soilMoisture": 45.62,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:21:00.000Z",
+    "waterLevel": 324.56,
+    "rainfall": 0.55,
+    "temp": 28.2,
+    "humidity": 81.41,
+    "soilMoisture": 43.37,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:21:30.000Z",
+    "waterLevel": 323.77,
+    "rainfall": 0,
+    "temp": 28.54,
+    "humidity": 82.03,
+    "soilMoisture": 40.46,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:22:00.000Z",
+    "waterLevel": 325.69,
+    "rainfall": 0,
+    "temp": 28.17,
+    "humidity": 81.26,
+    "soilMoisture": 41.09,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:22:30.000Z",
+    "waterLevel": 324.49,
+    "rainfall": 0.12,
+    "temp": 29.13,
+    "humidity": 82.94,
+    "soilMoisture": 41.73,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:23:00.000Z",
+    "waterLevel": 325.56,
+    "rainfall": 0,
+    "temp": 28.46,
+    "humidity": 80.85,
+    "soilMoisture": 43.61,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:23:30.000Z",
+    "waterLevel": 325.65,
+    "rainfall": 0.4,
+    "temp": 28.19,
+    "humidity": 80.73,
+    "soilMoisture": 46.9,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:24:00.000Z",
+    "waterLevel": 324.98,
+    "rainfall": 0.63,
+    "temp": 28.81,
+    "humidity": 79.58,
+    "soilMoisture": 39.21,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:24:30.000Z",
+    "waterLevel": 325.32,
+    "rainfall": 1.44,
+    "temp": 28.79,
+    "humidity": 81.91,
+    "soilMoisture": 42.66,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:25:00.000Z",
+    "waterLevel": 326.69,
+    "rainfall": 0.75,
+    "temp": 28.65,
+    "humidity": 79.07,
+    "soilMoisture": 43.52,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:25:30.000Z",
+    "waterLevel": 324.34,
+    "rainfall": 0.38,
+    "temp": 28.58,
+    "humidity": 82.18,
+    "soilMoisture": 41.97,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:26:00.000Z",
+    "waterLevel": 323.16,
+    "rainfall": 0.29,
+    "temp": 28.6,
+    "humidity": 80.47,
+    "soilMoisture": 43.53,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:26:30.000Z",
+    "waterLevel": 321.92,
+    "rainfall": 0,
+    "temp": 28.5,
+    "humidity": 80.21,
+    "soilMoisture": 41.15,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:27:00.000Z",
+    "waterLevel": 324.0,
+    "rainfall": 0,
+    "temp": 28.6,
+    "humidity": 80.54,
+    "soilMoisture": 41.17,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:27:30.000Z",
+    "waterLevel": 324.17,
+    "rainfall": 0.23,
+    "temp": 28.57,
+    "humidity": 79.46,
+    "soilMoisture": 41.76,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:28:00.000Z",
+    "waterLevel": 322.63,
+    "rainfall": 0.57,
+    "temp": 28.99,
+    "humidity": 78.72,
+    "soilMoisture": 42.44,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:28:30.000Z",
+    "waterLevel": 322.93,
+    "rainfall": 0.68,
+    "temp": 28.91,
+    "humidity": 81.76,
+    "soilMoisture": 44.7,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:29:00.000Z",
+    "waterLevel": 325.23,
+    "rainfall": 0.73,
+    "temp": 28.7,
+    "humidity": 80.0,
+    "soilMoisture": 41.59,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:29:30.000Z",
+    "waterLevel": 324.68,
+    "rainfall": 0.07,
+    "temp": 28.85,
+    "humidity": 78.78,
+    "soilMoisture": 45.97,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:30:00.000Z",
+    "waterLevel": 323.1,
+    "rainfall": 0.36,
+    "temp": 28.5,
+    "humidity": 81.14,
+    "soilMoisture": 45.28,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:30:30.000Z",
+    "waterLevel": 325.09,
+    "rainfall": 0.33,
+    "temp": 28.74,
+    "humidity": 79.38,
+    "soilMoisture": 44.49,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:31:00.000Z",
+    "waterLevel": 324.95,
+    "rainfall": 0.08,
+    "temp": 28.94,
+    "humidity": 81.84,
+    "soilMoisture": 37.22,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:31:30.000Z",
+    "waterLevel": 323.82,
+    "rainfall": 0.62,
+    "temp": 28.83,
+    "humidity": 82.24,
+    "soilMoisture": 44.89,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:32:00.000Z",
+    "waterLevel": 324.48,
+    "rainfall": 0.71,
+    "temp": 28.41,
+    "humidity": 81.46,
+    "soilMoisture": 42.94,
+    "vibration": 0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:32:30.000Z",
+    "waterLevel": 322.91,
+    "rainfall": 0.19,
+    "temp": 28.43,
+    "humidity": 83.53,
+    "soilMoisture": 45.03,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:33:00.000Z",
+    "waterLevel": 325.76,
+    "rainfall": 0.26,
+    "temp": 28.6,
+    "humidity": 78.62,
+    "soilMoisture": 45.8,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:33:30.000Z",
+    "waterLevel": 323.01,
+    "rainfall": 0.49,
+    "temp": 28.79,
+    "humidity": 82.62,
+    "soilMoisture": 47.73,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:34:00.000Z",
+    "waterLevel": 322.48,
+    "rainfall": 0.83,
+    "temp": 28.41,
+    "humidity": 81.91,
+    "soilMoisture": 43.03,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:34:30.000Z",
+    "waterLevel": 324.5,
+    "rainfall": 0,
+    "temp": 28.16,
+    "humidity": 80.99,
+    "soilMoisture": 41.52,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:35:00.000Z",
+    "waterLevel": 320.88,
+    "rainfall": 0.38,
+    "temp": 28.79,
+    "humidity": 78.77,
+    "soilMoisture": 42.46,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:35:30.000Z",
+    "waterLevel": 322.32,
+    "rainfall": 0.28,
+    "temp": 29.07,
+    "humidity": 80.13,
+    "soilMoisture": 39.26,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:36:00.000Z",
+    "waterLevel": 322.31,
+    "rainfall": 0,
+    "temp": 28.89,
+    "humidity": 82.48,
+    "soilMoisture": 42.35,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:36:30.000Z",
+    "waterLevel": 322.89,
+    "rainfall": 0.2,
+    "temp": 29.13,
+    "humidity": 82.44,
+    "soilMoisture": 42.24,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:37:00.000Z",
+    "waterLevel": 323.48,
+    "rainfall": 0.01,
+    "temp": 28.8,
+    "humidity": 79.74,
+    "soilMoisture": 41.79,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:37:30.000Z",
+    "waterLevel": 322.68,
+    "rainfall": 0.02,
+    "temp": 29.03,
+    "humidity": 83.35,
+    "soilMoisture": 42.4,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:38:00.000Z",
+    "waterLevel": 322.72,
+    "rainfall": 0.29,
+    "temp": 28.26,
+    "humidity": 78.0,
+    "soilMoisture": 42.06,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:38:30.000Z",
+    "waterLevel": 319.79,
+    "rainfall": 0.15,
+    "temp": 28.47,
+    "humidity": 81.51,
+    "soilMoisture": 41.29,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:39:00.000Z",
+    "waterLevel": 321.23,
+    "rainfall": 1.39,
+    "temp": 28.86,
+    "humidity": 79.28,
+    "soilMoisture": 43.36,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:39:30.000Z",
+    "waterLevel": 321.01,
+    "rainfall": 0.05,
+    "temp": 28.74,
+    "humidity": 80.38,
+    "soilMoisture": 43.16,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:40:00.000Z",
+    "waterLevel": 322.24,
+    "rainfall": 0.5,
+    "temp": 28.26,
+    "humidity": 79.43,
+    "soilMoisture": 44.58,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:40:30.000Z",
+    "waterLevel": 322.35,
+    "rainfall": 0.37,
+    "temp": 28.92,
+    "humidity": 80.94,
+    "soilMoisture": 45.42,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:41:00.000Z",
+    "waterLevel": 320.27,
+    "rainfall": 0,
+    "temp": 29.03,
+    "humidity": 79.08,
+    "soilMoisture": 44.53,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:41:30.000Z",
+    "waterLevel": 320.88,
+    "rainfall": 0.26,
+    "temp": 28.92,
+    "humidity": 83.31,
+    "soilMoisture": 42.15,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:42:00.000Z",
+    "waterLevel": 319.42,
+    "rainfall": 0.29,
+    "temp": 28.42,
+    "humidity": 79.89,
+    "soilMoisture": 42.5,
+    "vibration": 0.05
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:42:30.000Z",
+    "waterLevel": 321.69,
+    "rainfall": 0,
+    "temp": 28.56,
+    "humidity": 80.32,
+    "soilMoisture": 41.25,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:43:00.000Z",
+    "waterLevel": 320.99,
+    "rainfall": 0.38,
+    "temp": 29.22,
+    "humidity": 80.71,
+    "soilMoisture": 43.99,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:43:30.000Z",
+    "waterLevel": 319.93,
+    "rainfall": 0.34,
+    "temp": 28.78,
+    "humidity": 82.66,
+    "soilMoisture": 46.73,
+    "vibration": 0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:44:00.000Z",
+    "waterLevel": 320.84,
+    "rainfall": 0.32,
+    "temp": 28.37,
+    "humidity": 80.61,
+    "soilMoisture": 45.27,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:44:30.000Z",
+    "waterLevel": 320.81,
+    "rainfall": 0,
+    "temp": 28.62,
+    "humidity": 80.31,
+    "soilMoisture": 44.93,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:45:00.000Z",
+    "waterLevel": 322.0,
+    "rainfall": 0,
+    "temp": 28.84,
+    "humidity": 80.02,
+    "soilMoisture": 43.78,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:45:30.000Z",
+    "waterLevel": 320.93,
+    "rainfall": 0.33,
+    "temp": 28.96,
+    "humidity": 80.46,
+    "soilMoisture": 43.6,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:46:00.000Z",
+    "waterLevel": 320.96,
+    "rainfall": 0.03,
+    "temp": 28.71,
+    "humidity": 77.35,
+    "soilMoisture": 43.08,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:46:30.000Z",
+    "waterLevel": 322.32,
+    "rainfall": 0.39,
+    "temp": 28.9,
+    "humidity": 77.5,
+    "soilMoisture": 43.66,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:47:00.000Z",
+    "waterLevel": 321.65,
+    "rainfall": 0.64,
+    "temp": 28.83,
+    "humidity": 81.38,
+    "soilMoisture": 43.29,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:47:30.000Z",
+    "waterLevel": 322.83,
+    "rainfall": 0.19,
+    "temp": 28.91,
+    "humidity": 80.48,
+    "soilMoisture": 46.95,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:48:00.000Z",
+    "waterLevel": 324.17,
+    "rainfall": 0.2,
+    "temp": 28.86,
+    "humidity": 78.56,
+    "soilMoisture": 41.86,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:48:30.000Z",
+    "waterLevel": 323.01,
+    "rainfall": 0.34,
+    "temp": 28.93,
+    "humidity": 80.51,
+    "soilMoisture": 44.62,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:49:00.000Z",
+    "waterLevel": 321.51,
+    "rainfall": 0,
+    "temp": 29.08,
+    "humidity": 80.0,
+    "soilMoisture": 47.25,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:49:30.000Z",
+    "waterLevel": 320.33,
+    "rainfall": 0.21,
+    "temp": 28.78,
+    "humidity": 81.76,
+    "soilMoisture": 42.42,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:50:00.000Z",
+    "waterLevel": 322.63,
+    "rainfall": 0.26,
+    "temp": 29.05,
+    "humidity": 79.35,
+    "soilMoisture": 43.75,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:50:30.000Z",
+    "waterLevel": 321.25,
+    "rainfall": 1.12,
+    "temp": 29.41,
+    "humidity": 80.37,
+    "soilMoisture": 45.56,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:51:00.000Z",
+    "waterLevel": 318.59,
+    "rainfall": 0.08,
+    "temp": 29.22,
+    "humidity": 80.53,
+    "soilMoisture": 45.04,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:51:30.000Z",
+    "waterLevel": 323.36,
+    "rainfall": 0,
+    "temp": 28.83,
+    "humidity": 76.4,
+    "soilMoisture": 41.55,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:52:00.000Z",
+    "waterLevel": 321.86,
+    "rainfall": 0,
+    "temp": 29.02,
+    "humidity": 81.0,
+    "soilMoisture": 46.6,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:52:30.000Z",
+    "waterLevel": 323.73,
+    "rainfall": 0.69,
+    "temp": 28.94,
+    "humidity": 81.02,
+    "soilMoisture": 43.77,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:53:00.000Z",
+    "waterLevel": 322.07,
+    "rainfall": 0.8,
+    "temp": 28.91,
+    "humidity": 79.02,
+    "soilMoisture": 44.92,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:53:30.000Z",
+    "waterLevel": 323.38,
+    "rainfall": 0.44,
+    "temp": 28.89,
+    "humidity": 81.49,
+    "soilMoisture": 43.33,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:54:00.000Z",
+    "waterLevel": 323.28,
+    "rainfall": 0.41,
+    "temp": 28.74,
+    "humidity": 84.11,
+    "soilMoisture": 42.0,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:54:30.000Z",
+    "waterLevel": 321.6,
+    "rainfall": 0,
+    "temp": 29.13,
+    "humidity": 76.9,
+    "soilMoisture": 42.69,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:55:00.000Z",
+    "waterLevel": 323.72,
+    "rainfall": 0.1,
+    "temp": 29.27,
+    "humidity": 81.14,
+    "soilMoisture": 41.92,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:55:30.000Z",
+    "waterLevel": 322.12,
+    "rainfall": 0,
+    "temp": 28.71,
+    "humidity": 81.5,
+    "soilMoisture": 40.02,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:56:00.000Z",
+    "waterLevel": 321.95,
+    "rainfall": 0.72,
+    "temp": 29.23,
+    "humidity": 80.05,
+    "soilMoisture": 41.72,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:56:30.000Z",
+    "waterLevel": 319.43,
+    "rainfall": 0.18,
+    "temp": 29.29,
+    "humidity": 80.08,
+    "soilMoisture": 43.52,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:57:00.000Z",
+    "waterLevel": 323.39,
+    "rainfall": 0,
+    "temp": 29.15,
+    "humidity": 78.57,
+    "soilMoisture": 45.99,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:57:30.000Z",
+    "waterLevel": 320.63,
+    "rainfall": 0.22,
+    "temp": 29.34,
+    "humidity": 78.54,
+    "soilMoisture": 42.15,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:58:00.000Z",
+    "waterLevel": 321.93,
+    "rainfall": 0.34,
+    "temp": 29.54,
+    "humidity": 78.54,
+    "soilMoisture": 43.06,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:58:30.000Z",
+    "waterLevel": 318.16,
+    "rainfall": 0.73,
+    "temp": 29.04,
+    "humidity": 79.8,
+    "soilMoisture": 43.75,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:59:00.000Z",
+    "waterLevel": 322.68,
+    "rainfall": 0,
+    "temp": 28.87,
+    "humidity": 76.17,
+    "soilMoisture": 46.57,
+    "vibration": 0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T08:59:30.000Z",
+    "waterLevel": 320.85,
+    "rainfall": 1.48,
+    "temp": 29.13,
+    "humidity": 79.29,
+    "soilMoisture": 49.62,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:00:00.000Z",
+    "waterLevel": 320.67,
+    "rainfall": 0.38,
+    "temp": 29.47,
+    "humidity": 80.59,
+    "soilMoisture": 45.49,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:00:30.000Z",
+    "waterLevel": 317.98,
+    "rainfall": 0.4,
+    "temp": 29.54,
+    "humidity": 81.16,
+    "soilMoisture": 40.87,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:01:00.000Z",
+    "waterLevel": 321.72,
+    "rainfall": 0.29,
+    "temp": 29.3,
+    "humidity": 81.13,
+    "soilMoisture": 40.64,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:01:30.000Z",
+    "waterLevel": 318.21,
+    "rainfall": 0,
+    "temp": 29.52,
+    "humidity": 81.25,
+    "soilMoisture": 46.1,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:02:00.000Z",
+    "waterLevel": 321.45,
+    "rainfall": 0.13,
+    "temp": 29.13,
+    "humidity": 78.9,
+    "soilMoisture": 43.69,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:02:30.000Z",
+    "waterLevel": 321.4,
+    "rainfall": 0.14,
+    "temp": 29.22,
+    "humidity": 76.68,
+    "soilMoisture": 42.28,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:03:00.000Z",
+    "waterLevel": 322.23,
+    "rainfall": 0.18,
+    "temp": 29.63,
+    "humidity": 79.16,
+    "soilMoisture": 48.23,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:03:30.000Z",
+    "waterLevel": 323.49,
+    "rainfall": 0.38,
+    "temp": 29.22,
+    "humidity": 82.4,
+    "soilMoisture": 43.01,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:04:00.000Z",
+    "waterLevel": 321.96,
+    "rainfall": 0.02,
+    "temp": 29.39,
+    "humidity": 80.27,
+    "soilMoisture": 45.09,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:04:30.000Z",
+    "waterLevel": 323.03,
+    "rainfall": 0,
+    "temp": 29.17,
+    "humidity": 81.54,
+    "soilMoisture": 44.85,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:05:00.000Z",
+    "waterLevel": 318.5,
+    "rainfall": 0.37,
+    "temp": 29.4,
+    "humidity": 79.94,
+    "soilMoisture": 41.84,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:05:30.000Z",
+    "waterLevel": 320.87,
+    "rainfall": 0.27,
+    "temp": 29.33,
+    "humidity": 79.93,
+    "soilMoisture": 43.65,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:06:00.000Z",
+    "waterLevel": 319.36,
+    "rainfall": 0.54,
+    "temp": 28.95,
+    "humidity": 77.71,
+    "soilMoisture": 45.77,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:06:30.000Z",
+    "waterLevel": 320.55,
+    "rainfall": 0,
+    "temp": 29.72,
+    "humidity": 77.24,
+    "soilMoisture": 44.7,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:07:00.000Z",
+    "waterLevel": 323.8,
+    "rainfall": 0.83,
+    "temp": 29.32,
+    "humidity": 78.93,
+    "soilMoisture": 46.81,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:07:30.000Z",
+    "waterLevel": 321.31,
+    "rainfall": 0.12,
+    "temp": 28.93,
+    "humidity": 79.31,
+    "soilMoisture": 40.51,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:08:00.000Z",
+    "waterLevel": 320.27,
+    "rainfall": 0.02,
+    "temp": 29.62,
+    "humidity": 79.81,
+    "soilMoisture": 44.7,
+    "vibration": 0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:08:30.000Z",
+    "waterLevel": 320.16,
+    "rainfall": 0,
+    "temp": 28.94,
+    "humidity": 75.43,
+    "soilMoisture": 47.93,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:09:00.000Z",
+    "waterLevel": 319.39,
+    "rainfall": 0,
+    "temp": 29.19,
+    "humidity": 82.18,
+    "soilMoisture": 42.64,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:09:30.000Z",
+    "waterLevel": 322.39,
+    "rainfall": 0.02,
+    "temp": 29.37,
+    "humidity": 80.15,
+    "soilMoisture": 43.41,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:10:00.000Z",
+    "waterLevel": 321.88,
+    "rainfall": 0.32,
+    "temp": 29.37,
+    "humidity": 81.54,
+    "soilMoisture": 40.62,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:10:30.000Z",
+    "waterLevel": 321.27,
+    "rainfall": 0,
+    "temp": 29.42,
+    "humidity": 77.46,
+    "soilMoisture": 43.51,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:11:00.000Z",
+    "waterLevel": 319.63,
+    "rainfall": 0.29,
+    "temp": 29.4,
+    "humidity": 75.79,
+    "soilMoisture": 47.6,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:11:30.000Z",
+    "waterLevel": 320.96,
+    "rainfall": 0.33,
+    "temp": 29.78,
+    "humidity": 77.82,
+    "soilMoisture": 41.52,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:12:00.000Z",
+    "waterLevel": 322.43,
+    "rainfall": 0.6,
+    "temp": 29.72,
+    "humidity": 79.29,
+    "soilMoisture": 40.19,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:12:30.000Z",
+    "waterLevel": 324.12,
+    "rainfall": 0.37,
+    "temp": 29.49,
+    "humidity": 77.66,
+    "soilMoisture": 43.72,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:13:00.000Z",
+    "waterLevel": 322.78,
+    "rainfall": 0,
+    "temp": 29.43,
+    "humidity": 80.65,
+    "soilMoisture": 44.62,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:13:30.000Z",
+    "waterLevel": 323.65,
+    "rainfall": 0.33,
+    "temp": 29.52,
+    "humidity": 80.77,
+    "soilMoisture": 47.06,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:14:00.000Z",
+    "waterLevel": 321.47,
+    "rainfall": 0,
+    "temp": 29.22,
+    "humidity": 78.27,
+    "soilMoisture": 46.45,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:14:30.000Z",
+    "waterLevel": 320.16,
+    "rainfall": 0.21,
+    "temp": 29.37,
+    "humidity": 78.46,
+    "soilMoisture": 42.11,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:15:00.000Z",
+    "waterLevel": 322.01,
+    "rainfall": 0.25,
+    "temp": 29.94,
+    "humidity": 78.67,
+    "soilMoisture": 42.2,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:15:30.000Z",
+    "waterLevel": 318.95,
+    "rainfall": 0.02,
+    "temp": 29.49,
+    "humidity": 77.01,
+    "soilMoisture": 44.81,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:16:00.000Z",
+    "waterLevel": 322.05,
+    "rainfall": 0.59,
+    "temp": 29.83,
+    "humidity": 77.8,
+    "soilMoisture": 42.58,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:16:30.000Z",
+    "waterLevel": 323.1,
+    "rainfall": 0.17,
+    "temp": 29.95,
+    "humidity": 80.84,
+    "soilMoisture": 44.62,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:17:00.000Z",
+    "waterLevel": 322.07,
+    "rainfall": 0,
+    "temp": 29.79,
+    "humidity": 81.72,
+    "soilMoisture": 43.4,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:17:30.000Z",
+    "waterLevel": 319.36,
+    "rainfall": 0.01,
+    "temp": 29.19,
+    "humidity": 78.47,
+    "soilMoisture": 42.06,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:18:00.000Z",
+    "waterLevel": 319.88,
+    "rainfall": 0,
+    "temp": 29.5,
+    "humidity": 77.52,
+    "soilMoisture": 46.92,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:18:30.000Z",
+    "waterLevel": 320.93,
+    "rainfall": 0.38,
+    "temp": 29.61,
+    "humidity": 77.68,
+    "soilMoisture": 45.48,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:19:00.000Z",
+    "waterLevel": 323.09,
+    "rainfall": 0.38,
+    "temp": 30.0,
+    "humidity": 76.13,
+    "soilMoisture": 44.07,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:19:30.000Z",
+    "waterLevel": 323.85,
+    "rainfall": 0,
+    "temp": 29.38,
+    "humidity": 80.17,
+    "soilMoisture": 43.31,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:20:00.000Z",
+    "waterLevel": 323.24,
+    "rainfall": 0.06,
+    "temp": 29.67,
+    "humidity": 78.38,
+    "soilMoisture": 43.51,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:20:30.000Z",
+    "waterLevel": 326.85,
+    "rainfall": 0.63,
+    "temp": 29.48,
+    "humidity": 80.69,
+    "soilMoisture": 40.51,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:21:00.000Z",
+    "waterLevel": 321.42,
+    "rainfall": 0.24,
+    "temp": 29.55,
+    "humidity": 78.25,
+    "soilMoisture": 47.29,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:21:30.000Z",
+    "waterLevel": 321.79,
+    "rainfall": 0.53,
+    "temp": 29.31,
+    "humidity": 79.74,
+    "soilMoisture": 43.01,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:22:00.000Z",
+    "waterLevel": 321.17,
+    "rainfall": 0,
+    "temp": 29.61,
+    "humidity": 80.3,
+    "soilMoisture": 45.34,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:22:30.000Z",
+    "waterLevel": 322.24,
+    "rainfall": 0,
+    "temp": 29.53,
+    "humidity": 78.31,
+    "soilMoisture": 46.0,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:23:00.000Z",
+    "waterLevel": 318.52,
+    "rainfall": 0.4,
+    "temp": 29.36,
+    "humidity": 80.85,
+    "soilMoisture": 40.73,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:23:30.000Z",
+    "waterLevel": 321.65,
+    "rainfall": 0,
+    "temp": 29.64,
+    "humidity": 80.13,
+    "soilMoisture": 41.54,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:24:00.000Z",
+    "waterLevel": 321.72,
+    "rainfall": 0.08,
+    "temp": 29.14,
+    "humidity": 80.49,
+    "soilMoisture": 38.94,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:24:30.000Z",
+    "waterLevel": 322.47,
+    "rainfall": 0.1,
+    "temp": 29.26,
+    "humidity": 78.95,
+    "soilMoisture": 44.52,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:25:00.000Z",
+    "waterLevel": 322.64,
+    "rainfall": 0,
+    "temp": 29.69,
+    "humidity": 79.6,
+    "soilMoisture": 45.64,
+    "vibration": 0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:25:30.000Z",
+    "waterLevel": 321.87,
+    "rainfall": 0,
+    "temp": 29.81,
+    "humidity": 79.46,
+    "soilMoisture": 44.87,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:26:00.000Z",
+    "waterLevel": 320.28,
+    "rainfall": 0,
+    "temp": 30.05,
+    "humidity": 79.42,
+    "soilMoisture": 46.04,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:26:30.000Z",
+    "waterLevel": 318.21,
+    "rainfall": 0.2,
+    "temp": 30.08,
+    "humidity": 80.26,
+    "soilMoisture": 44.84,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:27:00.000Z",
+    "waterLevel": 320.68,
+    "rainfall": 0.19,
+    "temp": 29.62,
+    "humidity": 80.2,
+    "soilMoisture": 42.74,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:27:30.000Z",
+    "waterLevel": 320.25,
+    "rainfall": 0.5,
+    "temp": 30.16,
+    "humidity": 78.87,
+    "soilMoisture": 41.43,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:28:00.000Z",
+    "waterLevel": 318.41,
+    "rainfall": 0.36,
+    "temp": 29.65,
+    "humidity": 77.61,
+    "soilMoisture": 42.81,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:28:30.000Z",
+    "waterLevel": 318.83,
+    "rainfall": 0,
+    "temp": 29.84,
+    "humidity": 81.16,
+    "soilMoisture": 45.15,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:29:00.000Z",
+    "waterLevel": 320.11,
+    "rainfall": 0,
+    "temp": 29.6,
+    "humidity": 79.61,
+    "soilMoisture": 43.33,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:29:30.000Z",
+    "waterLevel": 320.49,
+    "rainfall": 0,
+    "temp": 29.83,
+    "humidity": 76.91,
+    "soilMoisture": 43.42,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:30:00.000Z",
+    "waterLevel": 324.34,
+    "rainfall": 0.43,
+    "temp": 29.68,
+    "humidity": 78.48,
+    "soilMoisture": 44.46,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:30:30.000Z",
+    "waterLevel": 320.85,
+    "rainfall": 0.44,
+    "temp": 30.12,
+    "humidity": 80.8,
+    "soilMoisture": 44.41,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:31:00.000Z",
+    "waterLevel": 322.19,
+    "rainfall": 0,
+    "temp": 29.37,
+    "humidity": 79.23,
+    "soilMoisture": 43.33,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:31:30.000Z",
+    "waterLevel": 321.45,
+    "rainfall": 0,
+    "temp": 29.98,
+    "humidity": 77.97,
+    "soilMoisture": 43.19,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:32:00.000Z",
+    "waterLevel": 320.58,
+    "rainfall": 0.23,
+    "temp": 30.16,
+    "humidity": 81.25,
+    "soilMoisture": 41.59,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:32:30.000Z",
+    "waterLevel": 321.04,
+    "rainfall": 0.24,
+    "temp": 29.47,
+    "humidity": 79.48,
+    "soilMoisture": 44.21,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:33:00.000Z",
+    "waterLevel": 318.86,
+    "rainfall": 0,
+    "temp": 29.45,
+    "humidity": 77.76,
+    "soilMoisture": 47.36,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:33:30.000Z",
+    "waterLevel": 321.89,
+    "rainfall": 0.06,
+    "temp": 29.93,
+    "humidity": 78.92,
+    "soilMoisture": 44.15,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:34:00.000Z",
+    "waterLevel": 321.36,
+    "rainfall": 0.17,
+    "temp": 30.07,
+    "humidity": 79.16,
+    "soilMoisture": 44.38,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:34:30.000Z",
+    "waterLevel": 323.13,
+    "rainfall": 0,
+    "temp": 29.69,
+    "humidity": 80.5,
+    "soilMoisture": 42.32,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:35:00.000Z",
+    "waterLevel": 321.41,
+    "rainfall": 0,
+    "temp": 29.92,
+    "humidity": 79.05,
+    "soilMoisture": 42.43,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:35:30.000Z",
+    "waterLevel": 318.25,
+    "rainfall": 0.03,
+    "temp": 29.63,
+    "humidity": 75.28,
+    "soilMoisture": 44.2,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:36:00.000Z",
+    "waterLevel": 322.18,
+    "rainfall": 0.21,
+    "temp": 29.76,
+    "humidity": 78.73,
+    "soilMoisture": 43.86,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:36:30.000Z",
+    "waterLevel": 323.85,
+    "rainfall": 0.17,
+    "temp": 30.13,
+    "humidity": 79.2,
+    "soilMoisture": 48.13,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:37:00.000Z",
+    "waterLevel": 321.96,
+    "rainfall": 0,
+    "temp": 29.75,
+    "humidity": 82.4,
+    "soilMoisture": 42.63,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:37:30.000Z",
+    "waterLevel": 320.3,
+    "rainfall": 0.23,
+    "temp": 29.62,
+    "humidity": 75.68,
+    "soilMoisture": 44.0,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:38:00.000Z",
+    "waterLevel": 322.91,
+    "rainfall": 0.36,
+    "temp": 30.56,
+    "humidity": 79.94,
+    "soilMoisture": 41.66,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:38:30.000Z",
+    "waterLevel": 319.73,
+    "rainfall": 1.89,
+    "temp": 29.71,
+    "humidity": 77.89,
+    "soilMoisture": 44.95,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:39:00.000Z",
+    "waterLevel": 320.69,
+    "rainfall": 0.05,
+    "temp": 30.02,
+    "humidity": 79.21,
+    "soilMoisture": 45.39,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:39:30.000Z",
+    "waterLevel": 324.22,
+    "rainfall": 0.32,
+    "temp": 29.8,
+    "humidity": 74.83,
+    "soilMoisture": 42.99,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:40:00.000Z",
+    "waterLevel": 321.0,
+    "rainfall": 0.16,
+    "temp": 29.76,
+    "humidity": 79.25,
+    "soilMoisture": 46.01,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:40:30.000Z",
+    "waterLevel": 320.03,
+    "rainfall": 0,
+    "temp": 29.85,
+    "humidity": 78.05,
+    "soilMoisture": 46.08,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:41:00.000Z",
+    "waterLevel": 321.8,
+    "rainfall": 0.19,
+    "temp": 30.15,
+    "humidity": 75.31,
+    "soilMoisture": 42.74,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:41:30.000Z",
+    "waterLevel": 318.91,
+    "rainfall": 0,
+    "temp": 29.85,
+    "humidity": 76.64,
+    "soilMoisture": 43.87,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:42:00.000Z",
+    "waterLevel": 322.95,
+    "rainfall": 0.31,
+    "temp": 29.7,
+    "humidity": 77.48,
+    "soilMoisture": 45.33,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:42:30.000Z",
+    "waterLevel": 321.46,
+    "rainfall": 0.44,
+    "temp": 30.26,
+    "humidity": 77.5,
+    "soilMoisture": 44.77,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:43:00.000Z",
+    "waterLevel": 320.03,
+    "rainfall": 0.18,
+    "temp": 29.97,
+    "humidity": 74.45,
+    "soilMoisture": 45.74,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:43:30.000Z",
+    "waterLevel": 320.97,
+    "rainfall": 0.21,
+    "temp": 30.16,
+    "humidity": 78.35,
+    "soilMoisture": 47.06,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:44:00.000Z",
+    "waterLevel": 320.46,
+    "rainfall": 0.32,
+    "temp": 30.0,
+    "humidity": 78.47,
+    "soilMoisture": 43.96,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:44:30.000Z",
+    "waterLevel": 324.33,
+    "rainfall": 0.85,
+    "temp": 29.83,
+    "humidity": 79.47,
+    "soilMoisture": 43.08,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:45:00.000Z",
+    "waterLevel": 323.22,
+    "rainfall": 0.55,
+    "temp": 30.21,
+    "humidity": 76.99,
+    "soilMoisture": 41.16,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:45:30.000Z",
+    "waterLevel": 324.78,
+    "rainfall": 0,
+    "temp": 30.15,
+    "humidity": 77.0,
+    "soilMoisture": 46.51,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:46:00.000Z",
+    "waterLevel": 323.06,
+    "rainfall": 0.65,
+    "temp": 29.78,
+    "humidity": 76.82,
+    "soilMoisture": 45.19,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:46:30.000Z",
+    "waterLevel": 319.32,
+    "rainfall": 0.13,
+    "temp": 30.03,
+    "humidity": 80.8,
+    "soilMoisture": 42.47,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:47:00.000Z",
+    "waterLevel": 323.69,
+    "rainfall": 0,
+    "temp": 30.03,
+    "humidity": 79.4,
+    "soilMoisture": 45.92,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:47:30.000Z",
+    "waterLevel": 323.86,
+    "rainfall": 0.08,
+    "temp": 30.15,
+    "humidity": 77.75,
+    "soilMoisture": 45.64,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:48:00.000Z",
+    "waterLevel": 323.83,
+    "rainfall": 0.15,
+    "temp": 30.45,
+    "humidity": 78.05,
+    "soilMoisture": 45.67,
+    "vibration": 0.05
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:48:30.000Z",
+    "waterLevel": 324.95,
+    "rainfall": 0.16,
+    "temp": 30.61,
+    "humidity": 79.03,
+    "soilMoisture": 45.46,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:49:00.000Z",
+    "waterLevel": 329.27,
+    "rainfall": 0.34,
+    "temp": 29.74,
+    "humidity": 79.19,
+    "soilMoisture": 45.53,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:49:30.000Z",
+    "waterLevel": 326.64,
+    "rainfall": 0,
+    "temp": 29.98,
+    "humidity": 77.84,
+    "soilMoisture": 47.71,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:50:00.000Z",
+    "waterLevel": 324.26,
+    "rainfall": 0.36,
+    "temp": 29.9,
+    "humidity": 78.27,
+    "soilMoisture": 45.5,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:50:30.000Z",
+    "waterLevel": 324.84,
+    "rainfall": 0.05,
+    "temp": 30.05,
+    "humidity": 78.68,
+    "soilMoisture": 48.35,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:51:00.000Z",
+    "waterLevel": 325.35,
+    "rainfall": 0.22,
+    "temp": 30.23,
+    "humidity": 79.77,
+    "soilMoisture": 47.51,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:51:30.000Z",
+    "waterLevel": 326.29,
+    "rainfall": 0.77,
+    "temp": 30.45,
+    "humidity": 80.09,
+    "soilMoisture": 45.51,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:52:00.000Z",
+    "waterLevel": 323.75,
+    "rainfall": 0,
+    "temp": 29.99,
+    "humidity": 80.28,
+    "soilMoisture": 43.51,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:52:30.000Z",
+    "waterLevel": 322.95,
+    "rainfall": 0,
+    "temp": 30.42,
+    "humidity": 76.91,
+    "soilMoisture": 45.97,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:53:00.000Z",
+    "waterLevel": 323.78,
+    "rainfall": 0.29,
+    "temp": 29.7,
+    "humidity": 77.52,
+    "soilMoisture": 43.64,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:53:30.000Z",
+    "waterLevel": 324.61,
+    "rainfall": 0,
+    "temp": 30.24,
+    "humidity": 74.32,
+    "soilMoisture": 47.53,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:54:00.000Z",
+    "waterLevel": 324.78,
+    "rainfall": 0.45,
+    "temp": 30.18,
+    "humidity": 80.47,
+    "soilMoisture": 44.93,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:54:30.000Z",
+    "waterLevel": 325.38,
+    "rainfall": 0,
+    "temp": 29.94,
+    "humidity": 80.62,
+    "soilMoisture": 46.09,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:55:00.000Z",
+    "waterLevel": 326.31,
+    "rainfall": 0.33,
+    "temp": 29.98,
+    "humidity": 77.7,
+    "soilMoisture": 42.78,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:55:30.000Z",
+    "waterLevel": 328.92,
+    "rainfall": 0.08,
+    "temp": 30.23,
+    "humidity": 77.88,
+    "soilMoisture": 42.24,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:56:00.000Z",
+    "waterLevel": 323.62,
+    "rainfall": 0.23,
+    "temp": 30.53,
+    "humidity": 79.47,
+    "soilMoisture": 43.52,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:56:30.000Z",
+    "waterLevel": 323.41,
+    "rainfall": 0.6,
+    "temp": 30.01,
+    "humidity": 76.85,
+    "soilMoisture": 40.48,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:57:00.000Z",
+    "waterLevel": 323.51,
+    "rainfall": 0.62,
+    "temp": 30.17,
+    "humidity": 77.69,
+    "soilMoisture": 43.32,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:57:30.000Z",
+    "waterLevel": 322.19,
+    "rainfall": 0,
+    "temp": 29.98,
+    "humidity": 78.17,
+    "soilMoisture": 48.38,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:58:00.000Z",
+    "waterLevel": 323.59,
+    "rainfall": 0,
+    "temp": 30.29,
+    "humidity": 75.89,
+    "soilMoisture": 44.31,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:58:30.000Z",
+    "waterLevel": 326.07,
+    "rainfall": 0.33,
+    "temp": 30.2,
+    "humidity": 76.74,
+    "soilMoisture": 44.02,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:59:00.000Z",
+    "waterLevel": 325.35,
+    "rainfall": 0.39,
+    "temp": 30.45,
+    "humidity": 80.23,
+    "soilMoisture": 44.05,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T09:59:30.000Z",
+    "waterLevel": 323.69,
+    "rainfall": 0.2,
+    "temp": 30.19,
+    "humidity": 76.33,
+    "soilMoisture": 43.97,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:00:00.000Z",
+    "waterLevel": 323.91,
+    "rainfall": 0,
+    "temp": 30.19,
+    "humidity": 78.78,
+    "soilMoisture": 46.43,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:00:30.000Z",
+    "waterLevel": 325.63,
+    "rainfall": 0,
+    "temp": 30.09,
+    "humidity": 77.41,
+    "soilMoisture": 43.34,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:01:00.000Z",
+    "waterLevel": 326.89,
+    "rainfall": 0.41,
+    "temp": 30.16,
+    "humidity": 76.62,
+    "soilMoisture": 44.2,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:01:30.000Z",
+    "waterLevel": 327.6,
+    "rainfall": 0,
+    "temp": 30.54,
+    "humidity": 77.94,
+    "soilMoisture": 45.91,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:02:00.000Z",
+    "waterLevel": 324.48,
+    "rainfall": 0.29,
+    "temp": 30.28,
+    "humidity": 78.75,
+    "soilMoisture": 45.94,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:02:30.000Z",
+    "waterLevel": 323.65,
+    "rainfall": 0.64,
+    "temp": 30.49,
+    "humidity": 78.16,
+    "soilMoisture": 44.69,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:03:00.000Z",
+    "waterLevel": 325.78,
+    "rainfall": 0.69,
+    "temp": 30.06,
+    "humidity": 80.03,
+    "soilMoisture": 44.51,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:03:30.000Z",
+    "waterLevel": 326.4,
+    "rainfall": 0.16,
+    "temp": 29.73,
+    "humidity": 79.59,
+    "soilMoisture": 45.39,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:04:00.000Z",
+    "waterLevel": 324.91,
+    "rainfall": 0.14,
+    "temp": 30.31,
+    "humidity": 80.29,
+    "soilMoisture": 41.72,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:04:30.000Z",
+    "waterLevel": 325.23,
+    "rainfall": 0.37,
+    "temp": 30.83,
+    "humidity": 79.31,
+    "soilMoisture": 41.62,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:05:00.000Z",
+    "waterLevel": 322.15,
+    "rainfall": 0.64,
+    "temp": 29.92,
+    "humidity": 79.1,
+    "soilMoisture": 43.14,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:05:30.000Z",
+    "waterLevel": 322.32,
+    "rainfall": 0.33,
+    "temp": 29.95,
+    "humidity": 77.76,
+    "soilMoisture": 43.99,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:06:00.000Z",
+    "waterLevel": 322.51,
+    "rainfall": 0,
+    "temp": 30.86,
+    "humidity": 78.7,
+    "soilMoisture": 43.42,
+    "vibration": 0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:06:30.000Z",
+    "waterLevel": 325.07,
+    "rainfall": 0.31,
+    "temp": 30.4,
+    "humidity": 76.72,
+    "soilMoisture": 44.36,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:07:00.000Z",
+    "waterLevel": 319.59,
+    "rainfall": 0.56,
+    "temp": 30.3,
+    "humidity": 78.48,
+    "soilMoisture": 44.94,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:07:30.000Z",
+    "waterLevel": 323.54,
+    "rainfall": 0.0,
+    "temp": 30.04,
+    "humidity": 75.68,
+    "soilMoisture": 43.08,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:08:00.000Z",
+    "waterLevel": 322.66,
+    "rainfall": 0,
+    "temp": 30.34,
+    "humidity": 78.44,
+    "soilMoisture": 43.46,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:08:30.000Z",
+    "waterLevel": 324.44,
+    "rainfall": 0.42,
+    "temp": 30.16,
+    "humidity": 76.15,
+    "soilMoisture": 45.86,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:09:00.000Z",
+    "waterLevel": 320.76,
+    "rainfall": 0,
+    "temp": 30.34,
+    "humidity": 77.29,
+    "soilMoisture": 45.89,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:09:30.000Z",
+    "waterLevel": 325.46,
+    "rainfall": 0,
+    "temp": 29.97,
+    "humidity": 75.96,
+    "soilMoisture": 48.11,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:10:00.000Z",
+    "waterLevel": 321.92,
+    "rainfall": 0.44,
+    "temp": 30.2,
+    "humidity": 77.08,
+    "soilMoisture": 44.99,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:10:30.000Z",
+    "waterLevel": 321.79,
+    "rainfall": 0.34,
+    "temp": 30.6,
+    "humidity": 78.41,
+    "soilMoisture": 45.32,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:11:00.000Z",
+    "waterLevel": 322.21,
+    "rainfall": 0,
+    "temp": 30.32,
+    "humidity": 78.1,
+    "soilMoisture": 42.52,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:11:30.000Z",
+    "waterLevel": 320.93,
+    "rainfall": 0.13,
+    "temp": 30.33,
+    "humidity": 77.34,
+    "soilMoisture": 42.81,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:12:00.000Z",
+    "waterLevel": 321.44,
+    "rainfall": 0,
+    "temp": 30.77,
+    "humidity": 78.76,
+    "soilMoisture": 43.65,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:12:30.000Z",
+    "waterLevel": 321.36,
+    "rainfall": 0.56,
+    "temp": 30.58,
+    "humidity": 79.51,
+    "soilMoisture": 47.32,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:13:00.000Z",
+    "waterLevel": 320.0,
+    "rainfall": 0.1,
+    "temp": 30.24,
+    "humidity": 78.58,
+    "soilMoisture": 45.18,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:13:30.000Z",
+    "waterLevel": 323.51,
+    "rainfall": 0.26,
+    "temp": 30.74,
+    "humidity": 75.62,
+    "soilMoisture": 44.94,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:14:00.000Z",
+    "waterLevel": 322.35,
+    "rainfall": 0,
+    "temp": 30.52,
+    "humidity": 77.23,
+    "soilMoisture": 40.45,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:14:30.000Z",
+    "waterLevel": 321.9,
+    "rainfall": 0.29,
+    "temp": 30.43,
+    "humidity": 76.18,
+    "soilMoisture": 42.6,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:15:00.000Z",
+    "waterLevel": 322.73,
+    "rainfall": 0.33,
+    "temp": 30.92,
+    "humidity": 77.72,
+    "soilMoisture": 45.13,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:15:30.000Z",
+    "waterLevel": 321.23,
+    "rainfall": 0.29,
+    "temp": 30.23,
+    "humidity": 78.61,
+    "soilMoisture": 44.84,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:16:00.000Z",
+    "waterLevel": 320.43,
+    "rainfall": 0.0,
+    "temp": 30.07,
+    "humidity": 76.99,
+    "soilMoisture": 44.43,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:16:30.000Z",
+    "waterLevel": 322.46,
+    "rainfall": 0.63,
+    "temp": 30.69,
+    "humidity": 73.98,
+    "soilMoisture": 43.46,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:17:00.000Z",
+    "waterLevel": 320.57,
+    "rainfall": 0.61,
+    "temp": 31.02,
+    "humidity": 79.19,
+    "soilMoisture": 41.0,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:17:30.000Z",
+    "waterLevel": 321.08,
+    "rainfall": 0,
+    "temp": 30.39,
+    "humidity": 79.01,
+    "soilMoisture": 44.13,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:18:00.000Z",
+    "waterLevel": 322.59,
+    "rainfall": 0.23,
+    "temp": 30.5,
+    "humidity": 76.79,
+    "soilMoisture": 43.43,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:18:30.000Z",
+    "waterLevel": 323.39,
+    "rainfall": 0.1,
+    "temp": 29.97,
+    "humidity": 76.86,
+    "soilMoisture": 44.26,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:19:00.000Z",
+    "waterLevel": 321.0,
+    "rainfall": 0,
+    "temp": 30.7,
+    "humidity": 78.34,
+    "soilMoisture": 45.23,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:19:30.000Z",
+    "waterLevel": 323.5,
+    "rainfall": 0.34,
+    "temp": 30.57,
+    "humidity": 77.75,
+    "soilMoisture": 46.47,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:20:00.000Z",
+    "waterLevel": 321.24,
+    "rainfall": 0,
+    "temp": 30.48,
+    "humidity": 76.14,
+    "soilMoisture": 48.32,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:20:30.000Z",
+    "waterLevel": 322.31,
+    "rainfall": 0.18,
+    "temp": 30.54,
+    "humidity": 77.54,
+    "soilMoisture": 40.23,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:21:00.000Z",
+    "waterLevel": 323.09,
+    "rainfall": 0.26,
+    "temp": 30.53,
+    "humidity": 77.19,
+    "soilMoisture": 46.57,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:21:30.000Z",
+    "waterLevel": 322.34,
+    "rainfall": 0.15,
+    "temp": 30.51,
+    "humidity": 78.3,
+    "soilMoisture": 46.11,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:22:00.000Z",
+    "waterLevel": 321.69,
+    "rainfall": 0,
+    "temp": 30.79,
+    "humidity": 77.42,
+    "soilMoisture": 46.11,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:22:30.000Z",
+    "waterLevel": 320.37,
+    "rainfall": 0.17,
+    "temp": 30.38,
+    "humidity": 75.77,
+    "soilMoisture": 46.26,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:23:00.000Z",
+    "waterLevel": 322.56,
+    "rainfall": 0.26,
+    "temp": 30.69,
+    "humidity": 78.06,
+    "soilMoisture": 42.96,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:23:30.000Z",
+    "waterLevel": 321.16,
+    "rainfall": 0,
+    "temp": 30.27,
+    "humidity": 74.14,
+    "soilMoisture": 45.96,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:24:00.000Z",
+    "waterLevel": 320.96,
+    "rainfall": 0.24,
+    "temp": 29.61,
+    "humidity": 78.36,
+    "soilMoisture": 43.31,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:24:30.000Z",
+    "waterLevel": 322.08,
+    "rainfall": 0.39,
+    "temp": 31.02,
+    "humidity": 73.76,
+    "soilMoisture": 44.19,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:25:00.000Z",
+    "waterLevel": 320.71,
+    "rainfall": 0.45,
+    "temp": 31.0,
+    "humidity": 76.3,
+    "soilMoisture": 48.2,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:25:30.000Z",
+    "waterLevel": 321.18,
+    "rainfall": 0,
+    "temp": 30.38,
+    "humidity": 74.43,
+    "soilMoisture": 43.34,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:26:00.000Z",
+    "waterLevel": 323.01,
+    "rainfall": 0.03,
+    "temp": 30.32,
+    "humidity": 75.96,
+    "soilMoisture": 44.89,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:26:30.000Z",
+    "waterLevel": 322.62,
+    "rainfall": 0,
+    "temp": 31.0,
+    "humidity": 76.1,
+    "soilMoisture": 48.12,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:27:00.000Z",
+    "waterLevel": 322.3,
+    "rainfall": 0,
+    "temp": 30.57,
+    "humidity": 80.52,
+    "soilMoisture": 45.76,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:27:30.000Z",
+    "waterLevel": 323.11,
+    "rainfall": 0.1,
+    "temp": 30.61,
+    "humidity": 78.02,
+    "soilMoisture": 43.13,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:28:00.000Z",
+    "waterLevel": 320.7,
+    "rainfall": 0.18,
+    "temp": 30.66,
+    "humidity": 79.68,
+    "soilMoisture": 46.99,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:28:30.000Z",
+    "waterLevel": 320.69,
+    "rainfall": 0,
+    "temp": 30.73,
+    "humidity": 75.06,
+    "soilMoisture": 44.42,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:29:00.000Z",
+    "waterLevel": 318.79,
+    "rainfall": 0,
+    "temp": 31.2,
+    "humidity": 75.66,
+    "soilMoisture": 45.48,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:29:30.000Z",
+    "waterLevel": 321.8,
+    "rainfall": 0.11,
+    "temp": 31.15,
+    "humidity": 78.44,
+    "soilMoisture": 45.67,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:30:00.000Z",
+    "waterLevel": 318.48,
+    "rainfall": 0,
+    "temp": 30.83,
+    "humidity": 76.11,
+    "soilMoisture": 44.22,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:30:30.000Z",
+    "waterLevel": 321.29,
+    "rainfall": 0.43,
+    "temp": 30.75,
+    "humidity": 79.8,
+    "soilMoisture": 43.08,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:31:00.000Z",
+    "waterLevel": 321.07,
+    "rainfall": 0.01,
+    "temp": 30.37,
+    "humidity": 75.05,
+    "soilMoisture": 46.12,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:31:30.000Z",
+    "waterLevel": 321.42,
+    "rainfall": 2.34,
+    "temp": 31.33,
+    "humidity": 76.05,
+    "soilMoisture": 44.5,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:32:00.000Z",
+    "waterLevel": 318.97,
+    "rainfall": 0.13,
+    "temp": 31.04,
+    "humidity": 75.88,
+    "soilMoisture": 47.93,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:32:30.000Z",
+    "waterLevel": 319.03,
+    "rainfall": 0.51,
+    "temp": 31.06,
+    "humidity": 74.23,
+    "soilMoisture": 45.63,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:33:00.000Z",
+    "waterLevel": 324.12,
+    "rainfall": 0.11,
+    "temp": 31.23,
+    "humidity": 76.66,
+    "soilMoisture": 43.91,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:33:30.000Z",
+    "waterLevel": 317.83,
+    "rainfall": 0.03,
+    "temp": 30.66,
+    "humidity": 77.85,
+    "soilMoisture": 50.85,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:34:00.000Z",
+    "waterLevel": 319.81,
+    "rainfall": 0.24,
+    "temp": 30.52,
+    "humidity": 75.93,
+    "soilMoisture": 46.51,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:34:30.000Z",
+    "waterLevel": 320.2,
+    "rainfall": 0,
+    "temp": 30.97,
+    "humidity": 77.57,
+    "soilMoisture": 46.71,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:35:00.000Z",
+    "waterLevel": 322.52,
+    "rainfall": 0,
+    "temp": 30.58,
+    "humidity": 76.18,
+    "soilMoisture": 47.14,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:35:30.000Z",
+    "waterLevel": 320.47,
+    "rainfall": 0.11,
+    "temp": 30.44,
+    "humidity": 76.86,
+    "soilMoisture": 48.68,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:36:00.000Z",
+    "waterLevel": 322.6,
+    "rainfall": 0.22,
+    "temp": 31.07,
+    "humidity": 76.64,
+    "soilMoisture": 45.46,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:36:30.000Z",
+    "waterLevel": 322.62,
+    "rainfall": 0,
+    "temp": 30.68,
+    "humidity": 78.29,
+    "soilMoisture": 46.79,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:37:00.000Z",
+    "waterLevel": 322.25,
+    "rainfall": 0.34,
+    "temp": 30.35,
+    "humidity": 74.56,
+    "soilMoisture": 44.19,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:37:30.000Z",
+    "waterLevel": 321.67,
+    "rainfall": 0.09,
+    "temp": 31.42,
+    "humidity": 75.69,
+    "soilMoisture": 44.07,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:38:00.000Z",
+    "waterLevel": 320.37,
+    "rainfall": 1.49,
+    "temp": 30.7,
+    "humidity": 76.42,
+    "soilMoisture": 46.34,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:38:30.000Z",
+    "waterLevel": 323.67,
+    "rainfall": 0,
+    "temp": 30.82,
+    "humidity": 76.42,
+    "soilMoisture": 46.16,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:39:00.000Z",
+    "waterLevel": 321.51,
+    "rainfall": 0,
+    "temp": 30.8,
+    "humidity": 78.78,
+    "soilMoisture": 44.24,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:39:30.000Z",
+    "waterLevel": 322.5,
+    "rainfall": 0,
+    "temp": 30.75,
+    "humidity": 77.4,
+    "soilMoisture": 46.32,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:40:00.000Z",
+    "waterLevel": 322.09,
+    "rainfall": 0.31,
+    "temp": 31.03,
+    "humidity": 76.15,
+    "soilMoisture": 47.92,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:40:30.000Z",
+    "waterLevel": 321.41,
+    "rainfall": 0.03,
+    "temp": 30.42,
+    "humidity": 76.2,
+    "soilMoisture": 48.39,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:41:00.000Z",
+    "waterLevel": 325.76,
+    "rainfall": 0,
+    "temp": 30.64,
+    "humidity": 76.37,
+    "soilMoisture": 45.4,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:41:30.000Z",
+    "waterLevel": 322.82,
+    "rainfall": 0,
+    "temp": 30.72,
+    "humidity": 80.0,
+    "soilMoisture": 41.95,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:42:00.000Z",
+    "waterLevel": 322.69,
+    "rainfall": 0,
+    "temp": 31.37,
+    "humidity": 79.23,
+    "soilMoisture": 48.38,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:42:30.000Z",
+    "waterLevel": 323.19,
+    "rainfall": 0.64,
+    "temp": 30.69,
+    "humidity": 76.38,
+    "soilMoisture": 46.45,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:43:00.000Z",
+    "waterLevel": 322.81,
+    "rainfall": 0,
+    "temp": 30.97,
+    "humidity": 76.22,
+    "soilMoisture": 42.79,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:43:30.000Z",
+    "waterLevel": 321.98,
+    "rainfall": 0,
+    "temp": 31.03,
+    "humidity": 75.92,
+    "soilMoisture": 47.73,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:44:00.000Z",
+    "waterLevel": 320.7,
+    "rainfall": 0.24,
+    "temp": 31.25,
+    "humidity": 80.08,
+    "soilMoisture": 44.91,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:44:30.000Z",
+    "waterLevel": 324.89,
+    "rainfall": 0.13,
+    "temp": 30.45,
+    "humidity": 75.77,
+    "soilMoisture": 44.32,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:45:00.000Z",
+    "waterLevel": 326.09,
+    "rainfall": 0.17,
+    "temp": 30.87,
+    "humidity": 74.92,
+    "soilMoisture": 48.65,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:45:30.000Z",
+    "waterLevel": 321.34,
+    "rainfall": 0,
+    "temp": 30.96,
+    "humidity": 74.32,
+    "soilMoisture": 45.74,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:46:00.000Z",
+    "waterLevel": 321.39,
+    "rainfall": 0.41,
+    "temp": 30.56,
+    "humidity": 76.09,
+    "soilMoisture": 45.8,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:46:30.000Z",
+    "waterLevel": 319.25,
+    "rainfall": 0.37,
+    "temp": 30.82,
+    "humidity": 75.34,
+    "soilMoisture": 46.86,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:47:00.000Z",
+    "waterLevel": 320.5,
+    "rainfall": 0.31,
+    "temp": 30.54,
+    "humidity": 77.38,
+    "soilMoisture": 49.41,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:47:30.000Z",
+    "waterLevel": 322.15,
+    "rainfall": 0.43,
+    "temp": 31.14,
+    "humidity": 76.45,
+    "soilMoisture": 47.16,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:48:00.000Z",
+    "waterLevel": 323.7,
+    "rainfall": 0.03,
+    "temp": 31.05,
+    "humidity": 76.42,
+    "soilMoisture": 44.34,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:48:30.000Z",
+    "waterLevel": 325.23,
+    "rainfall": 0.43,
+    "temp": 31.47,
+    "humidity": 78.13,
+    "soilMoisture": 45.12,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:49:00.000Z",
+    "waterLevel": 319.49,
+    "rainfall": 1.53,
+    "temp": 30.96,
+    "humidity": 76.61,
+    "soilMoisture": 44.4,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:49:30.000Z",
+    "waterLevel": 324.48,
+    "rainfall": 0.25,
+    "temp": 30.67,
+    "humidity": 74.9,
+    "soilMoisture": 42.11,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:50:00.000Z",
+    "waterLevel": 319.54,
+    "rainfall": 0,
+    "temp": 31.03,
+    "humidity": 78.5,
+    "soilMoisture": 49.21,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:50:30.000Z",
+    "waterLevel": 320.79,
+    "rainfall": 1.94,
+    "temp": 31.4,
+    "humidity": 74.25,
+    "soilMoisture": 46.12,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:51:00.000Z",
+    "waterLevel": 323.02,
+    "rainfall": 0.05,
+    "temp": 31.36,
+    "humidity": 77.85,
+    "soilMoisture": 44.04,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:51:30.000Z",
+    "waterLevel": 321.81,
+    "rainfall": 0.22,
+    "temp": 31.17,
+    "humidity": 74.74,
+    "soilMoisture": 41.34,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:52:00.000Z",
+    "waterLevel": 322.39,
+    "rainfall": 0.05,
+    "temp": 31.21,
+    "humidity": 76.57,
+    "soilMoisture": 44.49,
+    "vibration": 0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:52:30.000Z",
+    "waterLevel": 322.54,
+    "rainfall": 0.32,
+    "temp": 31.12,
+    "humidity": 74.6,
+    "soilMoisture": 45.29,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:53:00.000Z",
+    "waterLevel": 320.63,
+    "rainfall": 0,
+    "temp": 30.68,
+    "humidity": 78.27,
+    "soilMoisture": 47.99,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:53:30.000Z",
+    "waterLevel": 325.26,
+    "rainfall": 0,
+    "temp": 31.16,
+    "humidity": 73.87,
+    "soilMoisture": 43.95,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:54:00.000Z",
+    "waterLevel": 323.07,
+    "rainfall": 1.88,
+    "temp": 30.85,
+    "humidity": 75.8,
+    "soilMoisture": 45.2,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:54:30.000Z",
+    "waterLevel": 321.7,
+    "rainfall": 0,
+    "temp": 31.19,
+    "humidity": 74.64,
+    "soilMoisture": 47.84,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:55:00.000Z",
+    "waterLevel": 318.92,
+    "rainfall": 0.52,
+    "temp": 30.83,
+    "humidity": 74.76,
+    "soilMoisture": 48.1,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:55:30.000Z",
+    "waterLevel": 322.34,
+    "rainfall": 0.24,
+    "temp": 30.84,
+    "humidity": 76.6,
+    "soilMoisture": 46.14,
+    "vibration": 0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:56:00.000Z",
+    "waterLevel": 319.42,
+    "rainfall": 0,
+    "temp": 30.71,
+    "humidity": 73.65,
+    "soilMoisture": 46.4,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:56:30.000Z",
+    "waterLevel": 319.55,
+    "rainfall": 0.44,
+    "temp": 31.25,
+    "humidity": 76.38,
+    "soilMoisture": 42.3,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:57:00.000Z",
+    "waterLevel": 321.14,
+    "rainfall": 0.14,
+    "temp": 31.07,
+    "humidity": 75.52,
+    "soilMoisture": 42.37,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:57:30.000Z",
+    "waterLevel": 323.2,
+    "rainfall": 0.08,
+    "temp": 31.23,
+    "humidity": 75.68,
+    "soilMoisture": 45.55,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:58:00.000Z",
+    "waterLevel": 320.54,
+    "rainfall": 0.05,
+    "temp": 30.81,
+    "humidity": 78.51,
+    "soilMoisture": 46.22,
+    "vibration": 0.05
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:58:30.000Z",
+    "waterLevel": 321.65,
+    "rainfall": 0.15,
+    "temp": 31.3,
+    "humidity": 73.23,
+    "soilMoisture": 47.0,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:59:00.000Z",
+    "waterLevel": 321.53,
+    "rainfall": 0,
+    "temp": 31.34,
+    "humidity": 73.08,
+    "soilMoisture": 43.99,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T10:59:30.000Z",
+    "waterLevel": 323.24,
+    "rainfall": 0.59,
+    "temp": 31.31,
+    "humidity": 78.55,
+    "soilMoisture": 45.06,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:00:00.000Z",
+    "waterLevel": 324.44,
+    "rainfall": 0.62,
+    "temp": 31.29,
+    "humidity": 76.46,
+    "soilMoisture": 45.86,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:00:30.000Z",
+    "waterLevel": 321.84,
+    "rainfall": 0,
+    "temp": 30.91,
+    "humidity": 74.19,
+    "soilMoisture": 47.59,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:01:00.000Z",
+    "waterLevel": 319.21,
+    "rainfall": 0.45,
+    "temp": 31.14,
+    "humidity": 74.76,
+    "soilMoisture": 45.85,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:01:30.000Z",
+    "waterLevel": 320.49,
+    "rainfall": 0.13,
+    "temp": 30.92,
+    "humidity": 77.4,
+    "soilMoisture": 42.18,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:02:00.000Z",
+    "waterLevel": 322.91,
+    "rainfall": 0.48,
+    "temp": 30.95,
+    "humidity": 76.88,
+    "soilMoisture": 42.01,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:02:30.000Z",
+    "waterLevel": 321.22,
+    "rainfall": 0.02,
+    "temp": 30.92,
+    "humidity": 74.82,
+    "soilMoisture": 48.55,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:03:00.000Z",
+    "waterLevel": 321.85,
+    "rainfall": 0,
+    "temp": 31.84,
+    "humidity": 75.6,
+    "soilMoisture": 46.82,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:03:30.000Z",
+    "waterLevel": 323.32,
+    "rainfall": 0.31,
+    "temp": 30.87,
+    "humidity": 76.4,
+    "soilMoisture": 41.32,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:04:00.000Z",
+    "waterLevel": 325.43,
+    "rainfall": 0.26,
+    "temp": 30.8,
+    "humidity": 75.1,
+    "soilMoisture": 47.09,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:04:30.000Z",
+    "waterLevel": 321.29,
+    "rainfall": 0.16,
+    "temp": 31.56,
+    "humidity": 77.13,
+    "soilMoisture": 44.0,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:05:00.000Z",
+    "waterLevel": 323.81,
+    "rainfall": 2.6,
+    "temp": 31.63,
+    "humidity": 75.31,
+    "soilMoisture": 46.69,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:05:30.000Z",
+    "waterLevel": 321.15,
+    "rainfall": 0.32,
+    "temp": 31.3,
+    "humidity": 76.28,
+    "soilMoisture": 46.12,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:06:00.000Z",
+    "waterLevel": 322.56,
+    "rainfall": 0.26,
+    "temp": 30.87,
+    "humidity": 74.83,
+    "soilMoisture": 44.82,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:06:30.000Z",
+    "waterLevel": 324.17,
+    "rainfall": 0.28,
+    "temp": 31.61,
+    "humidity": 76.88,
+    "soilMoisture": 43.39,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:07:00.000Z",
+    "waterLevel": 322.0,
+    "rainfall": 0,
+    "temp": 31.33,
+    "humidity": 74.6,
+    "soilMoisture": 44.41,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:07:30.000Z",
+    "waterLevel": 324.54,
+    "rainfall": 0.66,
+    "temp": 31.22,
+    "humidity": 75.72,
+    "soilMoisture": 46.93,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:08:00.000Z",
+    "waterLevel": 325.03,
+    "rainfall": 0.33,
+    "temp": 31.27,
+    "humidity": 78.91,
+    "soilMoisture": 47.14,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:08:30.000Z",
+    "waterLevel": 322.62,
+    "rainfall": 0.11,
+    "temp": 30.33,
+    "humidity": 78.23,
+    "soilMoisture": 45.49,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:09:00.000Z",
+    "waterLevel": 322.57,
+    "rainfall": 0,
+    "temp": 31.04,
+    "humidity": 75.52,
+    "soilMoisture": 47.22,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:09:30.000Z",
+    "waterLevel": 324.96,
+    "rainfall": 0.21,
+    "temp": 31.66,
+    "humidity": 75.41,
+    "soilMoisture": 45.77,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:10:00.000Z",
+    "waterLevel": 324.22,
+    "rainfall": 0.15,
+    "temp": 30.97,
+    "humidity": 78.38,
+    "soilMoisture": 45.01,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:10:30.000Z",
+    "waterLevel": 323.01,
+    "rainfall": 0.59,
+    "temp": 31.25,
+    "humidity": 76.68,
+    "soilMoisture": 47.61,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:11:00.000Z",
+    "waterLevel": 324.81,
+    "rainfall": 0.39,
+    "temp": 31.23,
+    "humidity": 74.63,
+    "soilMoisture": 47.05,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:11:30.000Z",
+    "waterLevel": 323.94,
+    "rainfall": 0,
+    "temp": 31.11,
+    "humidity": 77.18,
+    "soilMoisture": 43.54,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:12:00.000Z",
+    "waterLevel": 322.57,
+    "rainfall": 0,
+    "temp": 31.33,
+    "humidity": 74.26,
+    "soilMoisture": 43.47,
+    "vibration": 0.05
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:12:30.000Z",
+    "waterLevel": 323.17,
+    "rainfall": 0.03,
+    "temp": 31.34,
+    "humidity": 75.58,
+    "soilMoisture": 50.79,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:13:00.000Z",
+    "waterLevel": 323.54,
+    "rainfall": 0,
+    "temp": 31.47,
+    "humidity": 74.8,
+    "soilMoisture": 43.84,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:13:30.000Z",
+    "waterLevel": 322.15,
+    "rainfall": 0,
+    "temp": 31.62,
+    "humidity": 75.95,
+    "soilMoisture": 50.94,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:14:00.000Z",
+    "waterLevel": 321.72,
+    "rainfall": 0,
+    "temp": 30.58,
+    "humidity": 74.97,
+    "soilMoisture": 48.26,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:14:30.000Z",
+    "waterLevel": 324.73,
+    "rainfall": 0.52,
+    "temp": 31.96,
+    "humidity": 75.87,
+    "soilMoisture": 44.4,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:15:00.000Z",
+    "waterLevel": 320.38,
+    "rainfall": 0,
+    "temp": 31.96,
+    "humidity": 75.56,
+    "soilMoisture": 45.54,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:15:30.000Z",
+    "waterLevel": 324.82,
+    "rainfall": 0,
+    "temp": 31.23,
+    "humidity": 78.18,
+    "soilMoisture": 45.94,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:16:00.000Z",
+    "waterLevel": 323.4,
+    "rainfall": 0.39,
+    "temp": 31.19,
+    "humidity": 75.79,
+    "soilMoisture": 46.73,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:16:30.000Z",
+    "waterLevel": 327.26,
+    "rainfall": 0.08,
+    "temp": 31.33,
+    "humidity": 75.45,
+    "soilMoisture": 45.46,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:17:00.000Z",
+    "waterLevel": 323.55,
+    "rainfall": 0.09,
+    "temp": 31.33,
+    "humidity": 78.18,
+    "soilMoisture": 44.7,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:17:30.000Z",
+    "waterLevel": 324.27,
+    "rainfall": 0.77,
+    "temp": 31.48,
+    "humidity": 76.06,
+    "soilMoisture": 48.97,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:18:00.000Z",
+    "waterLevel": 323.15,
+    "rainfall": 0.3,
+    "temp": 31.38,
+    "humidity": 74.87,
+    "soilMoisture": 44.21,
+    "vibration": 0.05
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:18:30.000Z",
+    "waterLevel": 321.14,
+    "rainfall": 0.37,
+    "temp": 31.37,
+    "humidity": 75.78,
+    "soilMoisture": 49.23,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:19:00.000Z",
+    "waterLevel": 324.15,
+    "rainfall": 0.2,
+    "temp": 31.72,
+    "humidity": 75.91,
+    "soilMoisture": 49.28,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:19:30.000Z",
+    "waterLevel": 323.58,
+    "rainfall": 0.11,
+    "temp": 31.5,
+    "humidity": 77.5,
+    "soilMoisture": 46.11,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:20:00.000Z",
+    "waterLevel": 324.91,
+    "rainfall": 0,
+    "temp": 31.2,
+    "humidity": 73.77,
+    "soilMoisture": 47.5,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:20:30.000Z",
+    "waterLevel": 323.48,
+    "rainfall": 0.14,
+    "temp": 31.57,
+    "humidity": 76.92,
+    "soilMoisture": 48.75,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:21:00.000Z",
+    "waterLevel": 320.71,
+    "rainfall": 0.52,
+    "temp": 31.11,
+    "humidity": 77.16,
+    "soilMoisture": 46.96,
+    "vibration": 0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:21:30.000Z",
+    "waterLevel": 323.66,
+    "rainfall": 0.49,
+    "temp": 31.48,
+    "humidity": 77.21,
+    "soilMoisture": 47.99,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:22:00.000Z",
+    "waterLevel": 327.6,
+    "rainfall": 0,
+    "temp": 31.01,
+    "humidity": 73.25,
+    "soilMoisture": 47.52,
+    "vibration": 0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:22:30.000Z",
+    "waterLevel": 326.04,
+    "rainfall": 0.02,
+    "temp": 31.81,
+    "humidity": 75.31,
+    "soilMoisture": 44.69,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:23:00.000Z",
+    "waterLevel": 325.62,
+    "rainfall": 0,
+    "temp": 31.43,
+    "humidity": 75.11,
+    "soilMoisture": 44.87,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:23:30.000Z",
+    "waterLevel": 322.87,
+    "rainfall": 0,
+    "temp": 31.6,
+    "humidity": 75.1,
+    "soilMoisture": 48.42,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:24:00.000Z",
+    "waterLevel": 327.14,
+    "rainfall": 0.12,
+    "temp": 31.51,
+    "humidity": 77.1,
+    "soilMoisture": 47.46,
+    "vibration": 0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:24:30.000Z",
+    "waterLevel": 326.02,
+    "rainfall": 0,
+    "temp": 31.44,
+    "humidity": 73.33,
+    "soilMoisture": 43.45,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:25:00.000Z",
+    "waterLevel": 327.0,
+    "rainfall": 0,
+    "temp": 31.77,
+    "humidity": 77.92,
+    "soilMoisture": 44.59,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:25:30.000Z",
+    "waterLevel": 325.18,
+    "rainfall": 0,
+    "temp": 31.45,
+    "humidity": 75.48,
+    "soilMoisture": 45.27,
+    "vibration": 0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:26:00.000Z",
+    "waterLevel": 327.84,
+    "rainfall": 0.48,
+    "temp": 31.83,
+    "humidity": 78.79,
+    "soilMoisture": 45.07,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:26:30.000Z",
+    "waterLevel": 327.2,
+    "rainfall": 0,
+    "temp": 31.52,
+    "humidity": 76.71,
+    "soilMoisture": 47.18,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:27:00.000Z",
+    "waterLevel": 325.46,
+    "rainfall": 0.13,
+    "temp": 31.62,
+    "humidity": 76.5,
+    "soilMoisture": 40.63,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:27:30.000Z",
+    "waterLevel": 327.13,
+    "rainfall": 0.8,
+    "temp": 31.47,
+    "humidity": 75.8,
+    "soilMoisture": 43.89,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:28:00.000Z",
+    "waterLevel": 328.68,
+    "rainfall": 0,
+    "temp": 31.59,
+    "humidity": 77.6,
+    "soilMoisture": 44.27,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:28:30.000Z",
+    "waterLevel": 325.13,
+    "rainfall": 0,
+    "temp": 31.64,
+    "humidity": 77.13,
+    "soilMoisture": 46.62,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:29:00.000Z",
+    "waterLevel": 326.12,
+    "rainfall": 0.22,
+    "temp": 31.35,
+    "humidity": 77.59,
+    "soilMoisture": 46.95,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:29:30.000Z",
+    "waterLevel": 326.46,
+    "rainfall": 0.42,
+    "temp": 31.58,
+    "humidity": 76.01,
+    "soilMoisture": 44.96,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:30:00.000Z",
+    "waterLevel": 324.4,
+    "rainfall": 0,
+    "temp": 31.21,
+    "humidity": 74.94,
+    "soilMoisture": 43.39,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:30:30.000Z",
+    "waterLevel": 327.16,
+    "rainfall": 0.26,
+    "temp": 31.31,
+    "humidity": 73.53,
+    "soilMoisture": 42.89,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:31:00.000Z",
+    "waterLevel": 326.9,
+    "rainfall": 0.29,
+    "temp": 31.27,
+    "humidity": 72.82,
+    "soilMoisture": 43.81,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:31:30.000Z",
+    "waterLevel": 328.46,
+    "rainfall": 2.17,
+    "temp": 31.62,
+    "humidity": 75.07,
+    "soilMoisture": 44.21,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:32:00.000Z",
+    "waterLevel": 329.98,
+    "rainfall": 0,
+    "temp": 31.16,
+    "humidity": 75.24,
+    "soilMoisture": 45.31,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:32:30.000Z",
+    "waterLevel": 329.7,
+    "rainfall": 0,
+    "temp": 31.71,
+    "humidity": 76.03,
+    "soilMoisture": 46.08,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:33:00.000Z",
+    "waterLevel": 325.37,
+    "rainfall": 0,
+    "temp": 32.03,
+    "humidity": 74.18,
+    "soilMoisture": 45.73,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:33:30.000Z",
+    "waterLevel": 329.74,
+    "rainfall": 0.14,
+    "temp": 31.64,
+    "humidity": 73.9,
+    "soilMoisture": 45.83,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:34:00.000Z",
+    "waterLevel": 328.59,
+    "rainfall": 0.67,
+    "temp": 31.77,
+    "humidity": 73.03,
+    "soilMoisture": 45.95,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:34:30.000Z",
+    "waterLevel": 328.95,
+    "rainfall": 0.3,
+    "temp": 31.55,
+    "humidity": 74.63,
+    "soilMoisture": 46.66,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:35:00.000Z",
+    "waterLevel": 325.31,
+    "rainfall": 2.0,
+    "temp": 31.5,
+    "humidity": 77.84,
+    "soilMoisture": 44.53,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:35:30.000Z",
+    "waterLevel": 332.02,
+    "rainfall": 0.45,
+    "temp": 31.46,
+    "humidity": 75.4,
+    "soilMoisture": 45.97,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:36:00.000Z",
+    "waterLevel": 327.12,
+    "rainfall": 0.57,
+    "temp": 31.8,
+    "humidity": 78.47,
+    "soilMoisture": 48.18,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:36:30.000Z",
+    "waterLevel": 328.26,
+    "rainfall": 0.32,
+    "temp": 31.35,
+    "humidity": 77.03,
+    "soilMoisture": 45.05,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:37:00.000Z",
+    "waterLevel": 328.78,
+    "rainfall": 0.55,
+    "temp": 31.89,
+    "humidity": 78.83,
+    "soilMoisture": 44.4,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:37:30.000Z",
+    "waterLevel": 324.98,
+    "rainfall": 0.21,
+    "temp": 31.39,
+    "humidity": 72.72,
+    "soilMoisture": 48.0,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:38:00.000Z",
+    "waterLevel": 329.21,
+    "rainfall": 0.28,
+    "temp": 31.65,
+    "humidity": 74.5,
+    "soilMoisture": 45.04,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:38:30.000Z",
+    "waterLevel": 328.83,
+    "rainfall": 0.33,
+    "temp": 31.57,
+    "humidity": 74.75,
+    "soilMoisture": 48.15,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:39:00.000Z",
+    "waterLevel": 327.26,
+    "rainfall": 0.49,
+    "temp": 31.2,
+    "humidity": 74.4,
+    "soilMoisture": 42.59,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:39:30.000Z",
+    "waterLevel": 329.08,
+    "rainfall": 0,
+    "temp": 31.68,
+    "humidity": 74.38,
+    "soilMoisture": 42.98,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:40:00.000Z",
+    "waterLevel": 329.32,
+    "rainfall": 0.78,
+    "temp": 31.62,
+    "humidity": 76.31,
+    "soilMoisture": 46.54,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:40:30.000Z",
+    "waterLevel": 326.28,
+    "rainfall": 0.41,
+    "temp": 32.08,
+    "humidity": 78.09,
+    "soilMoisture": 46.01,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:41:00.000Z",
+    "waterLevel": 329.99,
+    "rainfall": 0.3,
+    "temp": 31.13,
+    "humidity": 73.17,
+    "soilMoisture": 47.2,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:41:30.000Z",
+    "waterLevel": 326.86,
+    "rainfall": 0.59,
+    "temp": 31.51,
+    "humidity": 76.22,
+    "soilMoisture": 46.97,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:42:00.000Z",
+    "waterLevel": 327.03,
+    "rainfall": 0.57,
+    "temp": 31.22,
+    "humidity": 75.62,
+    "soilMoisture": 47.84,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:42:30.000Z",
+    "waterLevel": 328.53,
+    "rainfall": 0.11,
+    "temp": 31.92,
+    "humidity": 76.09,
+    "soilMoisture": 42.15,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:43:00.000Z",
+    "waterLevel": 324.67,
+    "rainfall": 0,
+    "temp": 31.38,
+    "humidity": 76.59,
+    "soilMoisture": 46.16,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:43:30.000Z",
+    "waterLevel": 324.32,
+    "rainfall": 0,
+    "temp": 31.81,
+    "humidity": 73.57,
+    "soilMoisture": 46.06,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:44:00.000Z",
+    "waterLevel": 329.4,
+    "rainfall": 0.6,
+    "temp": 32.07,
+    "humidity": 75.73,
+    "soilMoisture": 44.73,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:44:30.000Z",
+    "waterLevel": 327.74,
+    "rainfall": 0.16,
+    "temp": 32.07,
+    "humidity": 75.9,
+    "soilMoisture": 46.44,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:45:00.000Z",
+    "waterLevel": 327.79,
+    "rainfall": 0,
+    "temp": 31.78,
+    "humidity": 74.28,
+    "soilMoisture": 45.06,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:45:30.000Z",
+    "waterLevel": 326.97,
+    "rainfall": 0.37,
+    "temp": 31.94,
+    "humidity": 74.48,
+    "soilMoisture": 44.57,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:46:00.000Z",
+    "waterLevel": 330.54,
+    "rainfall": 0,
+    "temp": 31.93,
+    "humidity": 76.99,
+    "soilMoisture": 46.44,
+    "vibration": 0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:46:30.000Z",
+    "waterLevel": 330.79,
+    "rainfall": 0.54,
+    "temp": 32.02,
+    "humidity": 72.93,
+    "soilMoisture": 42.84,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:47:00.000Z",
+    "waterLevel": 326.57,
+    "rainfall": 0,
+    "temp": 31.44,
+    "humidity": 77.75,
+    "soilMoisture": 45.57,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:47:30.000Z",
+    "waterLevel": 329.09,
+    "rainfall": 0.26,
+    "temp": 31.73,
+    "humidity": 76.53,
+    "soilMoisture": 44.99,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:48:00.000Z",
+    "waterLevel": 327.62,
+    "rainfall": 0.06,
+    "temp": 31.57,
+    "humidity": 76.19,
+    "soilMoisture": 42.57,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:48:30.000Z",
+    "waterLevel": 327.93,
+    "rainfall": 0.17,
+    "temp": 31.83,
+    "humidity": 74.56,
+    "soilMoisture": 44.55,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:49:00.000Z",
+    "waterLevel": 323.81,
+    "rainfall": 0.27,
+    "temp": 31.79,
+    "humidity": 76.29,
+    "soilMoisture": 45.54,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:49:30.000Z",
+    "waterLevel": 325.6,
+    "rainfall": 0.46,
+    "temp": 31.65,
+    "humidity": 75.56,
+    "soilMoisture": 45.68,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:50:00.000Z",
+    "waterLevel": 328.42,
+    "rainfall": 0.35,
+    "temp": 31.79,
+    "humidity": 72.7,
+    "soilMoisture": 46.88,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:50:30.000Z",
+    "waterLevel": 330.11,
+    "rainfall": 0.29,
+    "temp": 31.91,
+    "humidity": 75.13,
+    "soilMoisture": 48.0,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:51:00.000Z",
+    "waterLevel": 327.88,
+    "rainfall": 0.21,
+    "temp": 32.31,
+    "humidity": 76.42,
+    "soilMoisture": 46.37,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:51:30.000Z",
+    "waterLevel": 331.7,
+    "rainfall": 0.09,
+    "temp": 31.94,
+    "humidity": 74.99,
+    "soilMoisture": 44.36,
+    "vibration": 0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:52:00.000Z",
+    "waterLevel": 331.59,
+    "rainfall": 0.11,
+    "temp": 32.12,
+    "humidity": 73.79,
+    "soilMoisture": 44.08,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:52:30.000Z",
+    "waterLevel": 330.91,
+    "rainfall": 0.42,
+    "temp": 31.84,
+    "humidity": 78.0,
+    "soilMoisture": 44.18,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:53:00.000Z",
+    "waterLevel": 327.7,
+    "rainfall": 0.21,
+    "temp": 32.05,
+    "humidity": 74.88,
+    "soilMoisture": 42.64,
+    "vibration": 0.04
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:53:30.000Z",
+    "waterLevel": 328.13,
+    "rainfall": 0,
+    "temp": 32.34,
+    "humidity": 75.76,
+    "soilMoisture": 42.41,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:54:00.000Z",
+    "waterLevel": 326.36,
+    "rainfall": 0.0,
+    "temp": 32.2,
+    "humidity": 73.55,
+    "soilMoisture": 40.25,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:54:30.000Z",
+    "waterLevel": 330.91,
+    "rainfall": 0,
+    "temp": 32.02,
+    "humidity": 76.87,
+    "soilMoisture": 42.77,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:55:00.000Z",
+    "waterLevel": 329.73,
+    "rainfall": 0,
+    "temp": 31.61,
+    "humidity": 75.76,
+    "soilMoisture": 43.29,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:55:30.000Z",
+    "waterLevel": 330.84,
+    "rainfall": 0,
+    "temp": 31.65,
+    "humidity": 74.6,
+    "soilMoisture": 45.27,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:56:00.000Z",
+    "waterLevel": 326.06,
+    "rainfall": 0.23,
+    "temp": 31.68,
+    "humidity": 75.52,
+    "soilMoisture": 41.66,
+    "vibration": 0.0
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:56:30.000Z",
+    "waterLevel": 330.51,
+    "rainfall": 0,
+    "temp": 31.92,
+    "humidity": 77.74,
+    "soilMoisture": 46.13,
+    "vibration": 0.01
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:57:00.000Z",
+    "waterLevel": 331.63,
+    "rainfall": 0.29,
+    "temp": 32.48,
+    "humidity": 72.52,
+    "soilMoisture": 42.71,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:57:30.000Z",
+    "waterLevel": 330.78,
+    "rainfall": 0.84,
+    "temp": 31.92,
+    "humidity": 76.05,
+    "soilMoisture": 42.2,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:58:00.000Z",
+    "waterLevel": 331.08,
+    "rainfall": 0,
+    "temp": 31.69,
+    "humidity": 71.9,
+    "soilMoisture": 43.93,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:58:30.000Z",
+    "waterLevel": 330.65,
+    "rainfall": 0,
+    "temp": 31.9,
+    "humidity": 73.94,
+    "soilMoisture": 45.63,
+    "vibration": 0.03
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:59:00.000Z",
+    "waterLevel": 328.68,
+    "rainfall": 0,
+    "temp": 32.05,
+    "humidity": 74.32,
+    "soilMoisture": 43.03,
+    "vibration": 0.02
+  },
+  {
+    "nodeId": "flood-node-01",
+    "timestamp": "2026-09-09T11:59:30.000Z",
+    "waterLevel": 328.53,
+    "rainfall": 0.24,
+    "temp": 32.01,
+    "humidity": 77.63,
+    "soilMoisture": 46.22,
+    "vibration": 0.01
+  }
+]

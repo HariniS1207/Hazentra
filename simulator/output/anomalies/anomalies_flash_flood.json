@@ -1,0 +1,254 @@
+[
+  {
+    "anomalyId": "anomaly-9f2b6e016829",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 62.0,
+    "verifiedConfidence": 62.0,
+    "status": "pending",
+    "timestamp": "2026-09-09T07:22:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-72bfdbbecdcc",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 61.0,
+    "verifiedConfidence": 61.0,
+    "status": "pending",
+    "timestamp": "2026-09-09T07:27:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-d1f688efa9b3",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T07:36:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-b3643ccf99a8",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T07:41:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-b28b56838cf8",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T07:46:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-1f7854d78abf",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T07:51:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-bef9fd9dd9ec",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T07:56:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-4ff914968c3a",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:01:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-f3ca056faf5c",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:06:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-fb66c4eacf79",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:11:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-2863a1241fcc",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:16:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-8906f41d1d5a",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:21:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-4aaa537ba262",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:26:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-09cd35c125a9",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:31:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-eedfbc64f8f0",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:36:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-3687b1f7a7c4",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:41:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-09a842c7047d",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:47:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-c555d52e406e",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:52:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-ea5cda8f9825",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T09:00:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-e604db4d874e",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 94.1,
+    "verifiedConfidence": 94.1,
+    "status": "pending",
+    "timestamp": "2026-09-09T09:06:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-c53ac2eab818",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 87.6,
+    "verifiedConfidence": 87.6,
+    "status": "pending",
+    "timestamp": "2026-09-09T09:11:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-3e37127f2630",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 79.6,
+    "verifiedConfidence": 79.6,
+    "status": "pending",
+    "timestamp": "2026-09-09T09:17:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-6438f0955584",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 81.0,
+    "verifiedConfidence": 81.0,
+    "status": "pending",
+    "timestamp": "2026-09-09T09:24:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-a4e6b9a9f39d",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 72.5,
+    "verifiedConfidence": 72.5,
+    "status": "pending",
+    "timestamp": "2026-09-09T09:30:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-6a91ea872ae2",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 28.3,
+    "verifiedConfidence": 28.3,
+    "status": "pending",
+    "timestamp": "2026-09-09T09:38:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-b9bbc4510c3e",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 28.2,
+    "verifiedConfidence": 28.2,
+    "status": "pending",
+    "timestamp": "2026-09-09T09:43:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-8df52dd4930e",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 28.6,
+    "verifiedConfidence": 28.6,
+    "status": "pending",
+    "timestamp": "2026-09-09T09:49:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-097f53b22ffc",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 29.6,
+    "verifiedConfidence": 29.6,
+    "status": "pending",
+    "timestamp": "2026-09-09T09:56:30.000Z"
+  }
+]

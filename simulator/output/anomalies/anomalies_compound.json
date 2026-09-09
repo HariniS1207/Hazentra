@@ -1,0 +1,1127 @@
+[
+  {
+    "anomalyId": "anomaly-2e13f056eb6c",
+    "nodeId": "airq-node-01",
+    "type": "fire",
+    "rawConfidence": 97,
+    "verifiedConfidence": 97,
+    "status": "pending",
+    "timestamp": "2026-09-09T06:42:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-fa63f9e17a5c",
+    "nodeId": "airq-node-01",
+    "type": "fire",
+    "rawConfidence": 97,
+    "verifiedConfidence": 97,
+    "status": "pending",
+    "timestamp": "2026-09-09T06:51:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-7e60cab74b73",
+    "nodeId": "airq-node-01",
+    "type": "fire",
+    "rawConfidence": 97,
+    "verifiedConfidence": 97,
+    "status": "pending",
+    "timestamp": "2026-09-09T06:56:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-5e8e566c54f5",
+    "nodeId": "airq-node-01",
+    "type": "fire",
+    "rawConfidence": 97,
+    "verifiedConfidence": 97,
+    "status": "pending",
+    "timestamp": "2026-09-09T07:02:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-ff26202fa830",
+    "nodeId": "airq-node-01",
+    "type": "fire",
+    "rawConfidence": 97,
+    "verifiedConfidence": 97,
+    "status": "pending",
+    "timestamp": "2026-09-09T07:09:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-0df47a686bfe",
+    "nodeId": "airq-node-01",
+    "type": "fire",
+    "rawConfidence": 97,
+    "verifiedConfidence": 97,
+    "status": "pending",
+    "timestamp": "2026-09-09T07:15:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-991a4c4c0ea8",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 48.8,
+    "verifiedConfidence": 48.8,
+    "status": "pending",
+    "timestamp": "2026-09-09T07:19:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-3b62599365a5",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 55.8,
+    "verifiedConfidence": 55.8,
+    "status": "pending",
+    "timestamp": "2026-09-09T07:24:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-668e06a6c484",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 59.0,
+    "verifiedConfidence": 59.0,
+    "status": "pending",
+    "timestamp": "2026-09-09T07:28:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-1ebc815eb040",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 63.4,
+    "verifiedConfidence": 63.4,
+    "status": "pending",
+    "timestamp": "2026-09-09T07:36:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-e1dda4dba369",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 64.1,
+    "verifiedConfidence": 64.1,
+    "status": "pending",
+    "timestamp": "2026-09-09T07:39:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-2427e407dddc",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 60.7,
+    "verifiedConfidence": 60.7,
+    "status": "pending",
+    "timestamp": "2026-09-09T07:44:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-b63d903875aa",
+    "nodeId": "airq-node-01",
+    "type": "fire",
+    "rawConfidence": 97,
+    "verifiedConfidence": 97,
+    "status": "pending",
+    "timestamp": "2026-09-09T07:46:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-72c111242de2",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 58.5,
+    "verifiedConfidence": 58.5,
+    "status": "pending",
+    "timestamp": "2026-09-09T07:49:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-a5c55b5ffb6f",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 63.2,
+    "verifiedConfidence": 63.2,
+    "status": "pending",
+    "timestamp": "2026-09-09T07:53:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-5cb83b8ab3d0",
+    "nodeId": "airq-node-01",
+    "type": "fire",
+    "rawConfidence": 97,
+    "verifiedConfidence": 97,
+    "status": "pending",
+    "timestamp": "2026-09-09T07:56:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-ac973b60e083",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 58.5,
+    "verifiedConfidence": 58.5,
+    "status": "pending",
+    "timestamp": "2026-09-09T07:59:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-ccf68ee0cda4",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 62.4,
+    "verifiedConfidence": 62.4,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:06:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-2e4aa96c156b",
+    "nodeId": "airq-node-01",
+    "type": "fire",
+    "rawConfidence": 97,
+    "verifiedConfidence": 97,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:07:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-4c56f70f146c",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 57.7,
+    "verifiedConfidence": 57.7,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:11:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-7806965aa43c",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 61.4,
+    "verifiedConfidence": 61.4,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:15:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-01dc8f8d0c19",
+    "nodeId": "airq-node-01",
+    "type": "fire",
+    "rawConfidence": 97,
+    "verifiedConfidence": 97,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:17:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-46efe04e76de",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 58.1,
+    "verifiedConfidence": 58.1,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:22:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-4f34147cf0b0",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 62.7,
+    "verifiedConfidence": 62.7,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:24:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-b4a181ad78d8",
+    "nodeId": "airq-node-01",
+    "type": "fire",
+    "rawConfidence": 97,
+    "verifiedConfidence": 97,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:28:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-a77f1645ef9f",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 61.3,
+    "verifiedConfidence": 61.3,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:30:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-781c4319e88f",
+    "nodeId": "airq-node-01",
+    "type": "fire",
+    "rawConfidence": 97,
+    "verifiedConfidence": 97,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:33:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-6b4e9b0ec0f4",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 64.5,
+    "verifiedConfidence": 64.5,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:35:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-fd1e73035c19",
+    "nodeId": "airq-node-01",
+    "type": "fire",
+    "rawConfidence": 97,
+    "verifiedConfidence": 97,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:39:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-dc3594f1bf88",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 62.3,
+    "verifiedConfidence": 62.3,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:43:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-b99a5a05de61",
+    "nodeId": "airq-node-01",
+    "type": "fire",
+    "rawConfidence": 97,
+    "verifiedConfidence": 97,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:44:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-3be60651d3ae",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 55.6,
+    "verifiedConfidence": 55.6,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:48:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-07c1d999e157",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 61.3,
+    "verifiedConfidence": 61.3,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:51:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-0f08d420a9fa",
+    "nodeId": "airq-node-01",
+    "type": "fire",
+    "rawConfidence": 97,
+    "verifiedConfidence": 97,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:54:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-485dd1d40290",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 61.5,
+    "verifiedConfidence": 61.5,
+    "status": "pending",
+    "timestamp": "2026-09-09T08:59:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-33ad34a7cb67",
+    "nodeId": "airq-node-01",
+    "type": "fire",
+    "rawConfidence": 97,
+    "verifiedConfidence": 97,
+    "status": "pending",
+    "timestamp": "2026-09-09T09:00:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-2778cfc6f678",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 61.2,
+    "verifiedConfidence": 61.2,
+    "status": "pending",
+    "timestamp": "2026-09-09T09:05:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-d95b8704db3a",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 63.0,
+    "verifiedConfidence": 63.0,
+    "status": "pending",
+    "timestamp": "2026-09-09T09:09:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-109112c903af",
+    "nodeId": "airq-node-01",
+    "type": "fire",
+    "rawConfidence": 97,
+    "verifiedConfidence": 97,
+    "status": "pending",
+    "timestamp": "2026-09-09T09:11:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-3f91b55e36ba",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 60.4,
+    "verifiedConfidence": 60.4,
+    "status": "pending",
+    "timestamp": "2026-09-09T09:16:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-cb0ced4f2eb7",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 62.7,
+    "verifiedConfidence": 62.7,
+    "status": "pending",
+    "timestamp": "2026-09-09T09:19:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-79c539bc0bf5",
+    "nodeId": "airq-node-01",
+    "type": "fire",
+    "rawConfidence": 97,
+    "verifiedConfidence": 97,
+    "status": "pending",
+    "timestamp": "2026-09-09T09:22:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-9e1d8dbf504f",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 58.0,
+    "verifiedConfidence": 58.0,
+    "status": "pending",
+    "timestamp": "2026-09-09T09:27:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-a2f715be4667",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 58.6,
+    "verifiedConfidence": 58.6,
+    "status": "pending",
+    "timestamp": "2026-09-09T09:29:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-53cea85e3d82",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 55.6,
+    "verifiedConfidence": 55.6,
+    "status": "pending",
+    "timestamp": "2026-09-09T09:36:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-50c402789965",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 55.6,
+    "verifiedConfidence": 55.6,
+    "status": "pending",
+    "timestamp": "2026-09-09T09:42:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-c1231835ef9b",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 54.7,
+    "verifiedConfidence": 54.7,
+    "status": "pending",
+    "timestamp": "2026-09-09T09:49:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-c808b1d8d17e",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 53.6,
+    "verifiedConfidence": 53.6,
+    "status": "pending",
+    "timestamp": "2026-09-09T09:55:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-df94a61d7517",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 51.9,
+    "verifiedConfidence": 51.9,
+    "status": "pending",
+    "timestamp": "2026-09-09T10:00:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-3536f7b945b0",
+    "nodeId": "airq-node-01",
+    "type": "fire",
+    "rawConfidence": 97,
+    "verifiedConfidence": 97,
+    "status": "pending",
+    "timestamp": "2026-09-09T10:01:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-99bcbc7c4a35",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 51.3,
+    "verifiedConfidence": 51.3,
+    "status": "pending",
+    "timestamp": "2026-09-09T10:06:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-e335ef0e87f6",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 49.7,
+    "verifiedConfidence": 49.7,
+    "status": "pending",
+    "timestamp": "2026-09-09T10:11:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-717209c1ca19",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 47.4,
+    "verifiedConfidence": 47.4,
+    "status": "pending",
+    "timestamp": "2026-09-09T10:16:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-8735b099fe25",
+    "nodeId": "airq-node-01",
+    "type": "air_quality",
+    "rawConfidence": 47.9,
+    "verifiedConfidence": 47.9,
+    "status": "pending",
+    "timestamp": "2026-09-09T10:17:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-f90688611d67",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 52.4,
+    "verifiedConfidence": 52.4,
+    "status": "pending",
+    "timestamp": "2026-09-09T10:19:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-79c71c557909",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 44.7,
+    "verifiedConfidence": 44.7,
+    "status": "pending",
+    "timestamp": "2026-09-09T10:24:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-ff06b1328567",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 58.0,
+    "verifiedConfidence": 58.0,
+    "status": "pending",
+    "timestamp": "2026-09-09T10:26:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-5b56325f87e6",
+    "nodeId": "airq-node-01",
+    "type": "fire",
+    "rawConfidence": 97,
+    "verifiedConfidence": 97,
+    "status": "pending",
+    "timestamp": "2026-09-09T10:27:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-d1df94bc647d",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 48.9,
+    "verifiedConfidence": 48.9,
+    "status": "pending",
+    "timestamp": "2026-09-09T10:33:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-6000e9192fd0",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 54.8,
+    "verifiedConfidence": 54.8,
+    "status": "pending",
+    "timestamp": "2026-09-09T10:38:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-ad3ae4e8e308",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 53.2,
+    "verifiedConfidence": 53.2,
+    "status": "pending",
+    "timestamp": "2026-09-09T10:44:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-842b2c9a118c",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 54.2,
+    "verifiedConfidence": 54.2,
+    "status": "pending",
+    "timestamp": "2026-09-09T10:46:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-14bbd5ab9925",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 47.8,
+    "verifiedConfidence": 47.8,
+    "status": "pending",
+    "timestamp": "2026-09-09T10:56:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-dc595784cc01",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 47.1,
+    "verifiedConfidence": 47.1,
+    "status": "pending",
+    "timestamp": "2026-09-09T11:02:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-e1d424e0c0c4",
+    "nodeId": "airq-node-01",
+    "type": "fire",
+    "rawConfidence": 85.2,
+    "verifiedConfidence": 85.2,
+    "status": "pending",
+    "timestamp": "2026-09-09T11:03:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-a9cfd317d817",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 48.0,
+    "verifiedConfidence": 48.0,
+    "status": "pending",
+    "timestamp": "2026-09-09T11:08:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-729c6de4ed00",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 46.5,
+    "verifiedConfidence": 46.5,
+    "status": "pending",
+    "timestamp": "2026-09-09T11:15:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-80c1eb3a0f31",
+    "nodeId": "airq-node-01",
+    "type": "fire",
+    "rawConfidence": 80.7,
+    "verifiedConfidence": 80.7,
+    "status": "pending",
+    "timestamp": "2026-09-09T11:17:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-750107877570",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 47.6,
+    "verifiedConfidence": 47.6,
+    "status": "pending",
+    "timestamp": "2026-09-09T11:21:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-846d642fe228",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 48.7,
+    "verifiedConfidence": 48.7,
+    "status": "pending",
+    "timestamp": "2026-09-09T11:30:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-607319ff41f5",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 45.6,
+    "verifiedConfidence": 45.6,
+    "status": "pending",
+    "timestamp": "2026-09-09T11:36:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-dee1b0c9c706",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 46.6,
+    "verifiedConfidence": 46.6,
+    "status": "pending",
+    "timestamp": "2026-09-09T11:44:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-19d7d54f2e34",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 45.9,
+    "verifiedConfidence": 45.9,
+    "status": "pending",
+    "timestamp": "2026-09-09T11:52:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-0a6464321607",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 45.7,
+    "verifiedConfidence": 45.7,
+    "status": "pending",
+    "timestamp": "2026-09-09T11:57:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-4b023198bdff",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 45.8,
+    "verifiedConfidence": 45.8,
+    "status": "pending",
+    "timestamp": "2026-09-09T12:05:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-ec15bd30c2d8",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 44.5,
+    "verifiedConfidence": 44.5,
+    "status": "pending",
+    "timestamp": "2026-09-09T12:14:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-6b7f8830d9b6",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 42.9,
+    "verifiedConfidence": 42.9,
+    "status": "pending",
+    "timestamp": "2026-09-09T12:20:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-a71a747ee297",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 43.5,
+    "verifiedConfidence": 43.5,
+    "status": "pending",
+    "timestamp": "2026-09-09T12:31:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-b7860c68a839",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T12:39:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-e42fa6d7c990",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T12:46:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-d7c47c365561",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T12:51:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-27f7b5386223",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T12:56:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-ae9edd4aca98",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T13:01:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-d6641ea742c9",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T13:06:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-588f6d52ded2",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T13:11:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-4b0bbd3c980d",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T13:16:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-6668609d9cd4",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T13:21:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-f71f64153b97",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98.0,
+    "verifiedConfidence": 98.0,
+    "status": "pending",
+    "timestamp": "2026-09-09T13:26:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-f8e34987d071",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T13:31:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-4d5a9682a40a",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T13:36:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-0ea6a873f4bd",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T13:41:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-486a3642a6ec",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T13:47:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-e086273f1111",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T13:56:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-4a9802b20d86",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T14:03:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-c94bbb7e7bae",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T14:09:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-5fb6f13c1db0",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T14:15:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-2074b40ddac0",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T14:22:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-c67f1d160c56",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T14:28:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-589e3ab2e193",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T14:36:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-eb078609838d",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T14:41:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-9e7e1d0b5072",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T14:48:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-deb879955c5a",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T14:54:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-c1003e1869d0",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 95.6,
+    "verifiedConfidence": 95.6,
+    "status": "pending",
+    "timestamp": "2026-09-09T15:03:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-25044445c152",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 97.6,
+    "verifiedConfidence": 97.6,
+    "status": "pending",
+    "timestamp": "2026-09-09T15:12:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-55838e2ac37c",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 98,
+    "verifiedConfidence": 98,
+    "status": "pending",
+    "timestamp": "2026-09-09T15:21:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-e185c329739d",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 91.4,
+    "verifiedConfidence": 91.4,
+    "status": "pending",
+    "timestamp": "2026-09-09T15:27:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-2b0b8b90b581",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 93.7,
+    "verifiedConfidence": 93.7,
+    "status": "pending",
+    "timestamp": "2026-09-09T15:39:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-4c8ee455ab10",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 89.2,
+    "verifiedConfidence": 89.2,
+    "status": "pending",
+    "timestamp": "2026-09-09T15:46:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-d37c1a79036a",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 89.6,
+    "verifiedConfidence": 89.6,
+    "status": "pending",
+    "timestamp": "2026-09-09T15:58:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-fa17a572a02f",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 90.5,
+    "verifiedConfidence": 90.5,
+    "status": "pending",
+    "timestamp": "2026-09-09T16:04:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-01ef50a337e6",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 85.6,
+    "verifiedConfidence": 85.6,
+    "status": "pending",
+    "timestamp": "2026-09-09T16:14:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-e38454c66a40",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 90.2,
+    "verifiedConfidence": 90.2,
+    "status": "pending",
+    "timestamp": "2026-09-09T16:20:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-5fb142b18895",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 86.3,
+    "verifiedConfidence": 86.3,
+    "status": "pending",
+    "timestamp": "2026-09-09T16:25:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-a807dc46e610",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 82.0,
+    "verifiedConfidence": 82.0,
+    "status": "pending",
+    "timestamp": "2026-09-09T16:30:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-30f05111950f",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 81.9,
+    "verifiedConfidence": 81.9,
+    "status": "pending",
+    "timestamp": "2026-09-09T16:36:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-af85dcae4e1d",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 87.5,
+    "verifiedConfidence": 87.5,
+    "status": "pending",
+    "timestamp": "2026-09-09T16:41:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-86587f867f04",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 82.3,
+    "verifiedConfidence": 82.3,
+    "status": "pending",
+    "timestamp": "2026-09-09T16:51:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-cd871d2f0647",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 76.7,
+    "verifiedConfidence": 76.7,
+    "status": "pending",
+    "timestamp": "2026-09-09T16:57:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-86878230a825",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 75.9,
+    "verifiedConfidence": 75.9,
+    "status": "pending",
+    "timestamp": "2026-09-09T17:04:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-b78afd50ecd5",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 76.8,
+    "verifiedConfidence": 76.8,
+    "status": "pending",
+    "timestamp": "2026-09-09T17:12:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-70a96378c605",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 77.1,
+    "verifiedConfidence": 77.1,
+    "status": "pending",
+    "timestamp": "2026-09-09T17:26:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-19bd1389c195",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 75.5,
+    "verifiedConfidence": 75.5,
+    "status": "pending",
+    "timestamp": "2026-09-09T17:38:30.000Z"
+  },
+  {
+    "anomalyId": "anomaly-cc12bbd5dcbf",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 32.9,
+    "verifiedConfidence": 32.9,
+    "status": "pending",
+    "timestamp": "2026-09-09T17:47:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-da47026c87d4",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 29.2,
+    "verifiedConfidence": 29.2,
+    "status": "pending",
+    "timestamp": "2026-09-09T17:52:00.000Z"
+  },
+  {
+    "anomalyId": "anomaly-b42fb643d145",
+    "nodeId": "flood-node-01",
+    "type": "flood",
+    "rawConfidence": 30.7,
+    "verifiedConfidence": 30.7,
+    "status": "pending",
+    "timestamp": "2026-09-09T17:58:00.000Z"
+  }
+]

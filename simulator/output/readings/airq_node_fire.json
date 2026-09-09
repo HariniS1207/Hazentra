@@ -1,0 +1,6482 @@
+[
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:00:00.000Z",
+    "pm25": 49.82,
+    "gas": 97.35,
+    "smoke": 45.52,
+    "temp": 25.79,
+    "humidity": 81.9
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:00:30.000Z",
+    "pm25": 46.43,
+    "gas": 92.28,
+    "smoke": 46.34,
+    "temp": 25.67,
+    "humidity": 81.29
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:01:00.000Z",
+    "pm25": 48.63,
+    "gas": 83.31,
+    "smoke": 60.23,
+    "temp": 26.31,
+    "humidity": 79.01
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:01:30.000Z",
+    "pm25": 49.05,
+    "gas": 91.01,
+    "smoke": 66.82,
+    "temp": 26.29,
+    "humidity": 79.12
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:02:00.000Z",
+    "pm25": 49.87,
+    "gas": 107.93,
+    "smoke": 77.08,
+    "temp": 25.8,
+    "humidity": 82.77
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:02:30.000Z",
+    "pm25": 49.58,
+    "gas": 109.28,
+    "smoke": 86.51,
+    "temp": 26.44,
+    "humidity": 80.61
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:03:00.000Z",
+    "pm25": 47.99,
+    "gas": 105.69,
+    "smoke": 100.8,
+    "temp": 25.88,
+    "humidity": 81.77
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:03:30.000Z",
+    "pm25": 55.73,
+    "gas": 92.2,
+    "smoke": 95.69,
+    "temp": 25.56,
+    "humidity": 82.53
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:04:00.000Z",
+    "pm25": 57.29,
+    "gas": 103.32,
+    "smoke": 110.95,
+    "temp": 26.0,
+    "humidity": 82.44
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:04:30.000Z",
+    "pm25": 52.58,
+    "gas": 89.55,
+    "smoke": 118.98,
+    "temp": 25.71,
+    "humidity": 80.23
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:05:00.000Z",
+    "pm25": 54.36,
+    "gas": 92.93,
+    "smoke": 146.01,
+    "temp": 25.94,
+    "humidity": 78.62
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:05:30.000Z",
+    "pm25": 55.82,
+    "gas": 102.43,
+    "smoke": 152.33,
+    "temp": 25.88,
+    "humidity": 80.13
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:06:00.000Z",
+    "pm25": 51.84,
+    "gas": 118.69,
+    "smoke": 172.97,
+    "temp": 25.71,
+    "humidity": 82.66
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:06:30.000Z",
+    "pm25": 51.47,
+    "gas": 109.62,
+    "smoke": 160.91,
+    "temp": 25.58,
+    "humidity": 80.46
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:07:00.000Z",
+    "pm25": 58.19,
+    "gas": 123.0,
+    "smoke": 166.11,
+    "temp": 26.07,
+    "humidity": 82.0
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:07:30.000Z",
+    "pm25": 64.71,
+    "gas": 109.75,
+    "smoke": 176.71,
+    "temp": 26.14,
+    "humidity": 82.19
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:08:00.000Z",
+    "pm25": 63.2,
+    "gas": 117.27,
+    "smoke": 180.48,
+    "temp": 25.76,
+    "humidity": 81.42
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:08:30.000Z",
+    "pm25": 60.38,
+    "gas": 132.22,
+    "smoke": 166.62,
+    "temp": 25.86,
+    "humidity": 80.63
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:09:00.000Z",
+    "pm25": 61.33,
+    "gas": 120.08,
+    "smoke": 188.86,
+    "temp": 25.93,
+    "humidity": 80.36
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:09:30.000Z",
+    "pm25": 64.54,
+    "gas": 125.08,
+    "smoke": 211.55,
+    "temp": 26.31,
+    "humidity": 80.91
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:10:00.000Z",
+    "pm25": 62.8,
+    "gas": 126.18,
+    "smoke": 215.14,
+    "temp": 25.92,
+    "humidity": 81.49
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:10:30.000Z",
+    "pm25": 64.63,
+    "gas": 124.09,
+    "smoke": 240.72,
+    "temp": 25.56,
+    "humidity": 82.46
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:11:00.000Z",
+    "pm25": 67.14,
+    "gas": 128.0,
+    "smoke": 261.0,
+    "temp": 26.27,
+    "humidity": 77.97
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:11:30.000Z",
+    "pm25": 72.95,
+    "gas": 131.0,
+    "smoke": 275.6,
+    "temp": 25.64,
+    "humidity": 80.48
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:12:00.000Z",
+    "pm25": 73.21,
+    "gas": 131.72,
+    "smoke": 319.77,
+    "temp": 25.9,
+    "humidity": 81.29
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:12:30.000Z",
+    "pm25": 72.09,
+    "gas": 147.98,
+    "smoke": 343.91,
+    "temp": 26.07,
+    "humidity": 79.17
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:13:00.000Z",
+    "pm25": 64.96,
+    "gas": 146.59,
+    "smoke": 377.8,
+    "temp": 25.78,
+    "humidity": 78.58
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:13:30.000Z",
+    "pm25": 71.75,
+    "gas": 140.57,
+    "smoke": 398.68,
+    "temp": 25.84,
+    "humidity": 82.48
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:14:00.000Z",
+    "pm25": 70.38,
+    "gas": 151.55,
+    "smoke": 438.47,
+    "temp": 26.16,
+    "humidity": 83.37
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:14:30.000Z",
+    "pm25": 76.62,
+    "gas": 142.09,
+    "smoke": 461.49,
+    "temp": 25.95,
+    "humidity": 79.68
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:15:00.000Z",
+    "pm25": 77.79,
+    "gas": 147.83,
+    "smoke": 482.48,
+    "temp": 26.12,
+    "humidity": 81.66
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:15:30.000Z",
+    "pm25": 76.64,
+    "gas": 145.29,
+    "smoke": 517.42,
+    "temp": 26.19,
+    "humidity": 79.84
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:16:00.000Z",
+    "pm25": 83.64,
+    "gas": 144.49,
+    "smoke": 544.74,
+    "temp": 26.04,
+    "humidity": 81.9
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:16:30.000Z",
+    "pm25": 82.0,
+    "gas": 142.19,
+    "smoke": 573.65,
+    "temp": 25.88,
+    "humidity": 82.76
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:17:00.000Z",
+    "pm25": 80.21,
+    "gas": 151.44,
+    "smoke": 605.55,
+    "temp": 25.82,
+    "humidity": 81.04
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:17:30.000Z",
+    "pm25": 79.1,
+    "gas": 146.81,
+    "smoke": 632.12,
+    "temp": 26.54,
+    "humidity": 81.4
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:18:00.000Z",
+    "pm25": 89.39,
+    "gas": 140.23,
+    "smoke": 640.48,
+    "temp": 26.28,
+    "humidity": 79.45
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:18:30.000Z",
+    "pm25": 83.44,
+    "gas": 146.48,
+    "smoke": 659.76,
+    "temp": 25.79,
+    "humidity": 83.04
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:19:00.000Z",
+    "pm25": 78.42,
+    "gas": 155.39,
+    "smoke": 671.19,
+    "temp": 26.1,
+    "humidity": 80.39
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:19:30.000Z",
+    "pm25": 89.33,
+    "gas": 174.59,
+    "smoke": 663.84,
+    "temp": 26.23,
+    "humidity": 79.57
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:20:00.000Z",
+    "pm25": 87.84,
+    "gas": 171.19,
+    "smoke": 594.22,
+    "temp": 26.33,
+    "humidity": 79.7
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:20:30.000Z",
+    "pm25": 86.82,
+    "gas": 196.28,
+    "smoke": 670.62,
+    "temp": 27.46,
+    "humidity": 78.38
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:21:00.000Z",
+    "pm25": 92.4,
+    "gas": 196.84,
+    "smoke": 624.27,
+    "temp": 27.46,
+    "humidity": 80.0
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:21:30.000Z",
+    "pm25": 90.55,
+    "gas": 190.77,
+    "smoke": 709.91,
+    "temp": 27.93,
+    "humidity": 77.39
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:22:00.000Z",
+    "pm25": 86.18,
+    "gas": 198.37,
+    "smoke": 704.11,
+    "temp": 27.2,
+    "humidity": 80.79
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:22:30.000Z",
+    "pm25": 87.24,
+    "gas": 219.98,
+    "smoke": 597.7,
+    "temp": 27.53,
+    "humidity": 81.11
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:23:00.000Z",
+    "pm25": 82.56,
+    "gas": 221.24,
+    "smoke": 714.69,
+    "temp": 27.23,
+    "humidity": 82.08
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:23:30.000Z",
+    "pm25": 92.08,
+    "gas": 226.13,
+    "smoke": 705.38,
+    "temp": 27.43,
+    "humidity": 81.57
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:24:00.000Z",
+    "pm25": 92.39,
+    "gas": 245.45,
+    "smoke": 617.92,
+    "temp": 27.66,
+    "humidity": 78.51
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:24:30.000Z",
+    "pm25": 91.76,
+    "gas": 231.88,
+    "smoke": 643.4,
+    "temp": 27.7,
+    "humidity": 81.22
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:25:00.000Z",
+    "pm25": 91.1,
+    "gas": 257.0,
+    "smoke": 711.64,
+    "temp": 27.75,
+    "humidity": 79.21
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:25:30.000Z",
+    "pm25": 91.1,
+    "gas": 264.98,
+    "smoke": 653.74,
+    "temp": 27.45,
+    "humidity": 81.79
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:26:00.000Z",
+    "pm25": 89.44,
+    "gas": 279.81,
+    "smoke": 637.5,
+    "temp": 28.14,
+    "humidity": 81.78
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:26:30.000Z",
+    "pm25": 91.73,
+    "gas": 285.46,
+    "smoke": 643.63,
+    "temp": 28.05,
+    "humidity": 83.08
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:27:00.000Z",
+    "pm25": 91.01,
+    "gas": 295.6,
+    "smoke": 711.17,
+    "temp": 28.54,
+    "humidity": 79.37
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:27:30.000Z",
+    "pm25": 94.66,
+    "gas": 309.68,
+    "smoke": 660.24,
+    "temp": 28.26,
+    "humidity": 81.61
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:28:00.000Z",
+    "pm25": 94.23,
+    "gas": 323.22,
+    "smoke": 687.09,
+    "temp": 28.15,
+    "humidity": 78.98
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:28:30.000Z",
+    "pm25": 97.03,
+    "gas": 328.91,
+    "smoke": 673.01,
+    "temp": 28.96,
+    "humidity": 78.04
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:29:00.000Z",
+    "pm25": 99.54,
+    "gas": 339.14,
+    "smoke": 613.79,
+    "temp": 28.4,
+    "humidity": 81.51
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:29:30.000Z",
+    "pm25": 97.77,
+    "gas": 353.42,
+    "smoke": 675.46,
+    "temp": 28.81,
+    "humidity": 77.61
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:30:00.000Z",
+    "pm25": 107.78,
+    "gas": 357.46,
+    "smoke": 657.83,
+    "temp": 28.54,
+    "humidity": 80.65
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:30:30.000Z",
+    "pm25": 104.52,
+    "gas": 350.12,
+    "smoke": 618.18,
+    "temp": 28.76,
+    "humidity": 77.01
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:31:00.000Z",
+    "pm25": 112.54,
+    "gas": 385.92,
+    "smoke": 591.96,
+    "temp": 28.26,
+    "humidity": 81.6
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:31:30.000Z",
+    "pm25": 108.66,
+    "gas": 404.07,
+    "smoke": 728.42,
+    "temp": 28.29,
+    "humidity": 79.29
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:32:00.000Z",
+    "pm25": 120.88,
+    "gas": 402.22,
+    "smoke": 701.62,
+    "temp": 29.12,
+    "humidity": 82.02
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:32:30.000Z",
+    "pm25": 116.28,
+    "gas": 411.44,
+    "smoke": 649.12,
+    "temp": 28.88,
+    "humidity": 77.85
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:33:00.000Z",
+    "pm25": 121.01,
+    "gas": 417.82,
+    "smoke": 629.06,
+    "temp": 29.04,
+    "humidity": 80.22
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:33:30.000Z",
+    "pm25": 122.28,
+    "gas": 421.51,
+    "smoke": 589.01,
+    "temp": 29.13,
+    "humidity": 81.47
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:34:00.000Z",
+    "pm25": 131.1,
+    "gas": 430.86,
+    "smoke": 693.44,
+    "temp": 28.82,
+    "humidity": 79.98
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:34:30.000Z",
+    "pm25": 124.97,
+    "gas": 432.82,
+    "smoke": 616.53,
+    "temp": 29.04,
+    "humidity": 81.47
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:35:00.000Z",
+    "pm25": 136.21,
+    "gas": 446.82,
+    "smoke": 646.88,
+    "temp": 29.49,
+    "humidity": 78.43
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:35:30.000Z",
+    "pm25": 141.79,
+    "gas": 456.19,
+    "smoke": 611.13,
+    "temp": 29.64,
+    "humidity": 78.35
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:36:00.000Z",
+    "pm25": 143.53,
+    "gas": 457.88,
+    "smoke": 686.18,
+    "temp": 29.24,
+    "humidity": 80.09
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:36:30.000Z",
+    "pm25": 154.78,
+    "gas": 464.93,
+    "smoke": 685.05,
+    "temp": 28.94,
+    "humidity": 79.37
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:37:00.000Z",
+    "pm25": 159.87,
+    "gas": 474.87,
+    "smoke": 599.71,
+    "temp": 30.31,
+    "humidity": 80.05
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:37:30.000Z",
+    "pm25": 155.39,
+    "gas": 461.28,
+    "smoke": 702.78,
+    "temp": 29.36,
+    "humidity": 79.34
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:38:00.000Z",
+    "pm25": 161.28,
+    "gas": 477.88,
+    "smoke": 637.16,
+    "temp": 29.51,
+    "humidity": 79.39
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:38:30.000Z",
+    "pm25": 170.58,
+    "gas": 480.59,
+    "smoke": 674.16,
+    "temp": 29.14,
+    "humidity": 79.64
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:39:00.000Z",
+    "pm25": 173.35,
+    "gas": 482.86,
+    "smoke": 665.53,
+    "temp": 30.03,
+    "humidity": 82.8
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:39:30.000Z",
+    "pm25": 177.5,
+    "gas": 481.72,
+    "smoke": 644.98,
+    "temp": 29.6,
+    "humidity": 81.31
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:40:00.000Z",
+    "pm25": 179.34,
+    "gas": 439.08,
+    "smoke": 686.19,
+    "temp": 29.7,
+    "humidity": 76.9
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:40:30.000Z",
+    "pm25": 184.1,
+    "gas": 494.41,
+    "smoke": 610.5,
+    "temp": 30.03,
+    "humidity": 80.21
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:41:00.000Z",
+    "pm25": 193.19,
+    "gas": 494.15,
+    "smoke": 703.41,
+    "temp": 30.02,
+    "humidity": 79.46
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:41:30.000Z",
+    "pm25": 195.27,
+    "gas": 515.84,
+    "smoke": 612.8,
+    "temp": 30.1,
+    "humidity": 80.66
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:42:00.000Z",
+    "pm25": 200.32,
+    "gas": 486.06,
+    "smoke": 688.81,
+    "temp": 29.69,
+    "humidity": 80.43
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:42:30.000Z",
+    "pm25": 209.99,
+    "gas": 487.23,
+    "smoke": 717.01,
+    "temp": 30.11,
+    "humidity": 79.23
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:43:00.000Z",
+    "pm25": 211.94,
+    "gas": 438.9,
+    "smoke": 638.71,
+    "temp": 30.57,
+    "humidity": 78.89
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:43:30.000Z",
+    "pm25": 216.06,
+    "gas": 439.3,
+    "smoke": 656.96,
+    "temp": 30.15,
+    "humidity": 78.6
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:44:00.000Z",
+    "pm25": 217.62,
+    "gas": 446.21,
+    "smoke": 660.19,
+    "temp": 30.1,
+    "humidity": 79.85
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:44:30.000Z",
+    "pm25": 226.44,
+    "gas": 485.42,
+    "smoke": 647.75,
+    "temp": 30.29,
+    "humidity": 79.6
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:45:00.000Z",
+    "pm25": 231.04,
+    "gas": 483.66,
+    "smoke": 619.77,
+    "temp": 29.83,
+    "humidity": 77.72
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:45:30.000Z",
+    "pm25": 235.22,
+    "gas": 483.54,
+    "smoke": 623.69,
+    "temp": 30.48,
+    "humidity": 78.27
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:46:00.000Z",
+    "pm25": 241.0,
+    "gas": 484.0,
+    "smoke": 704.44,
+    "temp": 30.23,
+    "humidity": 77.29
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:46:30.000Z",
+    "pm25": 242.53,
+    "gas": 499.53,
+    "smoke": 740.65,
+    "temp": 30.52,
+    "humidity": 78.63
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:47:00.000Z",
+    "pm25": 250.37,
+    "gas": 452.76,
+    "smoke": 739.95,
+    "temp": 30.71,
+    "humidity": 80.35
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:47:30.000Z",
+    "pm25": 249.15,
+    "gas": 438.14,
+    "smoke": 603.6,
+    "temp": 30.46,
+    "humidity": 81.08
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:48:00.000Z",
+    "pm25": 257.09,
+    "gas": 458.7,
+    "smoke": 740.44,
+    "temp": 31.04,
+    "humidity": 80.62
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:48:30.000Z",
+    "pm25": 264.92,
+    "gas": 488.35,
+    "smoke": 619.31,
+    "temp": 30.63,
+    "humidity": 78.4
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:49:00.000Z",
+    "pm25": 263.91,
+    "gas": 471.94,
+    "smoke": 644.24,
+    "temp": 30.61,
+    "humidity": 80.64
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:49:30.000Z",
+    "pm25": 274.57,
+    "gas": 501.15,
+    "smoke": 699.94,
+    "temp": 30.69,
+    "humidity": 79.73
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:50:00.000Z",
+    "pm25": 274.4,
+    "gas": 475.84,
+    "smoke": 690.67,
+    "temp": 31.01,
+    "humidity": 81.47
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:50:30.000Z",
+    "pm25": 274.92,
+    "gas": 469.18,
+    "smoke": 610.21,
+    "temp": 30.93,
+    "humidity": 77.6
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:51:00.000Z",
+    "pm25": 278.66,
+    "gas": 496.85,
+    "smoke": 661.99,
+    "temp": 31.16,
+    "humidity": 80.77
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:51:30.000Z",
+    "pm25": 285.92,
+    "gas": 494.36,
+    "smoke": 705.62,
+    "temp": 30.96,
+    "humidity": 80.61
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:52:00.000Z",
+    "pm25": 292.57,
+    "gas": 431.37,
+    "smoke": 653.71,
+    "temp": 30.26,
+    "humidity": 77.18
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:52:30.000Z",
+    "pm25": 294.68,
+    "gas": 498.28,
+    "smoke": 715.58,
+    "temp": 31.23,
+    "humidity": 82.03
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:53:00.000Z",
+    "pm25": 296.91,
+    "gas": 425.66,
+    "smoke": 689.52,
+    "temp": 30.9,
+    "humidity": 80.95
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:53:30.000Z",
+    "pm25": 303.54,
+    "gas": 432.68,
+    "smoke": 650.5,
+    "temp": 30.57,
+    "humidity": 80.25
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:54:00.000Z",
+    "pm25": 299.8,
+    "gas": 440.93,
+    "smoke": 694.76,
+    "temp": 31.09,
+    "humidity": 79.46
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:54:30.000Z",
+    "pm25": 305.91,
+    "gas": 488.02,
+    "smoke": 676.46,
+    "temp": 31.32,
+    "humidity": 78.74
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:55:00.000Z",
+    "pm25": 306.55,
+    "gas": 466.13,
+    "smoke": 679.56,
+    "temp": 30.98,
+    "humidity": 76.08
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:55:30.000Z",
+    "pm25": 308.28,
+    "gas": 461.07,
+    "smoke": 647.71,
+    "temp": 30.92,
+    "humidity": 78.7
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:56:00.000Z",
+    "pm25": 308.98,
+    "gas": 457.01,
+    "smoke": 691.79,
+    "temp": 31.19,
+    "humidity": 78.77
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:56:30.000Z",
+    "pm25": 316.65,
+    "gas": 480.06,
+    "smoke": 710.18,
+    "temp": 30.89,
+    "humidity": 77.08
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:57:00.000Z",
+    "pm25": 312.8,
+    "gas": 435.0,
+    "smoke": 690.9,
+    "temp": 31.05,
+    "humidity": 79.54
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:57:30.000Z",
+    "pm25": 315.31,
+    "gas": 424.27,
+    "smoke": 600.71,
+    "temp": 31.22,
+    "humidity": 80.22
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:58:00.000Z",
+    "pm25": 319.31,
+    "gas": 465.75,
+    "smoke": 645.45,
+    "temp": 30.92,
+    "humidity": 81.78
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:58:30.000Z",
+    "pm25": 312.9,
+    "gas": 511.05,
+    "smoke": 594.25,
+    "temp": 31.49,
+    "humidity": 76.14
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:59:00.000Z",
+    "pm25": 317.84,
+    "gas": 493.64,
+    "smoke": 733.05,
+    "temp": 31.56,
+    "humidity": 77.33
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T06:59:30.000Z",
+    "pm25": 323.39,
+    "gas": 494.86,
+    "smoke": 623.04,
+    "temp": 31.47,
+    "humidity": 80.32
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:00:00.000Z",
+    "pm25": 268.84,
+    "gas": 442.9,
+    "smoke": 726.19,
+    "temp": 31.34,
+    "humidity": 79.38
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:00:30.000Z",
+    "pm25": 282.04,
+    "gas": 461.11,
+    "smoke": 585.46,
+    "temp": 31.2,
+    "humidity": 79.56
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:01:00.000Z",
+    "pm25": 301.17,
+    "gas": 473.56,
+    "smoke": 635.93,
+    "temp": 31.19,
+    "humidity": 79.28
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:01:30.000Z",
+    "pm25": 315.38,
+    "gas": 441.15,
+    "smoke": 592.8,
+    "temp": 31.21,
+    "humidity": 79.21
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:02:00.000Z",
+    "pm25": 324.34,
+    "gas": 503.11,
+    "smoke": 622.04,
+    "temp": 31.62,
+    "humidity": 82.48
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:02:30.000Z",
+    "pm25": 322.81,
+    "gas": 462.38,
+    "smoke": 595.32,
+    "temp": 31.5,
+    "humidity": 82.02
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:03:00.000Z",
+    "pm25": 284.19,
+    "gas": 441.16,
+    "smoke": 687.51,
+    "temp": 31.24,
+    "humidity": 80.43
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:03:30.000Z",
+    "pm25": 300.07,
+    "gas": 451.75,
+    "smoke": 611.82,
+    "temp": 31.69,
+    "humidity": 78.42
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:04:00.000Z",
+    "pm25": 310.88,
+    "gas": 467.16,
+    "smoke": 710.91,
+    "temp": 31.58,
+    "humidity": 78.94
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:04:30.000Z",
+    "pm25": 277.14,
+    "gas": 426.08,
+    "smoke": 680.32,
+    "temp": 30.91,
+    "humidity": 79.61
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:05:00.000Z",
+    "pm25": 302.26,
+    "gas": 453.72,
+    "smoke": 606.16,
+    "temp": 31.24,
+    "humidity": 79.28
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:05:30.000Z",
+    "pm25": 335.38,
+    "gas": 446.76,
+    "smoke": 734.34,
+    "temp": 31.93,
+    "humidity": 80.01
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:06:00.000Z",
+    "pm25": 337.52,
+    "gas": 450.31,
+    "smoke": 721.8,
+    "temp": 31.23,
+    "humidity": 76.86
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:06:30.000Z",
+    "pm25": 305.01,
+    "gas": 414.81,
+    "smoke": 620.64,
+    "temp": 31.4,
+    "humidity": 79.43
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:07:00.000Z",
+    "pm25": 321.11,
+    "gas": 464.64,
+    "smoke": 725.97,
+    "temp": 31.33,
+    "humidity": 78.86
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:07:30.000Z",
+    "pm25": 273.63,
+    "gas": 494.42,
+    "smoke": 709.27,
+    "temp": 30.96,
+    "humidity": 80.79
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:08:00.000Z",
+    "pm25": 315.46,
+    "gas": 465.03,
+    "smoke": 716.04,
+    "temp": 31.58,
+    "humidity": 76.17
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:08:30.000Z",
+    "pm25": 274.11,
+    "gas": 431.62,
+    "smoke": 594.48,
+    "temp": 31.67,
+    "humidity": 80.69
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:09:00.000Z",
+    "pm25": 294.23,
+    "gas": 446.23,
+    "smoke": 633.8,
+    "temp": 31.37,
+    "humidity": 77.89
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:09:30.000Z",
+    "pm25": 303.75,
+    "gas": 450.06,
+    "smoke": 663.77,
+    "temp": 31.36,
+    "humidity": 76.39
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:10:00.000Z",
+    "pm25": 274.51,
+    "gas": 500.24,
+    "smoke": 634.94,
+    "temp": 31.46,
+    "humidity": 79.69
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:10:30.000Z",
+    "pm25": 341.9,
+    "gas": 421.74,
+    "smoke": 619.41,
+    "temp": 31.27,
+    "humidity": 76.98
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:11:00.000Z",
+    "pm25": 326.86,
+    "gas": 479.98,
+    "smoke": 649.92,
+    "temp": 31.43,
+    "humidity": 76.39
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:11:30.000Z",
+    "pm25": 311.81,
+    "gas": 478.72,
+    "smoke": 650.06,
+    "temp": 31.36,
+    "humidity": 75.36
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:12:00.000Z",
+    "pm25": 313.87,
+    "gas": 439.33,
+    "smoke": 615.14,
+    "temp": 31.46,
+    "humidity": 76.91
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:12:30.000Z",
+    "pm25": 343.62,
+    "gas": 447.25,
+    "smoke": 610.0,
+    "temp": 31.7,
+    "humidity": 79.16
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:13:00.000Z",
+    "pm25": 339.18,
+    "gas": 483.37,
+    "smoke": 594.63,
+    "temp": 31.03,
+    "humidity": 78.82
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:13:30.000Z",
+    "pm25": 279.99,
+    "gas": 456.47,
+    "smoke": 652.18,
+    "temp": 30.94,
+    "humidity": 79.53
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:14:00.000Z",
+    "pm25": 311.93,
+    "gas": 499.28,
+    "smoke": 727.26,
+    "temp": 31.51,
+    "humidity": 81.31
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:14:30.000Z",
+    "pm25": 299.22,
+    "gas": 485.39,
+    "smoke": 656.52,
+    "temp": 31.82,
+    "humidity": 78.11
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:15:00.000Z",
+    "pm25": 335.42,
+    "gas": 421.37,
+    "smoke": 645.82,
+    "temp": 31.78,
+    "humidity": 79.25
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:15:30.000Z",
+    "pm25": 300.42,
+    "gas": 475.56,
+    "smoke": 727.39,
+    "temp": 31.32,
+    "humidity": 78.65
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:16:00.000Z",
+    "pm25": 324.23,
+    "gas": 492.68,
+    "smoke": 622.86,
+    "temp": 31.01,
+    "humidity": 77.26
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:16:30.000Z",
+    "pm25": 319.86,
+    "gas": 496.34,
+    "smoke": 581.6,
+    "temp": 31.48,
+    "humidity": 75.28
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:17:00.000Z",
+    "pm25": 269.74,
+    "gas": 461.91,
+    "smoke": 720.39,
+    "temp": 32.01,
+    "humidity": 76.03
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:17:30.000Z",
+    "pm25": 282.03,
+    "gas": 464.27,
+    "smoke": 604.01,
+    "temp": 30.98,
+    "humidity": 80.33
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:18:00.000Z",
+    "pm25": 340.09,
+    "gas": 428.67,
+    "smoke": 713.73,
+    "temp": 31.43,
+    "humidity": 78.99
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:18:30.000Z",
+    "pm25": 322.49,
+    "gas": 482.3,
+    "smoke": 674.62,
+    "temp": 31.52,
+    "humidity": 82.98
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:19:00.000Z",
+    "pm25": 283.48,
+    "gas": 436.22,
+    "smoke": 633.31,
+    "temp": 31.47,
+    "humidity": 78.94
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:19:30.000Z",
+    "pm25": 323.23,
+    "gas": 499.97,
+    "smoke": 597.55,
+    "temp": 31.21,
+    "humidity": 76.79
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:20:00.000Z",
+    "pm25": 275.2,
+    "gas": 424.59,
+    "smoke": 633.7,
+    "temp": 31.21,
+    "humidity": 76.02
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:20:30.000Z",
+    "pm25": 323.79,
+    "gas": 435.2,
+    "smoke": 649.95,
+    "temp": 31.48,
+    "humidity": 80.94
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:21:00.000Z",
+    "pm25": 324.45,
+    "gas": 479.63,
+    "smoke": 680.72,
+    "temp": 32.01,
+    "humidity": 76.63
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:21:30.000Z",
+    "pm25": 323.6,
+    "gas": 474.26,
+    "smoke": 663.77,
+    "temp": 31.74,
+    "humidity": 79.66
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:22:00.000Z",
+    "pm25": 330.96,
+    "gas": 426.57,
+    "smoke": 673.17,
+    "temp": 31.65,
+    "humidity": 76.74
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:22:30.000Z",
+    "pm25": 333.2,
+    "gas": 424.95,
+    "smoke": 629.98,
+    "temp": 31.71,
+    "humidity": 79.21
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:23:00.000Z",
+    "pm25": 338.57,
+    "gas": 443.01,
+    "smoke": 589.92,
+    "temp": 30.98,
+    "humidity": 80.51
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:23:30.000Z",
+    "pm25": 338.27,
+    "gas": 421.73,
+    "smoke": 670.73,
+    "temp": 31.52,
+    "humidity": 77.34
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:24:00.000Z",
+    "pm25": 266.62,
+    "gas": 440.57,
+    "smoke": 613.4,
+    "temp": 30.95,
+    "humidity": 78.74
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:24:30.000Z",
+    "pm25": 320.36,
+    "gas": 500.56,
+    "smoke": 714.97,
+    "temp": 31.66,
+    "humidity": 76.62
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:25:00.000Z",
+    "pm25": 337.95,
+    "gas": 496.01,
+    "smoke": 597.94,
+    "temp": 31.6,
+    "humidity": 78.92
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:25:30.000Z",
+    "pm25": 329.39,
+    "gas": 498.76,
+    "smoke": 701.88,
+    "temp": 31.68,
+    "humidity": 75.58
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:26:00.000Z",
+    "pm25": 337.85,
+    "gas": 504.09,
+    "smoke": 662.61,
+    "temp": 31.58,
+    "humidity": 77.75
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:26:30.000Z",
+    "pm25": 294.52,
+    "gas": 482.93,
+    "smoke": 591.91,
+    "temp": 31.34,
+    "humidity": 77.26
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:27:00.000Z",
+    "pm25": 286.72,
+    "gas": 468.14,
+    "smoke": 664.13,
+    "temp": 31.16,
+    "humidity": 76.77
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:27:30.000Z",
+    "pm25": 317.81,
+    "gas": 516.69,
+    "smoke": 705.28,
+    "temp": 31.24,
+    "humidity": 77.31
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:28:00.000Z",
+    "pm25": 336.34,
+    "gas": 504.81,
+    "smoke": 604.67,
+    "temp": 31.16,
+    "humidity": 78.36
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:28:30.000Z",
+    "pm25": 318.84,
+    "gas": 476.3,
+    "smoke": 673.99,
+    "temp": 31.7,
+    "humidity": 78.15
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:29:00.000Z",
+    "pm25": 304.89,
+    "gas": 465.03,
+    "smoke": 681.59,
+    "temp": 31.07,
+    "humidity": 79.9
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:29:30.000Z",
+    "pm25": 298.75,
+    "gas": 488.49,
+    "smoke": 726.31,
+    "temp": 31.45,
+    "humidity": 80.5
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:30:00.000Z",
+    "pm25": 312.46,
+    "gas": 465.97,
+    "smoke": 611.93,
+    "temp": 31.7,
+    "humidity": 76.02
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:30:30.000Z",
+    "pm25": 315.05,
+    "gas": 466.83,
+    "smoke": 636.15,
+    "temp": 31.34,
+    "humidity": 76.6
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:31:00.000Z",
+    "pm25": 323.47,
+    "gas": 488.9,
+    "smoke": 637.65,
+    "temp": 31.61,
+    "humidity": 79.47
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:31:30.000Z",
+    "pm25": 283.49,
+    "gas": 434.41,
+    "smoke": 662.92,
+    "temp": 31.26,
+    "humidity": 76.77
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:32:00.000Z",
+    "pm25": 311.16,
+    "gas": 469.92,
+    "smoke": 595.64,
+    "temp": 31.07,
+    "humidity": 77.36
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:32:30.000Z",
+    "pm25": 299.94,
+    "gas": 500.17,
+    "smoke": 635.01,
+    "temp": 31.59,
+    "humidity": 76.37
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:33:00.000Z",
+    "pm25": 331.69,
+    "gas": 465.27,
+    "smoke": 599.76,
+    "temp": 31.36,
+    "humidity": 79.56
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:33:30.000Z",
+    "pm25": 324.25,
+    "gas": 441.28,
+    "smoke": 699.99,
+    "temp": 31.33,
+    "humidity": 77.96
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:34:00.000Z",
+    "pm25": 325.76,
+    "gas": 438.83,
+    "smoke": 624.46,
+    "temp": 31.42,
+    "humidity": 77.51
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:34:30.000Z",
+    "pm25": 344.22,
+    "gas": 471.27,
+    "smoke": 636.17,
+    "temp": 31.54,
+    "humidity": 80.79
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:35:00.000Z",
+    "pm25": 297.15,
+    "gas": 440.96,
+    "smoke": 660.66,
+    "temp": 31.06,
+    "humidity": 75.29
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:35:30.000Z",
+    "pm25": 306.09,
+    "gas": 473.37,
+    "smoke": 738.19,
+    "temp": 31.36,
+    "humidity": 76.19
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:36:00.000Z",
+    "pm25": 303.4,
+    "gas": 486.7,
+    "smoke": 646.78,
+    "temp": 31.48,
+    "humidity": 77.9
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:36:30.000Z",
+    "pm25": 343.61,
+    "gas": 478.1,
+    "smoke": 664.34,
+    "temp": 31.24,
+    "humidity": 79.49
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:37:00.000Z",
+    "pm25": 340.77,
+    "gas": 450.58,
+    "smoke": 696.62,
+    "temp": 31.44,
+    "humidity": 75.95
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:37:30.000Z",
+    "pm25": 297.33,
+    "gas": 475.22,
+    "smoke": 715.39,
+    "temp": 31.81,
+    "humidity": 79.6
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:38:00.000Z",
+    "pm25": 338.39,
+    "gas": 497.06,
+    "smoke": 630.03,
+    "temp": 31.49,
+    "humidity": 79.06
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:38:30.000Z",
+    "pm25": 333.09,
+    "gas": 430.01,
+    "smoke": 673.68,
+    "temp": 31.33,
+    "humidity": 74.38
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:39:00.000Z",
+    "pm25": 328.72,
+    "gas": 487.52,
+    "smoke": 726.44,
+    "temp": 31.56,
+    "humidity": 78.16
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:39:30.000Z",
+    "pm25": 314.02,
+    "gas": 478.89,
+    "smoke": 673.14,
+    "temp": 31.69,
+    "humidity": 77.71
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:40:00.000Z",
+    "pm25": 286.61,
+    "gas": 473.54,
+    "smoke": 608.72,
+    "temp": 31.54,
+    "humidity": 79.15
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:40:30.000Z",
+    "pm25": 345.91,
+    "gas": 395.17,
+    "smoke": 703.79,
+    "temp": 30.97,
+    "humidity": 77.58
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:41:00.000Z",
+    "pm25": 325.97,
+    "gas": 475.38,
+    "smoke": 685.22,
+    "temp": 31.47,
+    "humidity": 75.81
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:41:30.000Z",
+    "pm25": 318.4,
+    "gas": 458.41,
+    "smoke": 594.62,
+    "temp": 31.72,
+    "humidity": 76.28
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:42:00.000Z",
+    "pm25": 293.43,
+    "gas": 475.85,
+    "smoke": 661.14,
+    "temp": 30.96,
+    "humidity": 76.28
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:42:30.000Z",
+    "pm25": 325.36,
+    "gas": 412.9,
+    "smoke": 671.79,
+    "temp": 31.13,
+    "humidity": 80.97
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:43:00.000Z",
+    "pm25": 317.74,
+    "gas": 485.39,
+    "smoke": 653.34,
+    "temp": 31.33,
+    "humidity": 79.68
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:43:30.000Z",
+    "pm25": 288.87,
+    "gas": 473.57,
+    "smoke": 687.21,
+    "temp": 31.26,
+    "humidity": 76.79
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:44:00.000Z",
+    "pm25": 332.09,
+    "gas": 482.51,
+    "smoke": 604.42,
+    "temp": 30.93,
+    "humidity": 81.09
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:44:30.000Z",
+    "pm25": 336.14,
+    "gas": 453.45,
+    "smoke": 610.86,
+    "temp": 30.87,
+    "humidity": 79.88
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:45:00.000Z",
+    "pm25": 321.87,
+    "gas": 484.03,
+    "smoke": 623.66,
+    "temp": 31.44,
+    "humidity": 76.42
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:45:30.000Z",
+    "pm25": 291.99,
+    "gas": 444.61,
+    "smoke": 613.91,
+    "temp": 31.21,
+    "humidity": 74.39
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:46:00.000Z",
+    "pm25": 306.79,
+    "gas": 462.39,
+    "smoke": 613.54,
+    "temp": 31.47,
+    "humidity": 79.1
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:46:30.000Z",
+    "pm25": 298.96,
+    "gas": 444.17,
+    "smoke": 668.15,
+    "temp": 30.97,
+    "humidity": 79.32
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:47:00.000Z",
+    "pm25": 303.16,
+    "gas": 490.37,
+    "smoke": 587.49,
+    "temp": 30.99,
+    "humidity": 81.23
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:47:30.000Z",
+    "pm25": 307.77,
+    "gas": 438.42,
+    "smoke": 664.08,
+    "temp": 31.65,
+    "humidity": 76.2
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:48:00.000Z",
+    "pm25": 283.76,
+    "gas": 426.48,
+    "smoke": 594.65,
+    "temp": 30.83,
+    "humidity": 77.67
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:48:30.000Z",
+    "pm25": 279.32,
+    "gas": 482.0,
+    "smoke": 649.2,
+    "temp": 30.96,
+    "humidity": 76.37
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:49:00.000Z",
+    "pm25": 337.25,
+    "gas": 437.49,
+    "smoke": 716.4,
+    "temp": 31.84,
+    "humidity": 77.67
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:49:30.000Z",
+    "pm25": 291.93,
+    "gas": 498.52,
+    "smoke": 709.63,
+    "temp": 31.16,
+    "humidity": 76.98
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:50:00.000Z",
+    "pm25": 315.41,
+    "gas": 433.63,
+    "smoke": 619.89,
+    "temp": 30.98,
+    "humidity": 76.6
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:50:30.000Z",
+    "pm25": 285.59,
+    "gas": 451.88,
+    "smoke": 682.96,
+    "temp": 31.57,
+    "humidity": 78.86
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:51:00.000Z",
+    "pm25": 337.77,
+    "gas": 453.9,
+    "smoke": 608.55,
+    "temp": 30.86,
+    "humidity": 76.42
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:51:30.000Z",
+    "pm25": 334.89,
+    "gas": 489.87,
+    "smoke": 714.66,
+    "temp": 31.89,
+    "humidity": 78.09
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:52:00.000Z",
+    "pm25": 308.78,
+    "gas": 444.93,
+    "smoke": 688.07,
+    "temp": 30.42,
+    "humidity": 75.46
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:52:30.000Z",
+    "pm25": 321.73,
+    "gas": 505.01,
+    "smoke": 661.28,
+    "temp": 30.77,
+    "humidity": 77.42
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:53:00.000Z",
+    "pm25": 342.54,
+    "gas": 512.38,
+    "smoke": 658.51,
+    "temp": 30.91,
+    "humidity": 76.23
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:53:30.000Z",
+    "pm25": 306.99,
+    "gas": 425.08,
+    "smoke": 609.08,
+    "temp": 31.02,
+    "humidity": 77.11
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:54:00.000Z",
+    "pm25": 284.86,
+    "gas": 403.03,
+    "smoke": 652.05,
+    "temp": 30.68,
+    "humidity": 77.58
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:54:30.000Z",
+    "pm25": 312.42,
+    "gas": 503.73,
+    "smoke": 680.59,
+    "temp": 30.95,
+    "humidity": 76.07
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:55:00.000Z",
+    "pm25": 302.31,
+    "gas": 452.36,
+    "smoke": 592.3,
+    "temp": 31.39,
+    "humidity": 76.81
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:55:30.000Z",
+    "pm25": 319.4,
+    "gas": 509.14,
+    "smoke": 700.05,
+    "temp": 30.81,
+    "humidity": 80.88
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:56:00.000Z",
+    "pm25": 334.75,
+    "gas": 462.44,
+    "smoke": 632.04,
+    "temp": 31.23,
+    "humidity": 75.47
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:56:30.000Z",
+    "pm25": 316.33,
+    "gas": 435.23,
+    "smoke": 709.86,
+    "temp": 30.73,
+    "humidity": 79.33
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:57:00.000Z",
+    "pm25": 301.67,
+    "gas": 427.11,
+    "smoke": 640.44,
+    "temp": 30.92,
+    "humidity": 78.06
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:57:30.000Z",
+    "pm25": 292.67,
+    "gas": 463.2,
+    "smoke": 703.29,
+    "temp": 30.77,
+    "humidity": 79.16
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:58:00.000Z",
+    "pm25": 308.79,
+    "gas": 438.04,
+    "smoke": 640.06,
+    "temp": 30.89,
+    "humidity": 76.85
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:58:30.000Z",
+    "pm25": 305.29,
+    "gas": 433.38,
+    "smoke": 647.19,
+    "temp": 30.75,
+    "humidity": 78.19
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:59:00.000Z",
+    "pm25": 284.56,
+    "gas": 466.72,
+    "smoke": 706.84,
+    "temp": 30.73,
+    "humidity": 76.99
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T07:59:30.000Z",
+    "pm25": 316.33,
+    "gas": 457.49,
+    "smoke": 630.54,
+    "temp": 30.42,
+    "humidity": 75.12
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:00:00.000Z",
+    "pm25": 330.49,
+    "gas": 481.73,
+    "smoke": 607.43,
+    "temp": 30.83,
+    "humidity": 76.69
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:00:30.000Z",
+    "pm25": 301.74,
+    "gas": 449.11,
+    "smoke": 699.74,
+    "temp": 30.6,
+    "humidity": 75.85
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:01:00.000Z",
+    "pm25": 268.06,
+    "gas": 509.2,
+    "smoke": 711.32,
+    "temp": 30.87,
+    "humidity": 80.1
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:01:30.000Z",
+    "pm25": 308.82,
+    "gas": 508.51,
+    "smoke": 658.35,
+    "temp": 30.48,
+    "humidity": 79.39
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:02:00.000Z",
+    "pm25": 288.47,
+    "gas": 449.07,
+    "smoke": 687.27,
+    "temp": 30.23,
+    "humidity": 77.83
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:02:30.000Z",
+    "pm25": 297.84,
+    "gas": 447.75,
+    "smoke": 647.16,
+    "temp": 30.34,
+    "humidity": 75.51
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:03:00.000Z",
+    "pm25": 328.92,
+    "gas": 466.26,
+    "smoke": 700.03,
+    "temp": 31.01,
+    "humidity": 75.53
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:03:30.000Z",
+    "pm25": 299.18,
+    "gas": 476.95,
+    "smoke": 724.34,
+    "temp": 30.6,
+    "humidity": 77.75
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:04:00.000Z",
+    "pm25": 328.32,
+    "gas": 496.42,
+    "smoke": 640.08,
+    "temp": 30.98,
+    "humidity": 77.02
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:04:30.000Z",
+    "pm25": 310.74,
+    "gas": 424.91,
+    "smoke": 595.05,
+    "temp": 30.51,
+    "humidity": 75.59
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:05:00.000Z",
+    "pm25": 312.56,
+    "gas": 488.75,
+    "smoke": 627.16,
+    "temp": 30.87,
+    "humidity": 77.21
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:05:30.000Z",
+    "pm25": 286.8,
+    "gas": 446.66,
+    "smoke": 605.61,
+    "temp": 30.54,
+    "humidity": 76.82
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:06:00.000Z",
+    "pm25": 332.95,
+    "gas": 450.98,
+    "smoke": 716.1,
+    "temp": 30.83,
+    "humidity": 76.45
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:06:30.000Z",
+    "pm25": 315.19,
+    "gas": 449.06,
+    "smoke": 612.09,
+    "temp": 31.25,
+    "humidity": 77.18
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:07:00.000Z",
+    "pm25": 301.28,
+    "gas": 503.62,
+    "smoke": 602.27,
+    "temp": 30.65,
+    "humidity": 77.86
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:07:30.000Z",
+    "pm25": 318.06,
+    "gas": 431.58,
+    "smoke": 648.02,
+    "temp": 31.27,
+    "humidity": 77.74
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:08:00.000Z",
+    "pm25": 273.71,
+    "gas": 473.5,
+    "smoke": 689.17,
+    "temp": 30.27,
+    "humidity": 77.62
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:08:30.000Z",
+    "pm25": 329.61,
+    "gas": 520.48,
+    "smoke": 675.12,
+    "temp": 30.48,
+    "humidity": 77.55
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:09:00.000Z",
+    "pm25": 311.48,
+    "gas": 502.0,
+    "smoke": 676.22,
+    "temp": 30.77,
+    "humidity": 77.73
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:09:30.000Z",
+    "pm25": 304.73,
+    "gas": 468.55,
+    "smoke": 592.51,
+    "temp": 30.25,
+    "humidity": 79.88
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:10:00.000Z",
+    "pm25": 294.06,
+    "gas": 430.2,
+    "smoke": 645.78,
+    "temp": 30.74,
+    "humidity": 74.68
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:10:30.000Z",
+    "pm25": 294.51,
+    "gas": 428.71,
+    "smoke": 612.03,
+    "temp": 30.28,
+    "humidity": 74.67
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:11:00.000Z",
+    "pm25": 332.9,
+    "gas": 466.72,
+    "smoke": 730.95,
+    "temp": 30.98,
+    "humidity": 77.71
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:11:30.000Z",
+    "pm25": 270.5,
+    "gas": 456.39,
+    "smoke": 620.39,
+    "temp": 29.98,
+    "humidity": 78.11
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:12:00.000Z",
+    "pm25": 339.53,
+    "gas": 473.7,
+    "smoke": 613.86,
+    "temp": 30.16,
+    "humidity": 75.76
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:12:30.000Z",
+    "pm25": 338.64,
+    "gas": 468.44,
+    "smoke": 607.43,
+    "temp": 30.89,
+    "humidity": 74.42
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:13:00.000Z",
+    "pm25": 287.76,
+    "gas": 499.77,
+    "smoke": 645.46,
+    "temp": 30.4,
+    "humidity": 76.78
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:13:30.000Z",
+    "pm25": 309.34,
+    "gas": 494.55,
+    "smoke": 708.4,
+    "temp": 30.69,
+    "humidity": 77.06
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:14:00.000Z",
+    "pm25": 269.56,
+    "gas": 456.64,
+    "smoke": 622.79,
+    "temp": 29.68,
+    "humidity": 75.15
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:14:30.000Z",
+    "pm25": 270.79,
+    "gas": 472.95,
+    "smoke": 613.99,
+    "temp": 30.1,
+    "humidity": 78.34
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:15:00.000Z",
+    "pm25": 313.97,
+    "gas": 473.18,
+    "smoke": 642.18,
+    "temp": 29.95,
+    "humidity": 77.79
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:15:30.000Z",
+    "pm25": 284.73,
+    "gas": 501.39,
+    "smoke": 649.34,
+    "temp": 30.08,
+    "humidity": 75.5
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:16:00.000Z",
+    "pm25": 287.17,
+    "gas": 504.19,
+    "smoke": 636.14,
+    "temp": 30.15,
+    "humidity": 75.22
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:16:30.000Z",
+    "pm25": 299.81,
+    "gas": 491.05,
+    "smoke": 599.38,
+    "temp": 30.6,
+    "humidity": 76.72
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:17:00.000Z",
+    "pm25": 284.89,
+    "gas": 444.04,
+    "smoke": 628.78,
+    "temp": 31.13,
+    "humidity": 76.36
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:17:30.000Z",
+    "pm25": 273.2,
+    "gas": 433.93,
+    "smoke": 630.89,
+    "temp": 30.24,
+    "humidity": 75.16
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:18:00.000Z",
+    "pm25": 292.12,
+    "gas": 489.89,
+    "smoke": 657.03,
+    "temp": 29.88,
+    "humidity": 73.21
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:18:30.000Z",
+    "pm25": 330.09,
+    "gas": 514.46,
+    "smoke": 739.56,
+    "temp": 29.98,
+    "humidity": 74.85
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:19:00.000Z",
+    "pm25": 342.43,
+    "gas": 500.78,
+    "smoke": 672.44,
+    "temp": 29.89,
+    "humidity": 75.33
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:19:30.000Z",
+    "pm25": 326.97,
+    "gas": 451.42,
+    "smoke": 675.51,
+    "temp": 30.22,
+    "humidity": 76.89
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:20:00.000Z",
+    "pm25": 341.46,
+    "gas": 429.08,
+    "smoke": 633.09,
+    "temp": 30.1,
+    "humidity": 77.6
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:20:30.000Z",
+    "pm25": 349.73,
+    "gas": 481.26,
+    "smoke": 667.17,
+    "temp": 29.7,
+    "humidity": 76.58
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:21:00.000Z",
+    "pm25": 337.0,
+    "gas": 497.43,
+    "smoke": 684.19,
+    "temp": 30.32,
+    "humidity": 77.57
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:21:30.000Z",
+    "pm25": 320.81,
+    "gas": 438.9,
+    "smoke": 730.44,
+    "temp": 30.19,
+    "humidity": 77.53
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:22:00.000Z",
+    "pm25": 315.02,
+    "gas": 486.93,
+    "smoke": 599.43,
+    "temp": 29.91,
+    "humidity": 77.2
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:22:30.000Z",
+    "pm25": 319.89,
+    "gas": 451.49,
+    "smoke": 654.84,
+    "temp": 30.36,
+    "humidity": 77.18
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:23:00.000Z",
+    "pm25": 287.23,
+    "gas": 514.75,
+    "smoke": 598.44,
+    "temp": 30.03,
+    "humidity": 73.17
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:23:30.000Z",
+    "pm25": 331.51,
+    "gas": 501.36,
+    "smoke": 674.74,
+    "temp": 29.88,
+    "humidity": 74.86
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:24:00.000Z",
+    "pm25": 341.8,
+    "gas": 476.21,
+    "smoke": 697.67,
+    "temp": 30.16,
+    "humidity": 75.4
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:24:30.000Z",
+    "pm25": 315.17,
+    "gas": 463.02,
+    "smoke": 632.93,
+    "temp": 30.42,
+    "humidity": 77.03
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:25:00.000Z",
+    "pm25": 299.13,
+    "gas": 439.86,
+    "smoke": 630.54,
+    "temp": 29.62,
+    "humidity": 75.72
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:25:30.000Z",
+    "pm25": 312.29,
+    "gas": 509.32,
+    "smoke": 657.37,
+    "temp": 29.71,
+    "humidity": 76.2
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:26:00.000Z",
+    "pm25": 330.19,
+    "gas": 491.56,
+    "smoke": 698.31,
+    "temp": 30.15,
+    "humidity": 79.01
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:26:30.000Z",
+    "pm25": 284.87,
+    "gas": 479.92,
+    "smoke": 685.39,
+    "temp": 30.48,
+    "humidity": 74.1
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:27:00.000Z",
+    "pm25": 274.85,
+    "gas": 468.7,
+    "smoke": 691.02,
+    "temp": 30.25,
+    "humidity": 77.36
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:27:30.000Z",
+    "pm25": 301.91,
+    "gas": 460.69,
+    "smoke": 628.09,
+    "temp": 30.26,
+    "humidity": 78.66
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:28:00.000Z",
+    "pm25": 324.26,
+    "gas": 489.74,
+    "smoke": 709.37,
+    "temp": 29.84,
+    "humidity": 76.37
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:28:30.000Z",
+    "pm25": 275.03,
+    "gas": 507.1,
+    "smoke": 613.3,
+    "temp": 29.96,
+    "humidity": 76.03
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:29:00.000Z",
+    "pm25": 278.16,
+    "gas": 495.2,
+    "smoke": 673.55,
+    "temp": 29.76,
+    "humidity": 77.02
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:29:30.000Z",
+    "pm25": 296.21,
+    "gas": 434.01,
+    "smoke": 664.64,
+    "temp": 30.21,
+    "humidity": 76.53
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:30:00.000Z",
+    "pm25": 294.36,
+    "gas": 479.95,
+    "smoke": 645.54,
+    "temp": 30.03,
+    "humidity": 77.0
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:30:30.000Z",
+    "pm25": 299.87,
+    "gas": 445.77,
+    "smoke": 694.95,
+    "temp": 29.96,
+    "humidity": 77.46
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:31:00.000Z",
+    "pm25": 276.81,
+    "gas": 490.97,
+    "smoke": 614.48,
+    "temp": 29.94,
+    "humidity": 75.54
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:31:30.000Z",
+    "pm25": 315.29,
+    "gas": 415.89,
+    "smoke": 588.15,
+    "temp": 29.98,
+    "humidity": 74.9
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:32:00.000Z",
+    "pm25": 310.74,
+    "gas": 445.41,
+    "smoke": 664.72,
+    "temp": 29.79,
+    "humidity": 76.02
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:32:30.000Z",
+    "pm25": 288.56,
+    "gas": 460.36,
+    "smoke": 698.7,
+    "temp": 29.31,
+    "humidity": 74.04
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:33:00.000Z",
+    "pm25": 338.98,
+    "gas": 482.26,
+    "smoke": 649.73,
+    "temp": 30.16,
+    "humidity": 74.82
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:33:30.000Z",
+    "pm25": 284.97,
+    "gas": 482.48,
+    "smoke": 689.67,
+    "temp": 29.86,
+    "humidity": 75.87
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:34:00.000Z",
+    "pm25": 291.15,
+    "gas": 459.95,
+    "smoke": 718.71,
+    "temp": 29.55,
+    "humidity": 74.9
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:34:30.000Z",
+    "pm25": 318.42,
+    "gas": 492.06,
+    "smoke": 682.87,
+    "temp": 29.42,
+    "humidity": 75.9
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:35:00.000Z",
+    "pm25": 325.52,
+    "gas": 442.08,
+    "smoke": 681.04,
+    "temp": 29.81,
+    "humidity": 75.67
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:35:30.000Z",
+    "pm25": 307.9,
+    "gas": 473.74,
+    "smoke": 607.24,
+    "temp": 29.91,
+    "humidity": 77.04
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:36:00.000Z",
+    "pm25": 309.16,
+    "gas": 488.44,
+    "smoke": 697.93,
+    "temp": 30.0,
+    "humidity": 77.82
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:36:30.000Z",
+    "pm25": 279.12,
+    "gas": 482.5,
+    "smoke": 670.52,
+    "temp": 29.84,
+    "humidity": 76.09
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:37:00.000Z",
+    "pm25": 288.48,
+    "gas": 465.37,
+    "smoke": 668.7,
+    "temp": 29.45,
+    "humidity": 74.53
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:37:30.000Z",
+    "pm25": 319.38,
+    "gas": 495.19,
+    "smoke": 614.39,
+    "temp": 29.19,
+    "humidity": 75.1
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:38:00.000Z",
+    "pm25": 338.86,
+    "gas": 483.86,
+    "smoke": 614.48,
+    "temp": 29.83,
+    "humidity": 77.76
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:38:30.000Z",
+    "pm25": 331.61,
+    "gas": 448.85,
+    "smoke": 652.2,
+    "temp": 29.83,
+    "humidity": 75.23
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:39:00.000Z",
+    "pm25": 334.83,
+    "gas": 475.19,
+    "smoke": 681.62,
+    "temp": 30.19,
+    "humidity": 74.83
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:39:30.000Z",
+    "pm25": 339.79,
+    "gas": 418.61,
+    "smoke": 671.58,
+    "temp": 29.92,
+    "humidity": 75.66
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:40:00.000Z",
+    "pm25": 311.6,
+    "gas": 496.46,
+    "smoke": 686.23,
+    "temp": 29.68,
+    "humidity": 75.22
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:40:30.000Z",
+    "pm25": 280.78,
+    "gas": 443.45,
+    "smoke": 714.81,
+    "temp": 30.07,
+    "humidity": 74.26
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:41:00.000Z",
+    "pm25": 284.82,
+    "gas": 429.29,
+    "smoke": 635.41,
+    "temp": 29.69,
+    "humidity": 73.68
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:41:30.000Z",
+    "pm25": 329.06,
+    "gas": 443.76,
+    "smoke": 644.23,
+    "temp": 29.34,
+    "humidity": 75.34
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:42:00.000Z",
+    "pm25": 308.2,
+    "gas": 437.53,
+    "smoke": 678.06,
+    "temp": 29.41,
+    "humidity": 76.41
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:42:30.000Z",
+    "pm25": 281.28,
+    "gas": 511.68,
+    "smoke": 590.03,
+    "temp": 30.1,
+    "humidity": 74.09
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:43:00.000Z",
+    "pm25": 328.48,
+    "gas": 424.76,
+    "smoke": 727.35,
+    "temp": 29.16,
+    "humidity": 75.54
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:43:30.000Z",
+    "pm25": 297.01,
+    "gas": 491.16,
+    "smoke": 701.74,
+    "temp": 29.74,
+    "humidity": 75.87
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:44:00.000Z",
+    "pm25": 272.31,
+    "gas": 447.05,
+    "smoke": 611.72,
+    "temp": 29.22,
+    "humidity": 74.37
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:44:30.000Z",
+    "pm25": 323.78,
+    "gas": 484.17,
+    "smoke": 679.1,
+    "temp": 29.81,
+    "humidity": 76.69
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:45:00.000Z",
+    "pm25": 337.63,
+    "gas": 438.81,
+    "smoke": 666.23,
+    "temp": 29.44,
+    "humidity": 79.65
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:45:30.000Z",
+    "pm25": 310.21,
+    "gas": 449.58,
+    "smoke": 604.15,
+    "temp": 29.8,
+    "humidity": 75.63
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:46:00.000Z",
+    "pm25": 328.92,
+    "gas": 458.55,
+    "smoke": 685.59,
+    "temp": 28.98,
+    "humidity": 76.66
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:46:30.000Z",
+    "pm25": 331.86,
+    "gas": 468.54,
+    "smoke": 735.42,
+    "temp": 29.37,
+    "humidity": 76.37
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:47:00.000Z",
+    "pm25": 326.11,
+    "gas": 501.91,
+    "smoke": 612.22,
+    "temp": 29.09,
+    "humidity": 75.87
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:47:30.000Z",
+    "pm25": 308.41,
+    "gas": 500.53,
+    "smoke": 598.15,
+    "temp": 30.0,
+    "humidity": 77.26
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:48:00.000Z",
+    "pm25": 327.71,
+    "gas": 514.34,
+    "smoke": 645.24,
+    "temp": 29.27,
+    "humidity": 74.17
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:48:30.000Z",
+    "pm25": 317.6,
+    "gas": 437.41,
+    "smoke": 726.92,
+    "temp": 29.42,
+    "humidity": 73.54
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:49:00.000Z",
+    "pm25": 332.9,
+    "gas": 457.36,
+    "smoke": 697.47,
+    "temp": 29.68,
+    "humidity": 75.44
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:49:30.000Z",
+    "pm25": 342.47,
+    "gas": 480.65,
+    "smoke": 705.11,
+    "temp": 29.65,
+    "humidity": 76.67
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:50:00.000Z",
+    "pm25": 305.36,
+    "gas": 478.74,
+    "smoke": 665.47,
+    "temp": 29.28,
+    "humidity": 74.99
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:50:30.000Z",
+    "pm25": 328.61,
+    "gas": 450.24,
+    "smoke": 652.93,
+    "temp": 29.25,
+    "humidity": 75.18
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:51:00.000Z",
+    "pm25": 328.6,
+    "gas": 426.32,
+    "smoke": 717.73,
+    "temp": 29.91,
+    "humidity": 76.23
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:51:30.000Z",
+    "pm25": 288.81,
+    "gas": 437.33,
+    "smoke": 672.78,
+    "temp": 29.78,
+    "humidity": 76.43
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:52:00.000Z",
+    "pm25": 284.48,
+    "gas": 501.76,
+    "smoke": 677.61,
+    "temp": 29.27,
+    "humidity": 75.85
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:52:30.000Z",
+    "pm25": 298.7,
+    "gas": 468.68,
+    "smoke": 601.0,
+    "temp": 29.4,
+    "humidity": 76.5
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:53:00.000Z",
+    "pm25": 328.94,
+    "gas": 455.19,
+    "smoke": 730.25,
+    "temp": 29.23,
+    "humidity": 75.02
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:53:30.000Z",
+    "pm25": 300.14,
+    "gas": 497.32,
+    "smoke": 705.13,
+    "temp": 29.32,
+    "humidity": 75.05
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:54:00.000Z",
+    "pm25": 337.94,
+    "gas": 441.72,
+    "smoke": 605.0,
+    "temp": 29.72,
+    "humidity": 74.12
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:54:30.000Z",
+    "pm25": 302.21,
+    "gas": 507.18,
+    "smoke": 665.63,
+    "temp": 29.59,
+    "humidity": 75.25
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:55:00.000Z",
+    "pm25": 340.72,
+    "gas": 448.77,
+    "smoke": 649.18,
+    "temp": 29.4,
+    "humidity": 74.14
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:55:30.000Z",
+    "pm25": 340.98,
+    "gas": 423.91,
+    "smoke": 642.11,
+    "temp": 29.6,
+    "humidity": 77.87
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:56:00.000Z",
+    "pm25": 306.49,
+    "gas": 419.04,
+    "smoke": 659.68,
+    "temp": 29.51,
+    "humidity": 76.4
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:56:30.000Z",
+    "pm25": 297.67,
+    "gas": 468.03,
+    "smoke": 677.09,
+    "temp": 29.44,
+    "humidity": 73.58
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:57:00.000Z",
+    "pm25": 305.32,
+    "gas": 444.41,
+    "smoke": 695.81,
+    "temp": 29.67,
+    "humidity": 76.42
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:57:30.000Z",
+    "pm25": 325.0,
+    "gas": 441.34,
+    "smoke": 609.85,
+    "temp": 29.15,
+    "humidity": 74.16
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:58:00.000Z",
+    "pm25": 332.74,
+    "gas": 452.28,
+    "smoke": 716.27,
+    "temp": 29.16,
+    "humidity": 74.38
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:58:30.000Z",
+    "pm25": 291.44,
+    "gas": 464.2,
+    "smoke": 608.58,
+    "temp": 29.0,
+    "humidity": 74.76
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:59:00.000Z",
+    "pm25": 288.06,
+    "gas": 505.45,
+    "smoke": 677.26,
+    "temp": 29.56,
+    "humidity": 73.12
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T08:59:30.000Z",
+    "pm25": 270.69,
+    "gas": 484.64,
+    "smoke": 596.17,
+    "temp": 29.31,
+    "humidity": 73.68
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:00:00.000Z",
+    "pm25": 295.56,
+    "gas": 467.89,
+    "smoke": 647.8,
+    "temp": 29.8,
+    "humidity": 76.73
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:00:30.000Z",
+    "pm25": 297.1,
+    "gas": 457.35,
+    "smoke": 638.75,
+    "temp": 29.34,
+    "humidity": 74.32
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:01:00.000Z",
+    "pm25": 297.45,
+    "gas": 456.18,
+    "smoke": 654.75,
+    "temp": 29.05,
+    "humidity": 74.56
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:01:30.000Z",
+    "pm25": 307.05,
+    "gas": 457.26,
+    "smoke": 638.76,
+    "temp": 29.67,
+    "humidity": 74.1
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:02:00.000Z",
+    "pm25": 300.61,
+    "gas": 447.85,
+    "smoke": 661.3,
+    "temp": 29.77,
+    "humidity": 72.39
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:02:30.000Z",
+    "pm25": 303.32,
+    "gas": 459.49,
+    "smoke": 656.85,
+    "temp": 29.33,
+    "humidity": 74.12
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:03:00.000Z",
+    "pm25": 301.11,
+    "gas": 465.97,
+    "smoke": 649.43,
+    "temp": 29.31,
+    "humidity": 76.93
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:03:30.000Z",
+    "pm25": 295.62,
+    "gas": 469.8,
+    "smoke": 647.76,
+    "temp": 29.64,
+    "humidity": 74.7
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:04:00.000Z",
+    "pm25": 300.6,
+    "gas": 455.79,
+    "smoke": 658.65,
+    "temp": 29.37,
+    "humidity": 73.34
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:04:30.000Z",
+    "pm25": 301.52,
+    "gas": 471.53,
+    "smoke": 638.63,
+    "temp": 29.51,
+    "humidity": 75.46
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:05:00.000Z",
+    "pm25": 295.64,
+    "gas": 451.4,
+    "smoke": 646.32,
+    "temp": 29.63,
+    "humidity": 75.32
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:05:30.000Z",
+    "pm25": 297.86,
+    "gas": 467.44,
+    "smoke": 646.94,
+    "temp": 29.7,
+    "humidity": 74.84
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:06:00.000Z",
+    "pm25": 298.04,
+    "gas": 452.26,
+    "smoke": 636.4,
+    "temp": 29.3,
+    "humidity": 72.36
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:06:30.000Z",
+    "pm25": 298.76,
+    "gas": 470.36,
+    "smoke": 641.72,
+    "temp": 28.98,
+    "humidity": 76.62
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:07:00.000Z",
+    "pm25": 299.45,
+    "gas": 453.98,
+    "smoke": 652.34,
+    "temp": 29.73,
+    "humidity": 75.71
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:07:30.000Z",
+    "pm25": 299.89,
+    "gas": 465.16,
+    "smoke": 645.74,
+    "temp": 29.35,
+    "humidity": 74.48
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:08:00.000Z",
+    "pm25": 296.84,
+    "gas": 457.12,
+    "smoke": 635.67,
+    "temp": 28.94,
+    "humidity": 70.25
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:08:30.000Z",
+    "pm25": 304.02,
+    "gas": 454.11,
+    "smoke": 639.73,
+    "temp": 29.87,
+    "humidity": 72.83
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:09:00.000Z",
+    "pm25": 298.36,
+    "gas": 454.46,
+    "smoke": 640.31,
+    "temp": 29.58,
+    "humidity": 76.83
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:09:30.000Z",
+    "pm25": 298.93,
+    "gas": 447.5,
+    "smoke": 645.91,
+    "temp": 29.43,
+    "humidity": 74.54
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:10:00.000Z",
+    "pm25": 295.87,
+    "gas": 456.04,
+    "smoke": 650.6,
+    "temp": 29.06,
+    "humidity": 76.62
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:10:30.000Z",
+    "pm25": 295.3,
+    "gas": 453.01,
+    "smoke": 638.86,
+    "temp": 28.68,
+    "humidity": 75.1
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:11:00.000Z",
+    "pm25": 300.66,
+    "gas": 476.39,
+    "smoke": 639.93,
+    "temp": 29.35,
+    "humidity": 75.35
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:11:30.000Z",
+    "pm25": 302.19,
+    "gas": 461.16,
+    "smoke": 659.31,
+    "temp": 29.48,
+    "humidity": 77.41
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:12:00.000Z",
+    "pm25": 297.73,
+    "gas": 456.71,
+    "smoke": 643.98,
+    "temp": 30.26,
+    "humidity": 75.18
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:12:30.000Z",
+    "pm25": 299.55,
+    "gas": 450.12,
+    "smoke": 659.41,
+    "temp": 29.54,
+    "humidity": 76.28
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:13:00.000Z",
+    "pm25": 297.95,
+    "gas": 472.97,
+    "smoke": 639.19,
+    "temp": 29.21,
+    "humidity": 74.04
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:13:30.000Z",
+    "pm25": 296.97,
+    "gas": 442.03,
+    "smoke": 634.72,
+    "temp": 29.66,
+    "humidity": 75.4
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:14:00.000Z",
+    "pm25": 299.18,
+    "gas": 451.42,
+    "smoke": 628.89,
+    "temp": 29.5,
+    "humidity": 77.51
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:14:30.000Z",
+    "pm25": 294.32,
+    "gas": 449.12,
+    "smoke": 639.94,
+    "temp": 29.45,
+    "humidity": 73.72
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:15:00.000Z",
+    "pm25": 291.5,
+    "gas": 457.59,
+    "smoke": 643.18,
+    "temp": 29.53,
+    "humidity": 75.54
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:15:30.000Z",
+    "pm25": 298.97,
+    "gas": 460.07,
+    "smoke": 643.74,
+    "temp": 29.6,
+    "humidity": 76.05
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:16:00.000Z",
+    "pm25": 294.43,
+    "gas": 447.09,
+    "smoke": 641.94,
+    "temp": 29.56,
+    "humidity": 74.81
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:16:30.000Z",
+    "pm25": 292.03,
+    "gas": 452.53,
+    "smoke": 627.7,
+    "temp": 29.49,
+    "humidity": 73.63
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:17:00.000Z",
+    "pm25": 294.92,
+    "gas": 452.89,
+    "smoke": 647.21,
+    "temp": 29.41,
+    "humidity": 72.11
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:17:30.000Z",
+    "pm25": 294.59,
+    "gas": 443.19,
+    "smoke": 630.46,
+    "temp": 29.91,
+    "humidity": 73.99
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:18:00.000Z",
+    "pm25": 293.41,
+    "gas": 438.78,
+    "smoke": 630.24,
+    "temp": 29.06,
+    "humidity": 71.96
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:18:30.000Z",
+    "pm25": 291.18,
+    "gas": 462.41,
+    "smoke": 635.21,
+    "temp": 29.45,
+    "humidity": 72.34
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:19:00.000Z",
+    "pm25": 288.72,
+    "gas": 451.57,
+    "smoke": 640.54,
+    "temp": 29.46,
+    "humidity": 73.99
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:19:30.000Z",
+    "pm25": 293.05,
+    "gas": 439.13,
+    "smoke": 648.39,
+    "temp": 29.07,
+    "humidity": 74.35
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:20:00.000Z",
+    "pm25": 290.08,
+    "gas": 442.11,
+    "smoke": 635.32,
+    "temp": 29.72,
+    "humidity": 75.74
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:20:30.000Z",
+    "pm25": 291.61,
+    "gas": 446.1,
+    "smoke": 624.75,
+    "temp": 29.63,
+    "humidity": 75.17
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:21:00.000Z",
+    "pm25": 290.91,
+    "gas": 455.65,
+    "smoke": 641.32,
+    "temp": 29.87,
+    "humidity": 75.25
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:21:30.000Z",
+    "pm25": 288.04,
+    "gas": 461.17,
+    "smoke": 620.98,
+    "temp": 29.99,
+    "humidity": 70.76
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:22:00.000Z",
+    "pm25": 287.85,
+    "gas": 442.26,
+    "smoke": 634.54,
+    "temp": 29.37,
+    "humidity": 77.42
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:22:30.000Z",
+    "pm25": 288.47,
+    "gas": 436.97,
+    "smoke": 645.88,
+    "temp": 29.67,
+    "humidity": 75.7
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:23:00.000Z",
+    "pm25": 289.11,
+    "gas": 443.84,
+    "smoke": 621.3,
+    "temp": 29.57,
+    "humidity": 74.52
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:23:30.000Z",
+    "pm25": 290.58,
+    "gas": 445.38,
+    "smoke": 629.7,
+    "temp": 29.81,
+    "humidity": 73.11
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:24:00.000Z",
+    "pm25": 290.41,
+    "gas": 449.54,
+    "smoke": 631.17,
+    "temp": 30.16,
+    "humidity": 73.72
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:24:30.000Z",
+    "pm25": 286.31,
+    "gas": 442.29,
+    "smoke": 600.47,
+    "temp": 29.56,
+    "humidity": 70.24
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:25:00.000Z",
+    "pm25": 288.25,
+    "gas": 458.65,
+    "smoke": 610.59,
+    "temp": 29.65,
+    "humidity": 73.8
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:25:30.000Z",
+    "pm25": 287.28,
+    "gas": 445.35,
+    "smoke": 635.16,
+    "temp": 30.3,
+    "humidity": 76.28
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:26:00.000Z",
+    "pm25": 286.77,
+    "gas": 436.99,
+    "smoke": 605.92,
+    "temp": 29.09,
+    "humidity": 72.67
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:26:30.000Z",
+    "pm25": 287.62,
+    "gas": 450.03,
+    "smoke": 614.0,
+    "temp": 28.82,
+    "humidity": 74.29
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:27:00.000Z",
+    "pm25": 286.54,
+    "gas": 454.88,
+    "smoke": 605.26,
+    "temp": 30.19,
+    "humidity": 71.86
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:27:30.000Z",
+    "pm25": 288.33,
+    "gas": 443.95,
+    "smoke": 622.52,
+    "temp": 29.73,
+    "humidity": 72.94
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:28:00.000Z",
+    "pm25": 280.37,
+    "gas": 438.33,
+    "smoke": 614.03,
+    "temp": 29.69,
+    "humidity": 71.69
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:28:30.000Z",
+    "pm25": 280.69,
+    "gas": 442.89,
+    "smoke": 610.78,
+    "temp": 29.97,
+    "humidity": 76.27
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:29:00.000Z",
+    "pm25": 278.66,
+    "gas": 430.98,
+    "smoke": 612.73,
+    "temp": 29.56,
+    "humidity": 75.04
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:29:30.000Z",
+    "pm25": 283.55,
+    "gas": 447.42,
+    "smoke": 623.79,
+    "temp": 29.21,
+    "humidity": 72.02
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:30:00.000Z",
+    "pm25": 280.58,
+    "gas": 426.96,
+    "smoke": 632.07,
+    "temp": 29.69,
+    "humidity": 69.11
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:30:30.000Z",
+    "pm25": 280.03,
+    "gas": 426.02,
+    "smoke": 596.11,
+    "temp": 29.68,
+    "humidity": 74.08
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:31:00.000Z",
+    "pm25": 286.13,
+    "gas": 440.04,
+    "smoke": 605.63,
+    "temp": 29.81,
+    "humidity": 72.51
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:31:30.000Z",
+    "pm25": 282.8,
+    "gas": 437.65,
+    "smoke": 605.55,
+    "temp": 29.68,
+    "humidity": 74.84
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:32:00.000Z",
+    "pm25": 286.91,
+    "gas": 431.36,
+    "smoke": 602.45,
+    "temp": 30.36,
+    "humidity": 73.34
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:32:30.000Z",
+    "pm25": 277.97,
+    "gas": 429.78,
+    "smoke": 594.06,
+    "temp": 30.15,
+    "humidity": 73.01
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:33:00.000Z",
+    "pm25": 276.49,
+    "gas": 430.16,
+    "smoke": 601.78,
+    "temp": 29.5,
+    "humidity": 73.48
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:33:30.000Z",
+    "pm25": 279.54,
+    "gas": 436.42,
+    "smoke": 588.73,
+    "temp": 28.89,
+    "humidity": 75.09
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:34:00.000Z",
+    "pm25": 273.28,
+    "gas": 441.31,
+    "smoke": 597.34,
+    "temp": 29.82,
+    "humidity": 73.41
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:34:30.000Z",
+    "pm25": 270.56,
+    "gas": 437.23,
+    "smoke": 599.36,
+    "temp": 30.17,
+    "humidity": 76.7
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:35:00.000Z",
+    "pm25": 278.7,
+    "gas": 428.24,
+    "smoke": 600.42,
+    "temp": 30.1,
+    "humidity": 74.76
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:35:30.000Z",
+    "pm25": 276.87,
+    "gas": 436.46,
+    "smoke": 584.95,
+    "temp": 29.94,
+    "humidity": 74.53
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:36:00.000Z",
+    "pm25": 277.96,
+    "gas": 425.3,
+    "smoke": 585.32,
+    "temp": 29.59,
+    "humidity": 73.27
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:36:30.000Z",
+    "pm25": 273.92,
+    "gas": 414.86,
+    "smoke": 596.51,
+    "temp": 30.41,
+    "humidity": 76.11
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:37:00.000Z",
+    "pm25": 278.73,
+    "gas": 417.52,
+    "smoke": 610.54,
+    "temp": 30.03,
+    "humidity": 73.19
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:37:30.000Z",
+    "pm25": 272.77,
+    "gas": 437.01,
+    "smoke": 580.65,
+    "temp": 30.06,
+    "humidity": 71.25
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:38:00.000Z",
+    "pm25": 272.34,
+    "gas": 411.54,
+    "smoke": 589.16,
+    "temp": 29.32,
+    "humidity": 71.02
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:38:30.000Z",
+    "pm25": 272.1,
+    "gas": 408.64,
+    "smoke": 586.33,
+    "temp": 29.46,
+    "humidity": 73.66
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:39:00.000Z",
+    "pm25": 271.46,
+    "gas": 429.08,
+    "smoke": 594.12,
+    "temp": 29.57,
+    "humidity": 72.93
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:39:30.000Z",
+    "pm25": 266.09,
+    "gas": 415.86,
+    "smoke": 575.33,
+    "temp": 30.06,
+    "humidity": 72.63
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:40:00.000Z",
+    "pm25": 269.91,
+    "gas": 413.17,
+    "smoke": 583.51,
+    "temp": 30.09,
+    "humidity": 72.1
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:40:30.000Z",
+    "pm25": 268.44,
+    "gas": 414.07,
+    "smoke": 585.23,
+    "temp": 29.66,
+    "humidity": 74.64
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:41:00.000Z",
+    "pm25": 266.57,
+    "gas": 407.32,
+    "smoke": 582.02,
+    "temp": 30.03,
+    "humidity": 73.32
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:41:30.000Z",
+    "pm25": 267.01,
+    "gas": 407.39,
+    "smoke": 582.4,
+    "temp": 29.89,
+    "humidity": 75.02
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:42:00.000Z",
+    "pm25": 270.04,
+    "gas": 408.96,
+    "smoke": 569.26,
+    "temp": 29.53,
+    "humidity": 70.36
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:42:30.000Z",
+    "pm25": 267.91,
+    "gas": 401.62,
+    "smoke": 575.96,
+    "temp": 29.42,
+    "humidity": 73.22
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:43:00.000Z",
+    "pm25": 262.01,
+    "gas": 408.82,
+    "smoke": 570.69,
+    "temp": 30.23,
+    "humidity": 72.62
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:43:30.000Z",
+    "pm25": 268.43,
+    "gas": 414.99,
+    "smoke": 565.06,
+    "temp": 29.55,
+    "humidity": 72.03
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:44:00.000Z",
+    "pm25": 265.4,
+    "gas": 412.47,
+    "smoke": 558.92,
+    "temp": 29.81,
+    "humidity": 72.08
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:44:30.000Z",
+    "pm25": 265.63,
+    "gas": 410.04,
+    "smoke": 559.63,
+    "temp": 30.48,
+    "humidity": 73.07
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:45:00.000Z",
+    "pm25": 261.37,
+    "gas": 400.76,
+    "smoke": 569.7,
+    "temp": 29.85,
+    "humidity": 72.64
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:45:30.000Z",
+    "pm25": 257.02,
+    "gas": 392.56,
+    "smoke": 544.22,
+    "temp": 30.21,
+    "humidity": 73.25
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:46:00.000Z",
+    "pm25": 256.77,
+    "gas": 412.15,
+    "smoke": 562.47,
+    "temp": 30.11,
+    "humidity": 73.49
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:46:30.000Z",
+    "pm25": 261.83,
+    "gas": 403.02,
+    "smoke": 560.49,
+    "temp": 30.05,
+    "humidity": 73.64
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:47:00.000Z",
+    "pm25": 264.87,
+    "gas": 387.3,
+    "smoke": 542.42,
+    "temp": 29.57,
+    "humidity": 70.03
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:47:30.000Z",
+    "pm25": 260.1,
+    "gas": 394.52,
+    "smoke": 560.5,
+    "temp": 30.1,
+    "humidity": 75.59
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:48:00.000Z",
+    "pm25": 259.62,
+    "gas": 395.59,
+    "smoke": 554.3,
+    "temp": 29.97,
+    "humidity": 72.95
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:48:30.000Z",
+    "pm25": 255.92,
+    "gas": 400.47,
+    "smoke": 559.09,
+    "temp": 29.8,
+    "humidity": 69.22
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:49:00.000Z",
+    "pm25": 256.46,
+    "gas": 400.4,
+    "smoke": 560.68,
+    "temp": 30.22,
+    "humidity": 71.15
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:49:30.000Z",
+    "pm25": 258.82,
+    "gas": 404.52,
+    "smoke": 537.47,
+    "temp": 29.98,
+    "humidity": 72.29
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:50:00.000Z",
+    "pm25": 254.81,
+    "gas": 387.01,
+    "smoke": 563.16,
+    "temp": 29.77,
+    "humidity": 71.48
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:50:30.000Z",
+    "pm25": 252.27,
+    "gas": 406.38,
+    "smoke": 531.86,
+    "temp": 29.84,
+    "humidity": 72.42
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:51:00.000Z",
+    "pm25": 253.21,
+    "gas": 394.23,
+    "smoke": 520.31,
+    "temp": 30.45,
+    "humidity": 73.44
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:51:30.000Z",
+    "pm25": 255.44,
+    "gas": 392.03,
+    "smoke": 535.19,
+    "temp": 29.29,
+    "humidity": 75.65
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:52:00.000Z",
+    "pm25": 250.81,
+    "gas": 395.48,
+    "smoke": 533.57,
+    "temp": 29.93,
+    "humidity": 73.49
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:52:30.000Z",
+    "pm25": 246.21,
+    "gas": 387.24,
+    "smoke": 523.48,
+    "temp": 30.08,
+    "humidity": 71.45
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:53:00.000Z",
+    "pm25": 248.59,
+    "gas": 390.7,
+    "smoke": 535.59,
+    "temp": 29.97,
+    "humidity": 75.17
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:53:30.000Z",
+    "pm25": 246.26,
+    "gas": 380.75,
+    "smoke": 538.76,
+    "temp": 30.2,
+    "humidity": 74.58
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:54:00.000Z",
+    "pm25": 250.24,
+    "gas": 395.85,
+    "smoke": 525.23,
+    "temp": 30.08,
+    "humidity": 74.83
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:54:30.000Z",
+    "pm25": 248.99,
+    "gas": 373.34,
+    "smoke": 543.26,
+    "temp": 30.32,
+    "humidity": 74.62
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:55:00.000Z",
+    "pm25": 246.01,
+    "gas": 372.38,
+    "smoke": 531.93,
+    "temp": 30.63,
+    "humidity": 73.38
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:55:30.000Z",
+    "pm25": 246.67,
+    "gas": 385.45,
+    "smoke": 520.86,
+    "temp": 29.72,
+    "humidity": 72.33
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:56:00.000Z",
+    "pm25": 243.62,
+    "gas": 372.66,
+    "smoke": 516.18,
+    "temp": 29.69,
+    "humidity": 70.16
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:56:30.000Z",
+    "pm25": 246.26,
+    "gas": 379.57,
+    "smoke": 515.46,
+    "temp": 29.91,
+    "humidity": 72.53
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:57:00.000Z",
+    "pm25": 246.47,
+    "gas": 368.69,
+    "smoke": 510.46,
+    "temp": 29.68,
+    "humidity": 72.38
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:57:30.000Z",
+    "pm25": 245.9,
+    "gas": 381.87,
+    "smoke": 510.84,
+    "temp": 29.7,
+    "humidity": 72.94
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:58:00.000Z",
+    "pm25": 240.23,
+    "gas": 382.96,
+    "smoke": 509.29,
+    "temp": 30.06,
+    "humidity": 70.0
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:58:30.000Z",
+    "pm25": 243.03,
+    "gas": 373.8,
+    "smoke": 507.26,
+    "temp": 30.3,
+    "humidity": 71.46
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:59:00.000Z",
+    "pm25": 243.47,
+    "gas": 367.64,
+    "smoke": 495.32,
+    "temp": 30.48,
+    "humidity": 72.39
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T09:59:30.000Z",
+    "pm25": 241.89,
+    "gas": 368.16,
+    "smoke": 502.53,
+    "temp": 29.62,
+    "humidity": 73.64
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:00:00.000Z",
+    "pm25": 238.76,
+    "gas": 366.05,
+    "smoke": 503.06,
+    "temp": 30.78,
+    "humidity": 72.24
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:00:30.000Z",
+    "pm25": 234.79,
+    "gas": 374.08,
+    "smoke": 495.74,
+    "temp": 30.19,
+    "humidity": 72.43
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:01:00.000Z",
+    "pm25": 231.3,
+    "gas": 379.86,
+    "smoke": 495.17,
+    "temp": 30.53,
+    "humidity": 75.19
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:01:30.000Z",
+    "pm25": 239.81,
+    "gas": 355.59,
+    "smoke": 493.12,
+    "temp": 30.56,
+    "humidity": 74.48
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:02:00.000Z",
+    "pm25": 231.97,
+    "gas": 357.64,
+    "smoke": 493.7,
+    "temp": 30.54,
+    "humidity": 73.31
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:02:30.000Z",
+    "pm25": 236.16,
+    "gas": 352.07,
+    "smoke": 495.6,
+    "temp": 30.32,
+    "humidity": 72.91
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:03:00.000Z",
+    "pm25": 233.05,
+    "gas": 369.94,
+    "smoke": 485.65,
+    "temp": 30.27,
+    "humidity": 72.09
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:03:30.000Z",
+    "pm25": 235.73,
+    "gas": 361.44,
+    "smoke": 489.34,
+    "temp": 30.09,
+    "humidity": 71.9
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:04:00.000Z",
+    "pm25": 233.98,
+    "gas": 366.74,
+    "smoke": 482.53,
+    "temp": 30.61,
+    "humidity": 72.69
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:04:30.000Z",
+    "pm25": 232.11,
+    "gas": 374.86,
+    "smoke": 486.79,
+    "temp": 30.26,
+    "humidity": 71.15
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:05:00.000Z",
+    "pm25": 232.92,
+    "gas": 343.5,
+    "smoke": 484.57,
+    "temp": 30.18,
+    "humidity": 74.3
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:05:30.000Z",
+    "pm25": 227.96,
+    "gas": 352.48,
+    "smoke": 490.21,
+    "temp": 30.14,
+    "humidity": 73.5
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:06:00.000Z",
+    "pm25": 222.85,
+    "gas": 363.55,
+    "smoke": 468.21,
+    "temp": 30.24,
+    "humidity": 73.11
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:06:30.000Z",
+    "pm25": 224.73,
+    "gas": 359.07,
+    "smoke": 473.34,
+    "temp": 29.98,
+    "humidity": 72.02
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:07:00.000Z",
+    "pm25": 220.52,
+    "gas": 355.39,
+    "smoke": 477.72,
+    "temp": 30.1,
+    "humidity": 73.42
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:07:30.000Z",
+    "pm25": 227.96,
+    "gas": 348.6,
+    "smoke": 474.91,
+    "temp": 30.4,
+    "humidity": 70.47
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:08:00.000Z",
+    "pm25": 221.71,
+    "gas": 357.12,
+    "smoke": 468.84,
+    "temp": 30.18,
+    "humidity": 75.58
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:08:30.000Z",
+    "pm25": 222.87,
+    "gas": 336.08,
+    "smoke": 470.71,
+    "temp": 30.03,
+    "humidity": 74.02
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:09:00.000Z",
+    "pm25": 225.55,
+    "gas": 358.08,
+    "smoke": 472.82,
+    "temp": 30.3,
+    "humidity": 74.06
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:09:30.000Z",
+    "pm25": 225.4,
+    "gas": 356.21,
+    "smoke": 458.6,
+    "temp": 30.51,
+    "humidity": 74.43
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:10:00.000Z",
+    "pm25": 217.44,
+    "gas": 346.36,
+    "smoke": 458.71,
+    "temp": 30.74,
+    "humidity": 73.54
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:10:30.000Z",
+    "pm25": 215.71,
+    "gas": 331.94,
+    "smoke": 461.7,
+    "temp": 30.32,
+    "humidity": 71.39
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:11:00.000Z",
+    "pm25": 222.19,
+    "gas": 345.72,
+    "smoke": 467.35,
+    "temp": 30.17,
+    "humidity": 71.69
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:11:30.000Z",
+    "pm25": 211.38,
+    "gas": 330.08,
+    "smoke": 456.99,
+    "temp": 30.5,
+    "humidity": 73.25
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:12:00.000Z",
+    "pm25": 219.93,
+    "gas": 335.71,
+    "smoke": 463.83,
+    "temp": 29.98,
+    "humidity": 70.12
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:12:30.000Z",
+    "pm25": 215.07,
+    "gas": 330.85,
+    "smoke": 468.76,
+    "temp": 30.32,
+    "humidity": 74.14
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:13:00.000Z",
+    "pm25": 212.96,
+    "gas": 334.68,
+    "smoke": 452.49,
+    "temp": 30.23,
+    "humidity": 73.36
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:13:30.000Z",
+    "pm25": 219.49,
+    "gas": 346.45,
+    "smoke": 448.99,
+    "temp": 30.52,
+    "humidity": 72.57
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:14:00.000Z",
+    "pm25": 213.46,
+    "gas": 328.49,
+    "smoke": 440.01,
+    "temp": 30.51,
+    "humidity": 73.35
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:14:30.000Z",
+    "pm25": 220.25,
+    "gas": 334.53,
+    "smoke": 443.94,
+    "temp": 31.03,
+    "humidity": 72.3
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:15:00.000Z",
+    "pm25": 203.29,
+    "gas": 334.38,
+    "smoke": 451.1,
+    "temp": 30.68,
+    "humidity": 73.14
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:15:30.000Z",
+    "pm25": 219.46,
+    "gas": 328.78,
+    "smoke": 439.12,
+    "temp": 30.7,
+    "humidity": 73.86
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:16:00.000Z",
+    "pm25": 210.07,
+    "gas": 333.34,
+    "smoke": 430.46,
+    "temp": 30.27,
+    "humidity": 72.54
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:16:30.000Z",
+    "pm25": 210.46,
+    "gas": 322.79,
+    "smoke": 433.34,
+    "temp": 30.7,
+    "humidity": 73.67
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:17:00.000Z",
+    "pm25": 211.2,
+    "gas": 332.01,
+    "smoke": 436.41,
+    "temp": 30.34,
+    "humidity": 75.32
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:17:30.000Z",
+    "pm25": 209.93,
+    "gas": 328.22,
+    "smoke": 419.4,
+    "temp": 30.61,
+    "humidity": 72.89
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:18:00.000Z",
+    "pm25": 204.27,
+    "gas": 313.67,
+    "smoke": 425.63,
+    "temp": 30.41,
+    "humidity": 71.03
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:18:30.000Z",
+    "pm25": 203.76,
+    "gas": 312.15,
+    "smoke": 408.6,
+    "temp": 30.12,
+    "humidity": 71.98
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:19:00.000Z",
+    "pm25": 205.02,
+    "gas": 304.35,
+    "smoke": 424.6,
+    "temp": 30.78,
+    "humidity": 70.29
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:19:30.000Z",
+    "pm25": 205.55,
+    "gas": 303.3,
+    "smoke": 418.49,
+    "temp": 30.92,
+    "humidity": 71.8
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:20:00.000Z",
+    "pm25": 203.12,
+    "gas": 296.81,
+    "smoke": 439.48,
+    "temp": 30.76,
+    "humidity": 73.79
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:20:30.000Z",
+    "pm25": 204.88,
+    "gas": 319.32,
+    "smoke": 412.83,
+    "temp": 30.28,
+    "humidity": 72.52
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:21:00.000Z",
+    "pm25": 200.29,
+    "gas": 300.74,
+    "smoke": 409.11,
+    "temp": 30.84,
+    "humidity": 70.51
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:21:30.000Z",
+    "pm25": 200.13,
+    "gas": 296.54,
+    "smoke": 432.99,
+    "temp": 30.2,
+    "humidity": 74.44
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:22:00.000Z",
+    "pm25": 196.54,
+    "gas": 302.31,
+    "smoke": 416.79,
+    "temp": 30.64,
+    "humidity": 70.16
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:22:30.000Z",
+    "pm25": 197.47,
+    "gas": 303.43,
+    "smoke": 405.22,
+    "temp": 30.33,
+    "humidity": 72.68
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:23:00.000Z",
+    "pm25": 197.01,
+    "gas": 297.14,
+    "smoke": 402.53,
+    "temp": 30.49,
+    "humidity": 72.02
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:23:30.000Z",
+    "pm25": 194.29,
+    "gas": 313.67,
+    "smoke": 404.58,
+    "temp": 30.59,
+    "humidity": 73.12
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:24:00.000Z",
+    "pm25": 194.11,
+    "gas": 305.92,
+    "smoke": 391.6,
+    "temp": 30.53,
+    "humidity": 73.45
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:24:30.000Z",
+    "pm25": 191.57,
+    "gas": 304.58,
+    "smoke": 384.14,
+    "temp": 30.77,
+    "humidity": 72.36
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:25:00.000Z",
+    "pm25": 189.39,
+    "gas": 297.04,
+    "smoke": 399.51,
+    "temp": 30.44,
+    "humidity": 71.99
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:25:30.000Z",
+    "pm25": 191.75,
+    "gas": 307.5,
+    "smoke": 392.95,
+    "temp": 30.46,
+    "humidity": 75.65
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:26:00.000Z",
+    "pm25": 190.58,
+    "gas": 288.49,
+    "smoke": 385.69,
+    "temp": 30.62,
+    "humidity": 74.97
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:26:30.000Z",
+    "pm25": 189.22,
+    "gas": 290.39,
+    "smoke": 382.03,
+    "temp": 30.65,
+    "humidity": 68.26
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:27:00.000Z",
+    "pm25": 189.17,
+    "gas": 297.93,
+    "smoke": 365.11,
+    "temp": 30.44,
+    "humidity": 73.91
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:27:30.000Z",
+    "pm25": 189.68,
+    "gas": 291.77,
+    "smoke": 374.2,
+    "temp": 30.36,
+    "humidity": 72.39
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:28:00.000Z",
+    "pm25": 182.14,
+    "gas": 288.2,
+    "smoke": 389.35,
+    "temp": 30.83,
+    "humidity": 69.48
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:28:30.000Z",
+    "pm25": 185.79,
+    "gas": 291.0,
+    "smoke": 378.25,
+    "temp": 31.12,
+    "humidity": 72.5
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:29:00.000Z",
+    "pm25": 184.69,
+    "gas": 281.1,
+    "smoke": 374.69,
+    "temp": 30.83,
+    "humidity": 71.73
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:29:30.000Z",
+    "pm25": 184.27,
+    "gas": 273.08,
+    "smoke": 360.98,
+    "temp": 30.42,
+    "humidity": 72.66
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:30:00.000Z",
+    "pm25": 180.76,
+    "gas": 283.33,
+    "smoke": 375.39,
+    "temp": 30.88,
+    "humidity": 69.24
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:30:30.000Z",
+    "pm25": 182.21,
+    "gas": 284.57,
+    "smoke": 380.13,
+    "temp": 30.32,
+    "humidity": 73.8
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:31:00.000Z",
+    "pm25": 184.39,
+    "gas": 288.42,
+    "smoke": 358.22,
+    "temp": 30.59,
+    "humidity": 70.09
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:31:30.000Z",
+    "pm25": 182.22,
+    "gas": 272.39,
+    "smoke": 366.85,
+    "temp": 30.99,
+    "humidity": 72.96
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:32:00.000Z",
+    "pm25": 181.14,
+    "gas": 273.24,
+    "smoke": 381.11,
+    "temp": 30.62,
+    "humidity": 70.21
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:32:30.000Z",
+    "pm25": 178.58,
+    "gas": 280.26,
+    "smoke": 361.5,
+    "temp": 30.25,
+    "humidity": 71.5
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:33:00.000Z",
+    "pm25": 179.95,
+    "gas": 273.72,
+    "smoke": 349.21,
+    "temp": 30.71,
+    "humidity": 70.22
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:33:30.000Z",
+    "pm25": 184.16,
+    "gas": 285.13,
+    "smoke": 359.8,
+    "temp": 30.97,
+    "humidity": 72.3
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:34:00.000Z",
+    "pm25": 176.72,
+    "gas": 270.81,
+    "smoke": 348.83,
+    "temp": 30.48,
+    "humidity": 73.55
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:34:30.000Z",
+    "pm25": 171.74,
+    "gas": 268.01,
+    "smoke": 348.26,
+    "temp": 30.68,
+    "humidity": 71.97
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:35:00.000Z",
+    "pm25": 174.73,
+    "gas": 268.61,
+    "smoke": 350.36,
+    "temp": 30.7,
+    "humidity": 72.46
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:35:30.000Z",
+    "pm25": 175.8,
+    "gas": 274.36,
+    "smoke": 344.32,
+    "temp": 31.11,
+    "humidity": 73.01
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:36:00.000Z",
+    "pm25": 172.0,
+    "gas": 253.21,
+    "smoke": 349.37,
+    "temp": 30.8,
+    "humidity": 70.67
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:36:30.000Z",
+    "pm25": 171.18,
+    "gas": 267.67,
+    "smoke": 345.67,
+    "temp": 30.73,
+    "humidity": 70.07
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:37:00.000Z",
+    "pm25": 170.86,
+    "gas": 261.95,
+    "smoke": 335.81,
+    "temp": 30.65,
+    "humidity": 70.5
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:37:30.000Z",
+    "pm25": 169.48,
+    "gas": 264.98,
+    "smoke": 338.32,
+    "temp": 31.03,
+    "humidity": 74.75
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:38:00.000Z",
+    "pm25": 166.03,
+    "gas": 263.48,
+    "smoke": 333.59,
+    "temp": 31.05,
+    "humidity": 71.18
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:38:30.000Z",
+    "pm25": 164.42,
+    "gas": 252.78,
+    "smoke": 324.9,
+    "temp": 31.06,
+    "humidity": 73.67
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:39:00.000Z",
+    "pm25": 171.85,
+    "gas": 258.92,
+    "smoke": 328.18,
+    "temp": 31.32,
+    "humidity": 74.9
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:39:30.000Z",
+    "pm25": 162.19,
+    "gas": 248.2,
+    "smoke": 321.69,
+    "temp": 30.9,
+    "humidity": 72.86
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:40:00.000Z",
+    "pm25": 164.11,
+    "gas": 257.27,
+    "smoke": 333.92,
+    "temp": 31.02,
+    "humidity": 71.08
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:40:30.000Z",
+    "pm25": 162.83,
+    "gas": 263.78,
+    "smoke": 313.67,
+    "temp": 30.9,
+    "humidity": 71.21
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:41:00.000Z",
+    "pm25": 157.06,
+    "gas": 247.16,
+    "smoke": 333.82,
+    "temp": 30.45,
+    "humidity": 71.15
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:41:30.000Z",
+    "pm25": 159.63,
+    "gas": 264.8,
+    "smoke": 311.47,
+    "temp": 30.93,
+    "humidity": 70.29
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:42:00.000Z",
+    "pm25": 156.61,
+    "gas": 250.74,
+    "smoke": 311.78,
+    "temp": 30.81,
+    "humidity": 71.54
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:42:30.000Z",
+    "pm25": 162.25,
+    "gas": 242.64,
+    "smoke": 321.39,
+    "temp": 31.13,
+    "humidity": 70.46
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:43:00.000Z",
+    "pm25": 158.53,
+    "gas": 242.91,
+    "smoke": 312.03,
+    "temp": 31.25,
+    "humidity": 70.97
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:43:30.000Z",
+    "pm25": 152.84,
+    "gas": 246.86,
+    "smoke": 312.19,
+    "temp": 30.63,
+    "humidity": 72.82
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:44:00.000Z",
+    "pm25": 154.06,
+    "gas": 246.85,
+    "smoke": 289.82,
+    "temp": 30.66,
+    "humidity": 71.61
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:44:30.000Z",
+    "pm25": 155.82,
+    "gas": 250.38,
+    "smoke": 306.02,
+    "temp": 30.97,
+    "humidity": 71.54
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:45:00.000Z",
+    "pm25": 155.61,
+    "gas": 233.67,
+    "smoke": 306.03,
+    "temp": 31.39,
+    "humidity": 72.46
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:45:30.000Z",
+    "pm25": 155.07,
+    "gas": 225.2,
+    "smoke": 306.35,
+    "temp": 30.71,
+    "humidity": 71.94
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:46:00.000Z",
+    "pm25": 149.96,
+    "gas": 247.38,
+    "smoke": 298.45,
+    "temp": 30.59,
+    "humidity": 71.6
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:46:30.000Z",
+    "pm25": 150.67,
+    "gas": 240.19,
+    "smoke": 281.06,
+    "temp": 31.08,
+    "humidity": 73.23
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:47:00.000Z",
+    "pm25": 151.72,
+    "gas": 233.73,
+    "smoke": 294.35,
+    "temp": 31.5,
+    "humidity": 74.07
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:47:30.000Z",
+    "pm25": 147.86,
+    "gas": 237.21,
+    "smoke": 293.9,
+    "temp": 30.66,
+    "humidity": 70.54
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:48:00.000Z",
+    "pm25": 148.92,
+    "gas": 231.7,
+    "smoke": 291.22,
+    "temp": 30.77,
+    "humidity": 75.06
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:48:30.000Z",
+    "pm25": 141.04,
+    "gas": 237.72,
+    "smoke": 277.7,
+    "temp": 31.66,
+    "humidity": 73.47
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:49:00.000Z",
+    "pm25": 147.7,
+    "gas": 237.02,
+    "smoke": 274.73,
+    "temp": 31.31,
+    "humidity": 70.67
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:49:30.000Z",
+    "pm25": 146.44,
+    "gas": 225.32,
+    "smoke": 283.84,
+    "temp": 31.14,
+    "humidity": 70.35
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:50:00.000Z",
+    "pm25": 139.08,
+    "gas": 234.83,
+    "smoke": 286.56,
+    "temp": 31.3,
+    "humidity": 68.04
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:50:30.000Z",
+    "pm25": 142.96,
+    "gas": 240.7,
+    "smoke": 279.23,
+    "temp": 30.53,
+    "humidity": 71.7
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:51:00.000Z",
+    "pm25": 146.5,
+    "gas": 218.9,
+    "smoke": 279.22,
+    "temp": 31.13,
+    "humidity": 71.01
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:51:30.000Z",
+    "pm25": 139.49,
+    "gas": 226.45,
+    "smoke": 270.37,
+    "temp": 31.35,
+    "humidity": 71.79
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:52:00.000Z",
+    "pm25": 139.65,
+    "gas": 217.05,
+    "smoke": 278.1,
+    "temp": 30.96,
+    "humidity": 69.39
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:52:30.000Z",
+    "pm25": 132.8,
+    "gas": 216.38,
+    "smoke": 266.27,
+    "temp": 31.12,
+    "humidity": 68.34
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:53:00.000Z",
+    "pm25": 139.64,
+    "gas": 215.48,
+    "smoke": 266.19,
+    "temp": 30.7,
+    "humidity": 74.51
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:53:30.000Z",
+    "pm25": 136.3,
+    "gas": 229.64,
+    "smoke": 260.43,
+    "temp": 30.86,
+    "humidity": 71.25
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:54:00.000Z",
+    "pm25": 136.89,
+    "gas": 216.9,
+    "smoke": 265.68,
+    "temp": 31.31,
+    "humidity": 72.65
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:54:30.000Z",
+    "pm25": 136.17,
+    "gas": 217.64,
+    "smoke": 264.62,
+    "temp": 31.03,
+    "humidity": 74.23
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:55:00.000Z",
+    "pm25": 132.69,
+    "gas": 206.34,
+    "smoke": 253.81,
+    "temp": 30.43,
+    "humidity": 73.94
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:55:30.000Z",
+    "pm25": 139.04,
+    "gas": 208.16,
+    "smoke": 257.53,
+    "temp": 30.9,
+    "humidity": 67.49
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:56:00.000Z",
+    "pm25": 128.06,
+    "gas": 214.57,
+    "smoke": 260.54,
+    "temp": 30.93,
+    "humidity": 74.32
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:56:30.000Z",
+    "pm25": 132.87,
+    "gas": 225.64,
+    "smoke": 277.63,
+    "temp": 31.43,
+    "humidity": 69.96
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:57:00.000Z",
+    "pm25": 131.78,
+    "gas": 200.57,
+    "smoke": 241.6,
+    "temp": 31.32,
+    "humidity": 73.0
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:57:30.000Z",
+    "pm25": 133.06,
+    "gas": 221.15,
+    "smoke": 244.91,
+    "temp": 31.03,
+    "humidity": 69.89
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:58:00.000Z",
+    "pm25": 130.46,
+    "gas": 210.89,
+    "smoke": 246.41,
+    "temp": 31.34,
+    "humidity": 69.79
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:58:30.000Z",
+    "pm25": 127.89,
+    "gas": 185.1,
+    "smoke": 248.11,
+    "temp": 31.56,
+    "humidity": 71.33
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:59:00.000Z",
+    "pm25": 126.93,
+    "gas": 201.45,
+    "smoke": 236.41,
+    "temp": 31.15,
+    "humidity": 72.22
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T10:59:30.000Z",
+    "pm25": 129.08,
+    "gas": 194.43,
+    "smoke": 251.41,
+    "temp": 30.8,
+    "humidity": 71.9
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:00:00.000Z",
+    "pm25": 128.63,
+    "gas": 198.41,
+    "smoke": 233.76,
+    "temp": 31.08,
+    "humidity": 70.39
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:00:30.000Z",
+    "pm25": 126.66,
+    "gas": 191.19,
+    "smoke": 223.28,
+    "temp": 30.83,
+    "humidity": 70.88
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:01:00.000Z",
+    "pm25": 128.21,
+    "gas": 199.81,
+    "smoke": 244.51,
+    "temp": 31.37,
+    "humidity": 73.4
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:01:30.000Z",
+    "pm25": 124.14,
+    "gas": 193.39,
+    "smoke": 216.19,
+    "temp": 31.11,
+    "humidity": 72.16
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:02:00.000Z",
+    "pm25": 123.3,
+    "gas": 198.4,
+    "smoke": 214.5,
+    "temp": 30.78,
+    "humidity": 71.95
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:02:30.000Z",
+    "pm25": 125.22,
+    "gas": 195.27,
+    "smoke": 225.6,
+    "temp": 31.25,
+    "humidity": 71.57
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:03:00.000Z",
+    "pm25": 118.73,
+    "gas": 201.11,
+    "smoke": 208.93,
+    "temp": 31.16,
+    "humidity": 71.24
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:03:30.000Z",
+    "pm25": 117.77,
+    "gas": 183.69,
+    "smoke": 214.8,
+    "temp": 31.07,
+    "humidity": 72.13
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:04:00.000Z",
+    "pm25": 115.8,
+    "gas": 194.65,
+    "smoke": 226.65,
+    "temp": 31.85,
+    "humidity": 71.81
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:04:30.000Z",
+    "pm25": 117.76,
+    "gas": 178.97,
+    "smoke": 220.26,
+    "temp": 31.07,
+    "humidity": 71.19
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:05:00.000Z",
+    "pm25": 116.92,
+    "gas": 190.08,
+    "smoke": 196.88,
+    "temp": 31.42,
+    "humidity": 72.32
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:05:30.000Z",
+    "pm25": 120.45,
+    "gas": 189.3,
+    "smoke": 191.56,
+    "temp": 31.0,
+    "humidity": 70.94
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:06:00.000Z",
+    "pm25": 117.1,
+    "gas": 181.21,
+    "smoke": 204.75,
+    "temp": 31.31,
+    "humidity": 73.33
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:06:30.000Z",
+    "pm25": 118.89,
+    "gas": 181.73,
+    "smoke": 193.57,
+    "temp": 30.85,
+    "humidity": 71.69
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:07:00.000Z",
+    "pm25": 111.53,
+    "gas": 195.86,
+    "smoke": 190.26,
+    "temp": 31.63,
+    "humidity": 69.57
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:07:30.000Z",
+    "pm25": 116.76,
+    "gas": 178.24,
+    "smoke": 188.73,
+    "temp": 31.29,
+    "humidity": 71.57
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:08:00.000Z",
+    "pm25": 116.75,
+    "gas": 184.13,
+    "smoke": 196.69,
+    "temp": 31.28,
+    "humidity": 72.02
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:08:30.000Z",
+    "pm25": 112.02,
+    "gas": 163.74,
+    "smoke": 197.13,
+    "temp": 31.36,
+    "humidity": 72.41
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:09:00.000Z",
+    "pm25": 114.12,
+    "gas": 177.21,
+    "smoke": 196.37,
+    "temp": 31.56,
+    "humidity": 70.57
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:09:30.000Z",
+    "pm25": 108.97,
+    "gas": 179.71,
+    "smoke": 181.09,
+    "temp": 30.95,
+    "humidity": 72.41
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:10:00.000Z",
+    "pm25": 107.66,
+    "gas": 174.7,
+    "smoke": 193.68,
+    "temp": 30.76,
+    "humidity": 70.53
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:10:30.000Z",
+    "pm25": 109.9,
+    "gas": 178.2,
+    "smoke": 194.16,
+    "temp": 31.68,
+    "humidity": 71.34
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:11:00.000Z",
+    "pm25": 112.72,
+    "gas": 176.62,
+    "smoke": 185.39,
+    "temp": 31.51,
+    "humidity": 71.18
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:11:30.000Z",
+    "pm25": 104.71,
+    "gas": 170.76,
+    "smoke": 184.93,
+    "temp": 31.21,
+    "humidity": 70.06
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:12:00.000Z",
+    "pm25": 105.82,
+    "gas": 169.49,
+    "smoke": 191.32,
+    "temp": 31.47,
+    "humidity": 71.92
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:12:30.000Z",
+    "pm25": 103.72,
+    "gas": 171.51,
+    "smoke": 182.45,
+    "temp": 30.98,
+    "humidity": 71.23
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:13:00.000Z",
+    "pm25": 107.09,
+    "gas": 170.55,
+    "smoke": 169.45,
+    "temp": 31.64,
+    "humidity": 70.34
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:13:30.000Z",
+    "pm25": 101.62,
+    "gas": 176.51,
+    "smoke": 177.55,
+    "temp": 31.47,
+    "humidity": 70.59
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:14:00.000Z",
+    "pm25": 104.82,
+    "gas": 161.75,
+    "smoke": 174.77,
+    "temp": 31.55,
+    "humidity": 70.78
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:14:30.000Z",
+    "pm25": 107.17,
+    "gas": 168.19,
+    "smoke": 185.71,
+    "temp": 31.64,
+    "humidity": 70.38
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:15:00.000Z",
+    "pm25": 101.7,
+    "gas": 171.76,
+    "smoke": 177.1,
+    "temp": 31.85,
+    "humidity": 71.61
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:15:30.000Z",
+    "pm25": 100.98,
+    "gas": 167.88,
+    "smoke": 162.45,
+    "temp": 31.21,
+    "humidity": 71.91
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:16:00.000Z",
+    "pm25": 100.9,
+    "gas": 166.59,
+    "smoke": 185.95,
+    "temp": 31.78,
+    "humidity": 71.77
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:16:30.000Z",
+    "pm25": 101.55,
+    "gas": 145.76,
+    "smoke": 167.01,
+    "temp": 31.59,
+    "humidity": 73.96
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:17:00.000Z",
+    "pm25": 94.85,
+    "gas": 155.68,
+    "smoke": 168.63,
+    "temp": 31.48,
+    "humidity": 72.36
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:17:30.000Z",
+    "pm25": 99.94,
+    "gas": 165.41,
+    "smoke": 174.87,
+    "temp": 31.61,
+    "humidity": 72.1
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:18:00.000Z",
+    "pm25": 95.5,
+    "gas": 170.14,
+    "smoke": 159.76,
+    "temp": 31.21,
+    "humidity": 73.24
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:18:30.000Z",
+    "pm25": 95.2,
+    "gas": 148.65,
+    "smoke": 162.53,
+    "temp": 31.39,
+    "humidity": 68.73
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:19:00.000Z",
+    "pm25": 94.35,
+    "gas": 162.3,
+    "smoke": 170.35,
+    "temp": 31.45,
+    "humidity": 72.47
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:19:30.000Z",
+    "pm25": 92.8,
+    "gas": 160.51,
+    "smoke": 156.57,
+    "temp": 31.07,
+    "humidity": 71.73
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:20:00.000Z",
+    "pm25": 102.55,
+    "gas": 159.36,
+    "smoke": 160.39,
+    "temp": 31.48,
+    "humidity": 69.8
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:20:30.000Z",
+    "pm25": 95.97,
+    "gas": 155.63,
+    "smoke": 164.6,
+    "temp": 31.6,
+    "humidity": 70.6
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:21:00.000Z",
+    "pm25": 93.02,
+    "gas": 143.45,
+    "smoke": 160.51,
+    "temp": 31.56,
+    "humidity": 70.69
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:21:30.000Z",
+    "pm25": 90.72,
+    "gas": 148.68,
+    "smoke": 153.99,
+    "temp": 31.84,
+    "humidity": 69.18
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:22:00.000Z",
+    "pm25": 88.01,
+    "gas": 153.86,
+    "smoke": 170.17,
+    "temp": 31.22,
+    "humidity": 72.88
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:22:30.000Z",
+    "pm25": 89.0,
+    "gas": 148.56,
+    "smoke": 135.89,
+    "temp": 31.89,
+    "humidity": 70.87
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:23:00.000Z",
+    "pm25": 87.42,
+    "gas": 141.23,
+    "smoke": 158.42,
+    "temp": 31.75,
+    "humidity": 71.96
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:23:30.000Z",
+    "pm25": 87.91,
+    "gas": 159.73,
+    "smoke": 152.63,
+    "temp": 31.28,
+    "humidity": 70.09
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:24:00.000Z",
+    "pm25": 92.81,
+    "gas": 151.53,
+    "smoke": 150.28,
+    "temp": 31.31,
+    "humidity": 67.8
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:24:30.000Z",
+    "pm25": 87.94,
+    "gas": 166.64,
+    "smoke": 170.53,
+    "temp": 31.46,
+    "humidity": 70.32
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:25:00.000Z",
+    "pm25": 89.07,
+    "gas": 147.36,
+    "smoke": 141.08,
+    "temp": 30.82,
+    "humidity": 72.41
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:25:30.000Z",
+    "pm25": 88.03,
+    "gas": 155.91,
+    "smoke": 135.33,
+    "temp": 30.97,
+    "humidity": 70.31
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:26:00.000Z",
+    "pm25": 87.25,
+    "gas": 146.13,
+    "smoke": 134.48,
+    "temp": 30.71,
+    "humidity": 71.06
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:26:30.000Z",
+    "pm25": 89.66,
+    "gas": 139.11,
+    "smoke": 152.62,
+    "temp": 31.88,
+    "humidity": 70.61
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:27:00.000Z",
+    "pm25": 85.79,
+    "gas": 140.4,
+    "smoke": 147.78,
+    "temp": 31.18,
+    "humidity": 72.36
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:27:30.000Z",
+    "pm25": 84.22,
+    "gas": 135.02,
+    "smoke": 139.53,
+    "temp": 31.42,
+    "humidity": 69.54
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:28:00.000Z",
+    "pm25": 87.29,
+    "gas": 135.04,
+    "smoke": 134.95,
+    "temp": 31.62,
+    "humidity": 71.87
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:28:30.000Z",
+    "pm25": 82.39,
+    "gas": 140.09,
+    "smoke": 141.22,
+    "temp": 31.74,
+    "humidity": 70.07
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:29:00.000Z",
+    "pm25": 80.76,
+    "gas": 119.23,
+    "smoke": 136.03,
+    "temp": 31.74,
+    "humidity": 70.94
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:29:30.000Z",
+    "pm25": 78.51,
+    "gas": 134.34,
+    "smoke": 145.9,
+    "temp": 31.29,
+    "humidity": 74.72
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:30:00.000Z",
+    "pm25": 84.38,
+    "gas": 134.14,
+    "smoke": 121.41,
+    "temp": 31.59,
+    "humidity": 68.03
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:30:30.000Z",
+    "pm25": 83.24,
+    "gas": 145.43,
+    "smoke": 134.84,
+    "temp": 31.36,
+    "humidity": 69.6
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:31:00.000Z",
+    "pm25": 79.21,
+    "gas": 144.59,
+    "smoke": 129.31,
+    "temp": 31.7,
+    "humidity": 71.06
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:31:30.000Z",
+    "pm25": 77.04,
+    "gas": 132.72,
+    "smoke": 120.12,
+    "temp": 31.85,
+    "humidity": 71.57
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:32:00.000Z",
+    "pm25": 81.4,
+    "gas": 136.67,
+    "smoke": 119.03,
+    "temp": 31.49,
+    "humidity": 71.95
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:32:30.000Z",
+    "pm25": 79.18,
+    "gas": 135.21,
+    "smoke": 126.84,
+    "temp": 31.49,
+    "humidity": 70.94
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:33:00.000Z",
+    "pm25": 76.33,
+    "gas": 121.7,
+    "smoke": 131.38,
+    "temp": 31.72,
+    "humidity": 69.84
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:33:30.000Z",
+    "pm25": 80.01,
+    "gas": 129.83,
+    "smoke": 126.94,
+    "temp": 31.65,
+    "humidity": 69.79
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:34:00.000Z",
+    "pm25": 72.02,
+    "gas": 145.12,
+    "smoke": 114.66,
+    "temp": 31.31,
+    "humidity": 72.28
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:34:30.000Z",
+    "pm25": 76.4,
+    "gas": 133.56,
+    "smoke": 128.35,
+    "temp": 31.48,
+    "humidity": 68.98
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:35:00.000Z",
+    "pm25": 79.15,
+    "gas": 118.8,
+    "smoke": 109.84,
+    "temp": 31.12,
+    "humidity": 71.53
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:35:30.000Z",
+    "pm25": 76.96,
+    "gas": 134.0,
+    "smoke": 126.5,
+    "temp": 31.87,
+    "humidity": 71.26
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:36:00.000Z",
+    "pm25": 77.87,
+    "gas": 133.05,
+    "smoke": 124.71,
+    "temp": 31.56,
+    "humidity": 70.23
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:36:30.000Z",
+    "pm25": 76.54,
+    "gas": 120.37,
+    "smoke": 102.45,
+    "temp": 31.88,
+    "humidity": 71.95
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:37:00.000Z",
+    "pm25": 74.36,
+    "gas": 129.87,
+    "smoke": 100.74,
+    "temp": 31.51,
+    "humidity": 71.42
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:37:30.000Z",
+    "pm25": 78.14,
+    "gas": 124.63,
+    "smoke": 126.64,
+    "temp": 31.72,
+    "humidity": 69.37
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:38:00.000Z",
+    "pm25": 76.31,
+    "gas": 127.56,
+    "smoke": 131.36,
+    "temp": 31.54,
+    "humidity": 72.02
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:38:30.000Z",
+    "pm25": 73.41,
+    "gas": 117.57,
+    "smoke": 122.49,
+    "temp": 31.53,
+    "humidity": 70.45
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:39:00.000Z",
+    "pm25": 71.56,
+    "gas": 139.65,
+    "smoke": 118.59,
+    "temp": 31.3,
+    "humidity": 69.54
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:39:30.000Z",
+    "pm25": 75.2,
+    "gas": 112.33,
+    "smoke": 106.83,
+    "temp": 31.81,
+    "humidity": 68.97
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:40:00.000Z",
+    "pm25": 71.97,
+    "gas": 129.0,
+    "smoke": 102.81,
+    "temp": 31.62,
+    "humidity": 73.33
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:40:30.000Z",
+    "pm25": 70.72,
+    "gas": 121.69,
+    "smoke": 110.06,
+    "temp": 31.7,
+    "humidity": 74.17
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:41:00.000Z",
+    "pm25": 72.83,
+    "gas": 107.98,
+    "smoke": 95.8,
+    "temp": 31.37,
+    "humidity": 70.4
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:41:30.000Z",
+    "pm25": 66.39,
+    "gas": 130.33,
+    "smoke": 117.75,
+    "temp": 31.54,
+    "humidity": 69.62
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:42:00.000Z",
+    "pm25": 72.02,
+    "gas": 107.49,
+    "smoke": 108.92,
+    "temp": 31.47,
+    "humidity": 70.79
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:42:30.000Z",
+    "pm25": 71.74,
+    "gas": 112.28,
+    "smoke": 114.79,
+    "temp": 31.62,
+    "humidity": 69.97
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:43:00.000Z",
+    "pm25": 73.7,
+    "gas": 118.11,
+    "smoke": 108.14,
+    "temp": 31.51,
+    "humidity": 70.89
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:43:30.000Z",
+    "pm25": 68.29,
+    "gas": 118.78,
+    "smoke": 89.41,
+    "temp": 31.28,
+    "humidity": 68.66
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:44:00.000Z",
+    "pm25": 66.91,
+    "gas": 119.8,
+    "smoke": 90.9,
+    "temp": 31.23,
+    "humidity": 69.22
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:44:30.000Z",
+    "pm25": 73.06,
+    "gas": 110.11,
+    "smoke": 106.37,
+    "temp": 31.52,
+    "humidity": 68.95
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:45:00.000Z",
+    "pm25": 70.75,
+    "gas": 119.08,
+    "smoke": 107.3,
+    "temp": 31.69,
+    "humidity": 70.32
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:45:30.000Z",
+    "pm25": 64.77,
+    "gas": 113.77,
+    "smoke": 106.98,
+    "temp": 31.95,
+    "humidity": 69.34
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:46:00.000Z",
+    "pm25": 71.02,
+    "gas": 110.65,
+    "smoke": 119.81,
+    "temp": 32.14,
+    "humidity": 70.84
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:46:30.000Z",
+    "pm25": 63.77,
+    "gas": 130.63,
+    "smoke": 100.54,
+    "temp": 31.87,
+    "humidity": 72.63
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:47:00.000Z",
+    "pm25": 65.84,
+    "gas": 127.7,
+    "smoke": 92.44,
+    "temp": 31.65,
+    "humidity": 71.32
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:47:30.000Z",
+    "pm25": 66.46,
+    "gas": 119.05,
+    "smoke": 103.4,
+    "temp": 31.96,
+    "humidity": 71.56
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:48:00.000Z",
+    "pm25": 70.68,
+    "gas": 125.46,
+    "smoke": 83.5,
+    "temp": 31.91,
+    "humidity": 71.27
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:48:30.000Z",
+    "pm25": 72.14,
+    "gas": 122.09,
+    "smoke": 103.94,
+    "temp": 31.42,
+    "humidity": 69.24
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:49:00.000Z",
+    "pm25": 70.56,
+    "gas": 111.19,
+    "smoke": 88.28,
+    "temp": 32.14,
+    "humidity": 71.84
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:49:30.000Z",
+    "pm25": 67.15,
+    "gas": 116.21,
+    "smoke": 105.62,
+    "temp": 31.4,
+    "humidity": 70.52
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:50:00.000Z",
+    "pm25": 68.39,
+    "gas": 105.75,
+    "smoke": 93.63,
+    "temp": 31.87,
+    "humidity": 70.66
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:50:30.000Z",
+    "pm25": 66.96,
+    "gas": 119.36,
+    "smoke": 102.39,
+    "temp": 32.14,
+    "humidity": 69.36
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:51:00.000Z",
+    "pm25": 67.87,
+    "gas": 101.93,
+    "smoke": 103.13,
+    "temp": 31.86,
+    "humidity": 70.69
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:51:30.000Z",
+    "pm25": 64.65,
+    "gas": 107.98,
+    "smoke": 85.95,
+    "temp": 31.41,
+    "humidity": 72.03
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:52:00.000Z",
+    "pm25": 68.24,
+    "gas": 113.03,
+    "smoke": 103.34,
+    "temp": 31.29,
+    "humidity": 66.26
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:52:30.000Z",
+    "pm25": 67.31,
+    "gas": 95.65,
+    "smoke": 97.94,
+    "temp": 31.52,
+    "humidity": 71.28
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:53:00.000Z",
+    "pm25": 66.42,
+    "gas": 109.73,
+    "smoke": 76.16,
+    "temp": 31.76,
+    "humidity": 70.92
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:53:30.000Z",
+    "pm25": 64.65,
+    "gas": 115.13,
+    "smoke": 108.14,
+    "temp": 30.98,
+    "humidity": 73.04
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:54:00.000Z",
+    "pm25": 64.26,
+    "gas": 108.59,
+    "smoke": 86.6,
+    "temp": 31.58,
+    "humidity": 70.44
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:54:30.000Z",
+    "pm25": 63.54,
+    "gas": 94.51,
+    "smoke": 91.69,
+    "temp": 31.42,
+    "humidity": 68.63
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:55:00.000Z",
+    "pm25": 61.62,
+    "gas": 118.57,
+    "smoke": 87.46,
+    "temp": 31.74,
+    "humidity": 71.57
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:55:30.000Z",
+    "pm25": 63.33,
+    "gas": 115.64,
+    "smoke": 93.74,
+    "temp": 31.9,
+    "humidity": 71.08
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:56:00.000Z",
+    "pm25": 69.02,
+    "gas": 111.8,
+    "smoke": 77.88,
+    "temp": 32.15,
+    "humidity": 70.97
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:56:30.000Z",
+    "pm25": 66.91,
+    "gas": 94.05,
+    "smoke": 96.08,
+    "temp": 32.09,
+    "humidity": 69.18
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:57:00.000Z",
+    "pm25": 67.94,
+    "gas": 124.79,
+    "smoke": 96.76,
+    "temp": 31.65,
+    "humidity": 70.42
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:57:30.000Z",
+    "pm25": 63.85,
+    "gas": 110.08,
+    "smoke": 101.65,
+    "temp": 31.78,
+    "humidity": 69.4
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:58:00.000Z",
+    "pm25": 69.82,
+    "gas": 110.88,
+    "smoke": 107.03,
+    "temp": 31.62,
+    "humidity": 72.2
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:58:30.000Z",
+    "pm25": 66.59,
+    "gas": 118.12,
+    "smoke": 95.04,
+    "temp": 31.88,
+    "humidity": 69.46
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:59:00.000Z",
+    "pm25": 67.48,
+    "gas": 103.79,
+    "smoke": 94.88,
+    "temp": 31.74,
+    "humidity": 69.73
+  },
+  {
+    "nodeId": "airq-node-01",
+    "timestamp": "2026-09-09T11:59:30.000Z",
+    "pm25": 66.66,
+    "gas": 105.66,
+    "smoke": 93.17,
+    "temp": 31.65,
+    "humidity": 69.07
+  }
+]

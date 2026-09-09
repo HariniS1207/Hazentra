@@ -1,0 +1,722 @@
+[
+  {
+    "alertId": "alert-3fb8a0013db0",
+    "anomalyId": "anomaly-9f2b6e016829",
+    "hazardType": "flood",
+    "confidenceScore": 78.0,
+    "message": "FLOOD WARNING - Confidence 78% - Community-verified (5Y/1N)",
+    "channelsSent": [
+      "sms",
+      "dashboard",
+      "push"
+    ],
+    "sachetPayload": {
+      "version": "1.0",
+      "source": "hazentra",
+      "sourceNodeId": "flood-node-01",
+      "hazardType": "flood",
+      "severity": "warning",
+      "confidence": 78.0,
+      "verificationStatus": "verified",
+      "location": {
+        "lat": 26.1445,
+        "lng": 91.7362,
+        "description": "Brahmaputra River Bank Station"
+      },
+      "timestamp": "2026-09-09T07:22:00.000Z",
+      "sensorData": {},
+      "message": "FLOOD WARNING - Confidence 78% - Community-verified (5Y/1N)"
+    },
+    "timestamp": "2026-09-09T07:22:00.000Z"
+  },
+  {
+    "alertId": "alert-2ec399a90a04",
+    "anomalyId": "anomaly-72bfdbbecdcc",
+    "hazardType": "flood",
+    "confidenceScore": 73.0,
+    "message": "FLOOD WARNING - Confidence 73% - Community-verified (4Y/1N)",
+    "channelsSent": [
+      "sms",
+      "dashboard",
+      "push"
+    ],
+    "sachetPayload": {
+      "version": "1.0",
+      "source": "hazentra",
+      "sourceNodeId": "flood-node-01",
+      "hazardType": "flood",
+      "severity": "warning",
+      "confidence": 73.0,
+      "verificationStatus": "verified",
+      "location": {
+        "lat": 26.1445,
+        "lng": 91.7362,
+        "description": "Brahmaputra River Bank Station"
+      },
+      "timestamp": "2026-09-09T07:27:00.000Z",
+      "sensorData": {},
+      "message": "FLOOD WARNING - Confidence 73% - Community-verified (4Y/1N)"
+    },
+    "timestamp": "2026-09-09T07:27:00.000Z"
+  },
+  {
+    "alertId": "alert-66d0609b43ae",
+    "anomalyId": "anomaly-d1f688efa9b3",
+    "hazardType": "flood",
+    "confidenceScore": 100,
+    "message": "FLOOD DANGER - Confidence 100% - Community-verified (5Y/0N)",
+    "channelsSent": [
+      "sms",
+      "dashboard",
+      "push"
+    ],
+    "sachetPayload": {
+      "version": "1.0",
+      "source": "hazentra",
+      "sourceNodeId": "flood-node-01",
+      "hazardType": "flood",
+      "severity": "danger",
+      "confidence": 100,
+      "verificationStatus": "verified",
+      "location": {
+        "lat": 26.1445,
+        "lng": 91.7362,
+        "description": "Brahmaputra River Bank Station"
+      },
+      "timestamp": "2026-09-09T07:36:00.000Z",
+      "sensorData": {},
+      "message": "FLOOD DANGER - Confidence 100% - Community-verified (5Y/0N)"
+    },
+    "timestamp": "2026-09-09T07:36:00.000Z"
+  },
+  {
+    "alertId": "alert-b6f382208d5b",
+    "anomalyId": "anomaly-b3643ccf99a8",
+    "hazardType": "flood",
+    "confidenceScore": 100,
+    "message": "FLOOD DANGER - Confidence 100% - Community-verified (4Y/0N)",
+    "channelsSent": [
+      "sms",
+      "dashboard",
+      "push"
+    ],
+    "sachetPayload": {
+      "version": "1.0",
+      "source": "hazentra",
+      "sourceNodeId": "flood-node-01",
+      "hazardType": "flood",
+      "severity": "danger",
+      "confidence": 100,
+      "verificationStatus": "verified",
+      "location": {
+        "lat": 26.1445,
+        "lng": 91.7362,
+        "description": "Brahmaputra River Bank Station"
+      },
+      "timestamp": "2026-09-09T07:41:00.000Z",
+      "sensorData": {},
+      "message": "FLOOD DANGER - Confidence 100% - Community-verified (4Y/0N)"
+    },
+    "timestamp": "2026-09-09T07:41:00.000Z"
+  },
+  {
+    "alertId": "alert-96fbd9fbddf4",
+    "anomalyId": "anomaly-b28b56838cf8",
+    "hazardType": "flood",
+    "confidenceScore": 100,
+    "message": "FLOOD DANGER - Confidence 100% - Community-verified (3Y/0N)",
+    "channelsSent": [
+      "sms",
+      "dashboard",
+      "push"
+    ],
+    "sachetPayload": {
+      "version": "1.0",
+      "source": "hazentra",
+      "sourceNodeId": "flood-node-01",
+      "hazardType": "flood",
+      "severity": "danger",
+      "confidence": 100,
+      "verificationStatus": "verified",
+      "location": {
+        "lat": 26.1445,
+        "lng": 91.7362,
+        "description": "Brahmaputra River Bank Station"
+      },
+      "timestamp": "2026-09-09T07:46:00.000Z",
+      "sensorData": {},
+      "message": "FLOOD DANGER - Confidence 100% - Community-verified (3Y/0N)"
+    },
+    "timestamp": "2026-09-09T07:46:00.000Z"
+  },
+  {
+    "alertId": "alert-f82f22d5a3b4",
+    "anomalyId": "anomaly-1f7854d78abf",
+    "hazardType": "flood",
+    "confidenceScore": 100,
+    "message": "FLOOD DANGER - Confidence 100% - Community-verified (5Y/1N)",
+    "channelsSent": [
+      "sms",
+      "dashboard",
+      "push"
+    ],
+    "sachetPayload": {
+      "version": "1.0",
+      "source": "hazentra",
+      "sourceNodeId": "flood-node-01",
+      "hazardType": "flood",
+      "severity": "danger",
+      "confidence": 100,
+      "verificationStatus": "verified",
+      "location": {
+        "lat": 26.1445,
+        "lng": 91.7362,
+        "description": "Brahmaputra River Bank Station"
+      },
+      "timestamp": "2026-09-09T07:51:00.000Z",
+      "sensorData": {},
+      "message": "FLOOD DANGER - Confidence 100% - Community-verified (5Y/1N)"
+    },
+    "timestamp": "2026-09-09T07:51:00.000Z"
+  },
+  {
+    "alertId": "alert-ed492c492098",
+    "anomalyId": "anomaly-bef9fd9dd9ec",
+    "hazardType": "flood",
+    "confidenceScore": 100,
+    "message": "FLOOD DANGER - Confidence 100% - Community-verified (5Y/1N)",
+    "channelsSent": [
+      "sms",
+      "dashboard",
+      "push"
+    ],
+    "sachetPayload": {
+      "version": "1.0",
+      "source": "hazentra",
+      "sourceNodeId": "flood-node-01",
+      "hazardType": "flood",
+      "severity": "danger",
+      "confidence": 100,
+      "verificationStatus": "verified",
+      "location": {
+        "lat": 26.1445,
+        "lng": 91.7362,
+        "description": "Brahmaputra River Bank Station"
+      },
+      "timestamp": "2026-09-09T07:56:00.000Z",
+      "sensorData": {},
+      "message": "FLOOD DANGER - Confidence 100% - Community-verified (5Y/1N)"
+    },
+    "timestamp": "2026-09-09T07:56:00.000Z"
+  },
+  {
+    "alertId": "alert-ba65ffe86c4a",
+    "anomalyId": "anomaly-4ff914968c3a",
+    "hazardType": "flood",
+    "confidenceScore": 100,
+    "message": "FLOOD DANGER - Confidence 100% - Community-verified (4Y/0N)",
+    "channelsSent": [
+      "sms",
+      "dashboard",
+      "push"
+    ],
+    "sachetPayload": {
+      "version": "1.0",
+      "source": "hazentra",
+      "sourceNodeId": "flood-node-01",
+      "hazardType": "flood",
+      "severity": "danger",
+      "confidence": 100,
+      "verificationStatus": "verified",
+      "location": {
+        "lat": 26.1445,
+        "lng": 91.7362,
+        "description": "Brahmaputra River Bank Station"
+      },
+      "timestamp": "2026-09-09T08:01:00.000Z",
+      "sensorData": {},
+      "message": "FLOOD DANGER - Confidence 100% - Community-verified (4Y/0N)"
+    },
+    "timestamp": "2026-09-09T08:01:00.000Z"
+  },
+  {
+    "alertId": "alert-de978fa1a29b",
+    "anomalyId": "anomaly-f3ca056faf5c",
+    "hazardType": "flood",
+    "confidenceScore": 100,
+    "message": "FLOOD DANGER - Confidence 100% - Community-verified (5Y/0N)",
+    "channelsSent": [
+      "sms",
+      "dashboard",
+      "push"
+    ],
+    "sachetPayload": {
+      "version": "1.0",
+      "source": "hazentra",
+      "sourceNodeId": "flood-node-01",
+      "hazardType": "flood",
+      "severity": "danger",
+      "confidence": 100,
+      "verificationStatus": "verified",
+      "location": {
+        "lat": 26.1445,
+        "lng": 91.7362,
+        "description": "Brahmaputra River Bank Station"
+      },
+      "timestamp": "2026-09-09T08:06:00.000Z",
+      "sensorData": {},
+      "message": "FLOOD DANGER - Confidence 100% - Community-verified (5Y/0N)"
+    },
+    "timestamp": "2026-09-09T08:06:00.000Z"
+  },
+  {
+    "alertId": "alert-5b1aa93720d9",
+    "anomalyId": "anomaly-fb66c4eacf79",
+    "hazardType": "flood",
+    "confidenceScore": 100,
+    "message": "FLOOD DANGER - Confidence 100% - Community-verified (2Y/1N)",
+    "channelsSent": [
+      "sms",
+      "dashboard",
+      "push"
+    ],
+    "sachetPayload": {
+      "version": "1.0",
+      "source": "hazentra",
+      "sourceNodeId": "flood-node-01",
+      "hazardType": "flood",
+      "severity": "danger",
+      "confidence": 100,
+      "verificationStatus": "verified",
+      "location": {
+        "lat": 26.1445,
+        "lng": 91.7362,
+        "description": "Brahmaputra River Bank Station"
+      },
+      "timestamp": "2026-09-09T08:11:00.000Z",
+      "sensorData": {},
+      "message": "FLOOD DANGER - Confidence 100% - Community-verified (2Y/1N)"
+    },
+    "timestamp": "2026-09-09T08:11:00.000Z"
+  },
+  {
+    "alertId": "alert-90c6768d20fc",
+    "anomalyId": "anomaly-2863a1241fcc",
+    "hazardType": "flood",
+    "confidenceScore": 100,
+    "message": "FLOOD DANGER - Confidence 100% - Community-verified (4Y/1N)",
+    "channelsSent": [
+      "sms",
+      "dashboard",
+      "push"
+    ],
+    "sachetPayload": {
+      "version": "1.0",
+      "source": "hazentra",
+      "sourceNodeId": "flood-node-01",
+      "hazardType": "flood",
+      "severity": "danger",
+      "confidence": 100,
+      "verificationStatus": "verified",
+      "location": {
+        "lat": 26.1445,
+        "lng": 91.7362,
+        "description": "Brahmaputra River Bank Station"
+      },
+      "timestamp": "2026-09-09T08:16:00.000Z",
+      "sensorData": {},
+      "message": "FLOOD DANGER - Confidence 100% - Community-verified (4Y/1N)"
+    },
+    "timestamp": "2026-09-09T08:16:00.000Z"
+  },
+  {
+    "alertId": "alert-56a3ddf168b7",
+    "anomalyId": "anomaly-8906f41d1d5a",
+    "hazardType": "flood",
+    "confidenceScore": 100,
+    "message": "FLOOD DANGER - Confidence 100% - Community-verified (5Y/0N)",
+    "channelsSent": [
+      "sms",
+      "dashboard",
+      "push"
+    ],
+    "sachetPayload": {
+      "version": "1.0",
+      "source": "hazentra",
+      "sourceNodeId": "flood-node-01",
+      "hazardType": "flood",
+      "severity": "danger",
+      "confidence": 100,
+      "verificationStatus": "verified",
+      "location": {
+        "lat": 26.1445,
+        "lng": 91.7362,
+        "description": "Brahmaputra River Bank Station"
+      },
+      "timestamp": "2026-09-09T08:21:00.000Z",
+      "sensorData": {},
+      "message": "FLOOD DANGER - Confidence 100% - Community-verified (5Y/0N)"
+    },
+    "timestamp": "2026-09-09T08:21:00.000Z"
+  },
+  {
+    "alertId": "alert-e8418add1388",
+    "anomalyId": "anomaly-4aaa537ba262",
+    "hazardType": "flood",
+    "confidenceScore": 100,
+    "message": "FLOOD DANGER - Confidence 100% - Community-verified (2Y/0N)",
+    "channelsSent": [
+      "sms",
+      "dashboard",
+      "push"
+    ],
+    "sachetPayload": {
+      "version": "1.0",
+      "source": "hazentra",
+      "sourceNodeId": "flood-node-01",
+      "hazardType": "flood",
+      "severity": "danger",
+      "confidence": 100,
+      "verificationStatus": "verified",
+      "location": {
+        "lat": 26.1445,
+        "lng": 91.7362,
+        "description": "Brahmaputra River Bank Station"
+      },
+      "timestamp": "2026-09-09T08:26:00.000Z",
+      "sensorData": {},
+      "message": "FLOOD DANGER - Confidence 100% - Community-verified (2Y/0N)"
+    },
+    "timestamp": "2026-09-09T08:26:00.000Z"
+  },
+  {
+    "alertId": "alert-5bc7578a3ae5",
+    "anomalyId": "anomaly-09cd35c125a9",
+    "hazardType": "flood",
+    "confidenceScore": 100,
+    "message": "FLOOD DANGER - Confidence 100% - Community-verified (4Y/1N)",
+    "channelsSent": [
+      "sms",
+      "dashboard",
+      "push"
+    ],
+    "sachetPayload": {
+      "version": "1.0",
+      "source": "hazentra",
+      "sourceNodeId": "flood-node-01",
+      "hazardType": "flood",
+      "severity": "danger",
+      "confidence": 100,
+      "verificationStatus": "verified",
+      "location": {
+        "lat": 26.1445,
+        "lng": 91.7362,
+        "description": "Brahmaputra River Bank Station"
+      },
+      "timestamp": "2026-09-09T08:31:30.000Z",
+      "sensorData": {},
+      "message": "FLOOD DANGER - Confidence 100% - Community-verified (4Y/1N)"
+    },
+    "timestamp": "2026-09-09T08:31:30.000Z"
+  },
+  {
+    "alertId": "alert-873548c5a523",
+    "anomalyId": "anomaly-eedfbc64f8f0",
+    "hazardType": "flood",
+    "confidenceScore": 100,
+    "message": "FLOOD DANGER - Confidence 100% - Community-verified (3Y/1N)",
+    "channelsSent": [
+      "sms",
+      "dashboard",
+      "push"
+    ],
+    "sachetPayload": {
+      "version": "1.0",
+      "source": "hazentra",
+      "sourceNodeId": "flood-node-01",
+      "hazardType": "flood",
+      "severity": "danger",
+      "confidence": 100,
+      "verificationStatus": "verified",
+      "location": {
+        "lat": 26.1445,
+        "lng": 91.7362,
+        "description": "Brahmaputra River Bank Station"
+      },
+      "timestamp": "2026-09-09T08:36:30.000Z",
+      "sensorData": {},
+      "message": "FLOOD DANGER - Confidence 100% - Community-verified (3Y/1N)"
+    },
+    "timestamp": "2026-09-09T08:36:30.000Z"
+  },
+  {
+    "alertId": "alert-d8832b12f021",
+    "anomalyId": "anomaly-3687b1f7a7c4",
+    "hazardType": "flood",
+    "confidenceScore": 100,
+    "message": "FLOOD DANGER - Confidence 100% - Community-verified (5Y/1N)",
+    "channelsSent": [
+      "sms",
+      "dashboard",
+      "push"
+    ],
+    "sachetPayload": {
+      "version": "1.0",
+      "source": "hazentra",
+      "sourceNodeId": "flood-node-01",
+      "hazardType": "flood",
+      "severity": "danger",
+      "confidence": 100,
+      "verificationStatus": "verified",
+      "location": {
+        "lat": 26.1445,
+        "lng": 91.7362,
+        "description": "Brahmaputra River Bank Station"
+      },
+      "timestamp": "2026-09-09T08:41:30.000Z",
+      "sensorData": {},
+      "message": "FLOOD DANGER - Confidence 100% - Community-verified (5Y/1N)"
+    },
+    "timestamp": "2026-09-09T08:41:30.000Z"
+  },
+  {
+    "alertId": "alert-5ff59035f132",
+    "anomalyId": "anomaly-09a842c7047d",
+    "hazardType": "flood",
+    "confidenceScore": 100,
+    "message": "FLOOD DANGER - Confidence 100% - Community-verified (2Y/1N)",
+    "channelsSent": [
+      "sms",
+      "dashboard",
+      "push"
+    ],
+    "sachetPayload": {
+      "version": "1.0",
+      "source": "hazentra",
+      "sourceNodeId": "flood-node-01",
+      "hazardType": "flood",
+      "severity": "danger",
+      "confidence": 100,
+      "verificationStatus": "verified",
+      "location": {
+        "lat": 26.1445,
+        "lng": 91.7362,
+        "description": "Brahmaputra River Bank Station"
+      },
+      "timestamp": "2026-09-09T08:47:00.000Z",
+      "sensorData": {},
+      "message": "FLOOD DANGER - Confidence 100% - Community-verified (2Y/1N)"
+    },
+    "timestamp": "2026-09-09T08:47:00.000Z"
+  },
+  {
+    "alertId": "alert-ba5a5e708f19",
+    "anomalyId": "anomaly-c555d52e406e",
+    "hazardType": "flood",
+    "confidenceScore": 100,
+    "message": "FLOOD DANGER - Confidence 100% - Community-verified (2Y/0N)",
+    "channelsSent": [
+      "sms",
+      "dashboard",
+      "push"
+    ],
+    "sachetPayload": {
+      "version": "1.0",
+      "source": "hazentra",
+      "sourceNodeId": "flood-node-01",
+      "hazardType": "flood",
+      "severity": "danger",
+      "confidence": 100,
+      "verificationStatus": "verified",
+      "location": {
+        "lat": 26.1445,
+        "lng": 91.7362,
+        "description": "Brahmaputra River Bank Station"
+      },
+      "timestamp": "2026-09-09T08:52:00.000Z",
+      "sensorData": {},
+      "message": "FLOOD DANGER - Confidence 100% - Community-verified (2Y/0N)"
+    },
+    "timestamp": "2026-09-09T08:52:00.000Z"
+  },
+  {
+    "alertId": "alert-4af097350e27",
+    "anomalyId": "anomaly-ea5cda8f9825",
+    "hazardType": "flood",
+    "confidenceScore": 100,
+    "message": "FLOOD DANGER - Confidence 100% - Community-verified (4Y/1N)",
+    "channelsSent": [
+      "sms",
+      "dashboard",
+      "push"
+    ],
+    "sachetPayload": {
+      "version": "1.0",
+      "source": "hazentra",
+      "sourceNodeId": "flood-node-01",
+      "hazardType": "flood",
+      "severity": "danger",
+      "confidence": 100,
+      "verificationStatus": "verified",
+      "location": {
+        "lat": 26.1445,
+        "lng": 91.7362,
+        "description": "Brahmaputra River Bank Station"
+      },
+      "timestamp": "2026-09-09T09:00:00.000Z",
+      "sensorData": {},
+      "message": "FLOOD DANGER - Confidence 100% - Community-verified (4Y/1N)"
+    },
+    "timestamp": "2026-09-09T09:00:00.000Z"
+  },
+  {
+    "alertId": "alert-c09396b3d0c1",
+    "anomalyId": "anomaly-e604db4d874e",
+    "hazardType": "flood",
+    "confidenceScore": 100,
+    "message": "FLOOD DANGER - Confidence 100% - Community-verified (3Y/1N)",
+    "channelsSent": [
+      "sms",
+      "dashboard",
+      "push"
+    ],
+    "sachetPayload": {
+      "version": "1.0",
+      "source": "hazentra",
+      "sourceNodeId": "flood-node-01",
+      "hazardType": "flood",
+      "severity": "danger",
+      "confidence": 100,
+      "verificationStatus": "verified",
+      "location": {
+        "lat": 26.1445,
+        "lng": 91.7362,
+        "description": "Brahmaputra River Bank Station"
+      },
+      "timestamp": "2026-09-09T09:06:00.000Z",
+      "sensorData": {},
+      "message": "FLOOD DANGER - Confidence 100% - Community-verified (3Y/1N)"
+    },
+    "timestamp": "2026-09-09T09:06:00.000Z"
+  },
+  {
+    "alertId": "alert-70cd94c8e641",
+    "anomalyId": "anomaly-c53ac2eab818",
+    "hazardType": "flood",
+    "confidenceScore": 99.6,
+    "message": "FLOOD DANGER - Confidence 100% - Community-verified (4Y/1N)",
+    "channelsSent": [
+      "sms",
+      "dashboard",
+      "push"
+    ],
+    "sachetPayload": {
+      "version": "1.0",
+      "source": "hazentra",
+      "sourceNodeId": "flood-node-01",
+      "hazardType": "flood",
+      "severity": "danger",
+      "confidence": 99.6,
+      "verificationStatus": "verified",
+      "location": {
+        "lat": 26.1445,
+        "lng": 91.7362,
+        "description": "Brahmaputra River Bank Station"
+      },
+      "timestamp": "2026-09-09T09:11:00.000Z",
+      "sensorData": {},
+      "message": "FLOOD DANGER - Confidence 100% - Community-verified (4Y/1N)"
+    },
+    "timestamp": "2026-09-09T09:11:00.000Z"
+  },
+  {
+    "alertId": "alert-ecf951d4cd2e",
+    "anomalyId": "anomaly-3e37127f2630",
+    "hazardType": "flood",
+    "confidenceScore": 95.6,
+    "message": "FLOOD DANGER - Confidence 96% - Community-verified (5Y/1N)",
+    "channelsSent": [
+      "sms",
+      "dashboard",
+      "push"
+    ],
+    "sachetPayload": {
+      "version": "1.0",
+      "source": "hazentra",
+      "sourceNodeId": "flood-node-01",
+      "hazardType": "flood",
+      "severity": "danger",
+      "confidence": 95.6,
+      "verificationStatus": "verified",
+      "location": {
+        "lat": 26.1445,
+        "lng": 91.7362,
+        "description": "Brahmaputra River Bank Station"
+      },
+      "timestamp": "2026-09-09T09:17:00.000Z",
+      "sensorData": {},
+      "message": "FLOOD DANGER - Confidence 96% - Community-verified (5Y/1N)"
+    },
+    "timestamp": "2026-09-09T09:17:00.000Z"
+  },
+  {
+    "alertId": "alert-2e26c5395765",
+    "anomalyId": "anomaly-6438f0955584",
+    "hazardType": "flood",
+    "confidenceScore": 89.0,
+    "message": "FLOOD DANGER - Confidence 89% - Community-verified (2Y/0N)",
+    "channelsSent": [
+      "sms",
+      "dashboard",
+      "push"
+    ],
+    "sachetPayload": {
+      "version": "1.0",
+      "source": "hazentra",
+      "sourceNodeId": "flood-node-01",
+      "hazardType": "flood",
+      "severity": "danger",
+      "confidence": 89.0,
+      "verificationStatus": "verified",
+      "location": {
+        "lat": 26.1445,
+        "lng": 91.7362,
+        "description": "Brahmaputra River Bank Station"
+      },
+      "timestamp": "2026-09-09T09:24:00.000Z",
+      "sensorData": {},
+      "message": "FLOOD DANGER - Confidence 89% - Community-verified (2Y/0N)"
+    },
+    "timestamp": "2026-09-09T09:24:00.000Z"
+  },
+  {
+    "alertId": "alert-72a73ed016cb",
+    "anomalyId": "anomaly-a4e6b9a9f39d",
+    "hazardType": "flood",
+    "confidenceScore": 88.5,
+    "message": "FLOOD DANGER - Confidence 88% - Community-verified (5Y/1N)",
+    "channelsSent": [
+      "sms",
+      "dashboard",
+      "push"
+    ],
+    "sachetPayload": {
+      "version": "1.0",
+      "source": "hazentra",
+      "sourceNodeId": "flood-node-01",
+      "hazardType": "flood",
+      "severity": "danger",
+      "confidence": 88.5,
+      "verificationStatus": "verified",
+      "location": {
+        "lat": 26.1445,
+        "lng": 91.7362,
+        "description": "Brahmaputra River Bank Station"
+      },
+      "timestamp": "2026-09-09T09:30:30.000Z",
+      "sensorData": {},
+      "message": "FLOOD DANGER - Confidence 88% - Community-verified (5Y/1N)"
+    },
+    "timestamp": "2026-09-09T09:30:30.000Z"
+  }
+]

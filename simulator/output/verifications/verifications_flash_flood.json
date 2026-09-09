@@ -1,0 +1,338 @@
+{
+  "anomaly-9f2b6e016829": {
+    "919876543210": {
+      "response": "YES",
+      "timestamp": "2026-09-09T07:24:24.000Z"
+    },
+    "919876543211": {
+      "response": "NO",
+      "timestamp": "2026-09-09T07:22:31.000Z"
+    },
+    "919876543212": {
+      "response": "YES",
+      "timestamp": "2026-09-09T07:22:31.000Z"
+    }
+  },
+  "anomaly-72bfdbbecdcc": {
+    "919876543210": {
+      "response": "NO",
+      "timestamp": "2026-09-09T07:29:29.000Z"
+    },
+    "919876543211": {
+      "response": "YES",
+      "timestamp": "2026-09-09T07:31:09.000Z"
+    },
+    "919876543212": {
+      "response": "YES",
+      "timestamp": "2026-09-09T07:31:12.000Z"
+    }
+  },
+  "anomaly-d1f688efa9b3": {
+    "919876543210": {
+      "response": "YES",
+      "timestamp": "2026-09-09T07:37:13.000Z"
+    },
+    "919876543211": {
+      "response": "YES",
+      "timestamp": "2026-09-09T07:38:29.000Z"
+    },
+    "919876543212": {
+      "response": "YES",
+      "timestamp": "2026-09-09T07:38:55.000Z"
+    }
+  },
+  "anomaly-b3643ccf99a8": {
+    "919876543210": {
+      "response": "YES",
+      "timestamp": "2026-09-09T07:43:01.000Z"
+    },
+    "919876543211": {
+      "response": "YES",
+      "timestamp": "2026-09-09T07:43:41.000Z"
+    },
+    "919876543212": {
+      "response": "YES",
+      "timestamp": "2026-09-09T07:45:39.000Z"
+    }
+  },
+  "anomaly-b28b56838cf8": {
+    "919876543210": {
+      "response": "YES",
+      "timestamp": "2026-09-09T07:49:34.000Z"
+    },
+    "919876543211": {
+      "response": "YES",
+      "timestamp": "2026-09-09T07:49:02.000Z"
+    },
+    "919876543212": {
+      "response": "YES",
+      "timestamp": "2026-09-09T07:47:54.000Z"
+    }
+  },
+  "anomaly-1f7854d78abf": {
+    "919876543210": {
+      "response": "YES",
+      "timestamp": "2026-09-09T07:54:25.000Z"
+    },
+    "919876543211": {
+      "response": "YES",
+      "timestamp": "2026-09-09T07:54:12.000Z"
+    },
+    "919876543212": {
+      "response": "NO",
+      "timestamp": "2026-09-09T07:53:05.000Z"
+    }
+  },
+  "anomaly-bef9fd9dd9ec": {
+    "919876543210": {
+      "response": "YES",
+      "timestamp": "2026-09-09T07:58:36.000Z"
+    },
+    "919876543211": {
+      "response": "YES",
+      "timestamp": "2026-09-09T07:58:26.000Z"
+    },
+    "919876543212": {
+      "response": "YES",
+      "timestamp": "2026-09-09T07:58:47.000Z"
+    }
+  },
+  "anomaly-4ff914968c3a": {
+    "919876543210": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:04:41.000Z"
+    },
+    "919876543211": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:03:08.000Z"
+    },
+    "919876543212": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:03:20.000Z"
+    }
+  },
+  "anomaly-f3ca056faf5c": {
+    "919876543210": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:08:14.000Z"
+    },
+    "919876543211": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:07:23.000Z"
+    },
+    "919876543212": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:08:41.000Z"
+    }
+  },
+  "anomaly-fb66c4eacf79": {
+    "919876543210": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:15:59.000Z"
+    },
+    "919876543211": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:15:10.000Z"
+    },
+    "919876543212": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:14:18.000Z"
+    }
+  },
+  "anomaly-2863a1241fcc": {
+    "919876543210": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:18:51.000Z"
+    },
+    "919876543211": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:19:07.000Z"
+    },
+    "919876543212": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:19:09.000Z"
+    }
+  },
+  "anomaly-8906f41d1d5a": {
+    "919876543210": {
+      "response": "NO",
+      "timestamp": "2026-09-09T08:21:50.000Z"
+    },
+    "919876543211": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:21:45.000Z"
+    },
+    "919876543212": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:22:52.000Z"
+    }
+  },
+  "anomaly-4aaa537ba262": {
+    "919876543210": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:27:00.000Z"
+    },
+    "919876543211": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:27:24.000Z"
+    },
+    "919876543212": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:30:03.000Z"
+    }
+  },
+  "anomaly-09cd35c125a9": {
+    "919876543210": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:35:12.000Z"
+    },
+    "919876543211": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:34:36.000Z"
+    },
+    "919876543212": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:32:36.000Z"
+    }
+  },
+  "anomaly-eedfbc64f8f0": {
+    "919876543210": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:41:03.000Z"
+    },
+    "919876543211": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:39:31.000Z"
+    },
+    "919876543212": {
+      "response": "NO",
+      "timestamp": "2026-09-09T08:38:51.000Z"
+    }
+  },
+  "anomaly-3687b1f7a7c4": {
+    "919876543210": {
+      "response": "NO",
+      "timestamp": "2026-09-09T08:45:58.000Z"
+    },
+    "919876543211": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:42:56.000Z"
+    },
+    "919876543212": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:42:42.000Z"
+    }
+  },
+  "anomaly-09a842c7047d": {
+    "919876543210": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:51:45.000Z"
+    },
+    "919876543211": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:50:37.000Z"
+    },
+    "919876543212": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:50:54.000Z"
+    }
+  },
+  "anomaly-c555d52e406e": {
+    "919876543210": {
+      "response": "YES",
+      "timestamp": "2026-09-09T08:56:25.000Z"
+    },
+    "919876543211": {
+      "response": "NO",
+      "timestamp": "2026-09-09T08:54:21.000Z"
+    },
+    "919876543212": {
+      "response": "NO",
+      "timestamp": "2026-09-09T08:56:12.000Z"
+    }
+  },
+  "anomaly-ea5cda8f9825": {
+    "919876543210": {
+      "response": "YES",
+      "timestamp": "2026-09-09T09:01:12.000Z"
+    },
+    "919876543211": {
+      "response": "YES",
+      "timestamp": "2026-09-09T09:04:25.000Z"
+    },
+    "919876543212": {
+      "response": "YES",
+      "timestamp": "2026-09-09T09:02:49.000Z"
+    }
+  },
+  "anomaly-e604db4d874e": {
+    "919876543210": {
+      "response": "YES",
+      "timestamp": "2026-09-09T09:07:55.000Z"
+    },
+    "919876543211": {
+      "response": "YES",
+      "timestamp": "2026-09-09T09:08:42.000Z"
+    },
+    "919876543212": {
+      "response": "YES",
+      "timestamp": "2026-09-09T09:07:01.000Z"
+    }
+  },
+  "anomaly-c53ac2eab818": {
+    "919876543210": {
+      "response": "YES",
+      "timestamp": "2026-09-09T09:15:58.000Z"
+    },
+    "919876543211": {
+      "response": "YES",
+      "timestamp": "2026-09-09T09:14:48.000Z"
+    },
+    "919876543212": {
+      "response": "YES",
+      "timestamp": "2026-09-09T09:12:23.000Z"
+    }
+  },
+  "anomaly-3e37127f2630": {
+    "919876543210": {
+      "response": "YES",
+      "timestamp": "2026-09-09T09:19:46.000Z"
+    },
+    "919876543211": {
+      "response": "YES",
+      "timestamp": "2026-09-09T09:18:32.000Z"
+    },
+    "919876543212": {
+      "response": "YES",
+      "timestamp": "2026-09-09T09:21:03.000Z"
+    }
+  },
+  "anomaly-6438f0955584": {
+    "919876543210": {
+      "response": "NO",
+      "timestamp": "2026-09-09T09:26:50.000Z"
+    },
+    "919876543211": {
+      "response": "NO",
+      "timestamp": "2026-09-09T09:25:11.000Z"
+    },
+    "919876543212": {
+      "response": "YES",
+      "timestamp": "2026-09-09T09:25:58.000Z"
+    }
+  },
+  "anomaly-a4e6b9a9f39d": {
+    "919876543210": {
+      "response": "NO",
+      "timestamp": "2026-09-09T09:31:17.000Z"
+    },
+    "919876543211": {
+      "response": "YES",
+      "timestamp": "2026-09-09T09:31:46.000Z"
+    },
+    "919876543212": {
+      "response": "YES",
+      "timestamp": "2026-09-09T09:31:25.000Z"
+    }
+  }
+}

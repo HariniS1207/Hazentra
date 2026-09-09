@@ -1,0 +1,5 @@
+# firebase-admin is OPTIONAL — only needed for Firestore upload
+# The core simulator (main.py) runs with zero dependencies (stdlib only)
+
+# Uncomment below when you need to push data to Firebase:
+# firebase-admin>=6.0.0

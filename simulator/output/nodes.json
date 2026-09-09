@@ -1,0 +1,18 @@
+{
+  "flood-node-01": {
+    "name": "Brahmaputra River Bank Station",
+    "type": "flood",
+    "lat": 26.1445,
+    "lng": 91.7362,
+    "status": "online",
+    "lastSeen": "2026-09-09T06:00:00.000Z"
+  },
+  "airq-node-01": {
+    "name": "Guwahati Urban AQ Station",
+    "type": "air_quality",
+    "lat": 26.1558,
+    "lng": 91.7456,
+    "status": "online",
+    "lastSeen": "2026-09-09T06:00:00.000Z"
+  }
+}
