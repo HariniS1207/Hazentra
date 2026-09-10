@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ESP32 Disaster Alert Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.3/chart.umd.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🛰️ Multi-Sensor Disaster Alert System</h1>
+    <span id="connection-status" class="status offline">Connecting...</span>
+  </header>
+
+  <div id="alert-banner" class="alert-banner hidden"></div>
+
+  <main class="grid">
+    <div class="card" id="card-accel">
+      <h3>Vibration / Seismic</h3>
+      <div class="value"><span id="val-accel">--</span> m/s²</div>
+      <div class="sub">Threshold: 4.0</div>
+    </div>
+    <div class="card" id="card-temp">
+      <h3>Temperature</h3>
+      <div class="value"><span id="val-temp">--</span> °C</div>
+      <div class="sub">Threshold: 35.0</div>
+    </div>
+    <div class="card" id="card-dist">
+      <h3>Water Distance</h3>
+      <div class="value"><span id="val-dist">--</span> cm</div>
+      <div class="sub">Flood if ≤ 10.0</div>
+    </div>
+    <div class="card" id="card-gas">
+      <h3>Air Quality (raw)</h3>
+      <div class="value"><span id="val-gas">--</span></div>
+      <div class="sub">Threshold: 150</div>
+    </div>
+    <div class="card" id="card-soil">
+      <h3>Soil Moisture</h3>
+      <div class="value"><span id="val-soil">--</span> %</div>
+      <div class="sub">Threshold: 70</div>
+    </div>
+  </main>
+
+  <section class="chart-section">
+    <h2>Live Trend</h2>
+    <canvas id="trendChart" height="90"></canvas>
+  </section>
+
+  <section class="log-section">
+    <h2>Alert History</h2>
+    <ul id="alert-log"></ul>
+  </section>
+
+  <script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+</body>
+</html>
