@@ -1,247 +1,166 @@
 """
-Hazentra Simulator — CLI Entry Point
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Hazentra Simulator — CLI Entry Point (Single-Node Architecture)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Usage:
-  python main.py                          # Generate ALL scenarios
-  python main.py --scenario normal        # Single scenario
-  python main.py --scenario flood --duration 12 --interval 30
-  python main.py --scenario all --format firestore   # Firestore-ready nested JSON
-  python main.py --list                   # List available scenarios
-
-Outputs JSON files into simulator/output/ matching the Firestore schema.
+  python main.py                      # Generate all 7 scenarios with sequential timestamps
+  python main.py --scenario fire      # Generate specific scenario
+  python main.py --list               # Show scenario descriptions
 """
 
 import argparse
 import json
 import os
-import sys
-from datetime import datetime
+import random
+from datetime import datetime, timezone, timedelta
 
-from config import NODES
+from config import NODE_INFO
 from generator import (
-    FloodNodeGenerator,
-    AirQualityNodeGenerator,
-    generate_node_docs,
-    generate_sample_anomalies,
-    generate_sample_alerts,
-    generate_sample_verifications,
+    SingleNodeTelemetryGenerator,
+    evaluate_fusion_rules,
+    generate_alerts_and_verifications
 )
-
-
-# ── Scenario definitions ────────────────────────────────────────────────────
 
 SCENARIOS = {
     "normal": {
-        "description": "Normal monsoon day - 24h baseline with light rain, stable water, moderate AQI",
+        "description": "24h normal baseline: all 5 sensors nominal, diurnal temp cycle, 0 anomalies",
         "duration_hours": 24,
-        "flood_node_scenario": "normal",
-        "airq_node_scenario": "normal",
+        "interval_sec": 30,
     },
-    "flood": {
-        "description": "Progressive flood - 12h heavy rain -> water level rise -> peak -> recession",
-        "duration_hours": 12,
-        "flood_node_scenario": "flood",
-        "airq_node_scenario": "normal",
-    },
-    "flash_flood": {
-        "description": "Flash flood - 4h sudden cloudburst -> rapid water rise -> partial recession",
-        "duration_hours": 4,
-        "flood_node_scenario": "flash_flood",
-        "airq_node_scenario": "normal",
+    "earthquake": {
+        "description": "1h seismic scenario: sudden vector accel spike >4.0 m/s^2, debounce-verified",
+        "duration_hours": 1,
+        "interval_sec": 5,
     },
     "fire": {
-        "description": "Fire/smoke event - 6h sharp smoke spike -> sustained -> decay",
-        "duration_hours": 6,
-        "flood_node_scenario": "normal",
-        "airq_node_scenario": "fire",
+        "description": "4h fire event: MQ-135 gasRaw >=150 (spike) AND DHT22 temp rising >0.3C (Fusion)",
+        "duration_hours": 4,
+        "interval_sec": 10,
     },
-    "pollution_drift": {
-        "description": "Gradual AQI deterioration - 8h slow rise to Very Poor, no sharp spike (contrast case for fusion logic)",
+    "flood": {
+        "description": "8h river overflow: HC-SR04 distance <=10cm AND soil moisture rising (Fusion)",
         "duration_hours": 8,
-        "flood_node_scenario": "normal",
-        "airq_node_scenario": "pollution_drift",
+        "interval_sec": 15,
+    },
+    "gas_leak": {
+        "description": "3h industrial gas leak: gasRaw >=150 (spike) but temp flat (Zero dead zone)",
+        "duration_hours": 3,
+        "interval_sec": 10,
+    },
+    "landslide": {
+        "description": "6h saturated slope: soil >=70% AND micro-tremors 3.65-4.0 m/s^2",
+        "duration_hours": 6,
+        "interval_sec": 15,
     },
     "compound": {
-        "description": "COMPOUND EVENT - flood + fire simultaneously from nearby nodes (12h, cross-hazard fusion test)",
-        "duration_hours": 12,
-        "flood_node_scenario": "compound",
-        "airq_node_scenario": "compound",
+        "description": "6h multi-hazard: flood + fire occurring within 90s correlation window",
+        "duration_hours": 6,
+        "interval_sec": 15,
     },
 }
-
 
 def _banner(text, width=70):
     print("\n" + "=" * width)
     print(f"  {text}")
     print("=" * width)
 
-
 def _save_json(data, filepath):
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
     size_kb = os.path.getsize(filepath) / 1024
-    print(f"  [OK] Saved: {filepath}  ({size_kb:.1f} KB)")
+    print(f"  [OK] Saved: {filepath} ({size_kb:.1f} KB)")
 
 
-def generate_scenario(name, scenario_def, start_time, interval_sec,
-                      duration_override=None, output_dir="output"):
-    """Generate readings for a single scenario and save to JSON."""
-    duration = duration_override or scenario_def["duration_hours"]
+def run_scenario(name, sc_def, start_time, output_dir):
+    _banner(f"SCENARIO: {name.upper()}")
+    print(f"  {sc_def['description']}")
+    print(f"  Duration: {sc_def['duration_hours']}h | Interval: {sc_def['interval_sec']}s")
+    print(f"  Start Time (UTC): {start_time.isoformat()}")
 
-    _banner(f"Scenario: {name.upper()}")
-    print(f"  {scenario_def['description']}")
-    print(f"  Duration: {duration}h | Interval: {interval_sec}s | "
-          f"Readings per node: {int(duration * 3600 / interval_sec)}")
-    print()
-
-    flood_gen = FloodNodeGenerator("flood-node-01")
-    airq_gen = AirQualityNodeGenerator("airq-node-01")
-
-    flood_readings = flood_gen.generate(
-        scenario_def["flood_node_scenario"],
-        start_time, duration, interval_sec,
-    )
-    airq_readings = airq_gen.generate(
-        scenario_def["airq_node_scenario"],
-        start_time, duration, interval_sec,
+    gen = SingleNodeTelemetryGenerator()
+    readings = gen.generate(
+        name,
+        start_time,
+        sc_def["duration_hours"],
+        sc_def["interval_sec"]
     )
 
-    # ── Save readings ──
-    readings_dir = os.path.join(output_dir, "readings")
-    _save_json(flood_readings,
-               os.path.join(readings_dir, f"flood_node_{name}.json"))
-    _save_json(airq_readings,
-               os.path.join(readings_dir, f"airq_node_{name}.json"))
+    # Save raw readings
+    readings_file = os.path.join(output_dir, "readings", f"readings_{name}.json")
+    _save_json(readings, readings_file)
+    print(f"  Generated {len(readings)} telemetry readings")
 
-    # ── Generate & save anomalies ──
-    readings_by_node = {
-        "flood-node-01": flood_readings,
-        "airq-node-01": airq_readings,
-    }
-    anomalies = generate_sample_anomalies(readings_by_node)
-
+    # Run fusion logic
+    anomalies = evaluate_fusion_rules(readings)
     if anomalies:
-        _save_json(anomalies,
-                   os.path.join(output_dir, "anomalies", f"anomalies_{name}.json"))
-        print(f"  [!] {len(anomalies)} anomalies detected")
+        anom_file = os.path.join(output_dir, "anomalies", f"anomalies_{name}.json")
+        _save_json(anomalies, anom_file)
+        print(f"  [!] {len(anomalies)} anomalies detected by Cloud Fusion Engine")
 
-        # ── Generate alerts (from high-confidence anomalies) ──
-        alerts = generate_sample_alerts(anomalies)
+        # Run verification loop simulation & alert generation
+        alerts, verifs = generate_alerts_and_verifications(anomalies)
         if alerts:
-            _save_json(alerts,
-                       os.path.join(output_dir, "alerts", f"alerts_{name}.json"))
-            print(f"  [ALERT] {len(alerts)} alerts escalated (with SACHET payloads)")
+            alerts_file = os.path.join(output_dir, "alerts", f"alerts_{name}.json")
+            _save_json(alerts, alerts_file)
+            print(f"  [ALERT] {len(alerts)} alerts escalated with SACHET payloads")
 
-        # ── Generate sample verification responses ──
-        verifications = generate_sample_verifications(anomalies)
-        if verifications:
-            _save_json(verifications,
-                       os.path.join(output_dir, "verifications",
-                                    f"verifications_{name}.json"))
-            print(f"  [SMS] {len(verifications)} verification response sets generated")
+        if verifs:
+            verifs_file = os.path.join(output_dir, "verifications", f"verifications_{name}.json")
+            _save_json(verifs, verifs_file)
+            print(f"  [SMS] {len(verifs)} verification cycles simulated")
     else:
-        print("  [OK] No anomalies (expected for baseline scenario)")
+        print("  [OK] 0 anomalies detected (Clean baseline)")
 
-    total_readings = len(flood_readings) + len(airq_readings)
-    print(f"\n  Total readings generated: {total_readings}")
-    return flood_readings, airq_readings, anomalies
+    return len(readings), len(anomalies)
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description="Hazentra Synthetic Data Generator — "
-                    "Generates realistic sensor data calibrated against IMD/CPCB."
-    )
-    parser.add_argument(
-        "--scenario", "-s",
-        choices=list(SCENARIOS.keys()) + ["all"],
-        default="all",
-        help="Scenario to generate (default: all)",
-    )
-    parser.add_argument(
-        "--duration", "-d", type=float, default=None,
-        help="Override scenario duration (hours)",
-    )
-    parser.add_argument(
-        "--interval", "-i", type=int, default=30,
-        help="Sensor polling interval in seconds (default: 30)",
-    )
-    parser.add_argument(
-        "--start-time", "-t", type=str, default=None,
-        help="Start timestamp (ISO format, default: now)",
-    )
-    parser.add_argument(
-        "--output", "-o", type=str, default="output",
-        help="Output directory (default: output/)",
-    )
-    parser.add_argument(
-        "--seed", type=int, default=42,
-        help="Random seed for reproducibility (default: 42)",
-    )
-    parser.add_argument(
-        "--list", "-l", action="store_true",
-        help="List available scenarios and exit",
-    )
-
+    parser = argparse.ArgumentParser(description="Hazentra Single-Node Telemetry & Fusion Simulator")
+    parser.add_argument("--scenario", "-s", default="all", choices=list(SCENARIOS.keys()) + ["all"])
+    parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--output", "-o", default="output")
+    parser.add_argument("--list", "-l", action="store_true")
     args = parser.parse_args()
 
     if args.list:
-        print("\nAvailable scenarios:")
-        for name, s in SCENARIOS.items():
-            print(f"  {name:18s} — {s['description']}")
-        print(f"\n  {'all':18s} — Generate all scenarios at once")
+        print("\nAvailable Scenarios:")
+        for k, v in SCENARIOS.items():
+            print(f"  {k:15s} : {v['description']}")
         return
 
-    # Reproducible output
-    import random
     random.seed(args.seed)
-
-    if args.start_time:
-        start_time = datetime.fromisoformat(args.start_time)
-    else:
-        # Default: today at 6:00 AM IST (realistic monsoon morning)
-        now = datetime.now()
-        start_time = now.replace(hour=6, minute=0, second=0, microsecond=0)
-
-    # Resolve output dir relative to script location
     script_dir = os.path.dirname(os.path.abspath(__file__))
     output_dir = os.path.join(script_dir, args.output)
 
-    _banner("HAZENTRA SYNTHETIC DATA GENERATOR")
-    print(f"  Start time : {start_time.isoformat()}")
-    print(f"  Interval   : {args.interval}s")
-    print(f"  Seed       : {args.seed}")
-    print(f"  Output dir : {output_dir}")
+    # Use true UTC baseline
+    base_start_time = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
 
-    # ── Generate node registration docs ──
-    nodes = generate_node_docs(start_time)
-    _save_json(nodes, os.path.join(output_dir, "nodes.json"))
-    print(f"  [OK] {len(nodes)} node documents generated")
+    _banner("HAZENTRA MULTI-HAZARD SIMULATOR (SINGLE INTEGRATED NODE)")
+    print(f"  Node ID     : {NODE_INFO['nodeId']}")
+    print(f"  Sensors     : ADXL345, DHT22, HC-SR04, MQ-135, Soil Moisture")
+    print(f"  Base Time   : {base_start_time.isoformat()}")
+    print(f"  Output Dir  : {output_dir}")
 
-    # ── Generate scenarios ──
-    scenarios_to_run = (
-        list(SCENARIOS.keys()) if args.scenario == "all"
-        else [args.scenario]
-    )
+    # Save node metadata
+    _save_json(NODE_INFO, os.path.join(output_dir, "node_info.json"))
 
+    scenarios = list(SCENARIOS.keys()) if args.scenario == "all" else [args.scenario]
     total_readings = 0
     total_anomalies = 0
-    for name in scenarios_to_run:
-        scenario_def = SCENARIOS[name]
-        flood_r, airq_r, anomalies = generate_scenario(
-            name, scenario_def, start_time, args.interval,
-            args.duration, output_dir,
-        )
-        total_readings += len(flood_r) + len(airq_r)
-        total_anomalies += len(anomalies)
 
-    _banner("GENERATION COMPLETE")
-    print(f"  Scenarios     : {len(scenarios_to_run)}")
-    print(f"  Total readings: {total_readings:,}")
-    print(f"  Total anomalies: {total_anomalies}")
-    print(f"  Output dir    : {output_dir}")
-    print()
+    current_time = base_start_time
+    for sc in scenarios:
+        r_cnt, a_cnt = run_scenario(sc, SCENARIOS[sc], current_time, output_dir)
+        total_readings += r_cnt
+        total_anomalies += a_cnt
+        # Stagger each scenario in time so documents don't collide when batch uploaded
+        current_time += timedelta(hours=SCENARIOS[sc]["duration_hours"] + 1)
+
+    _banner("SIMULATION COMPLETED")
+    print(f"  Total Scenarios : {len(scenarios)}")
+    print(f"  Total Readings  : {total_readings:,}")
+    print(f"  Total Anomalies : {total_anomalies}")
+    print(f"  Output Directory: {output_dir}\n")
 
 
 if __name__ == "__main__":

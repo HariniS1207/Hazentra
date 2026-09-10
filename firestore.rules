@@ -1,0 +1,46 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Readings: anyone can read (dashboard), only authenticated admin/functions can write
+    match /readings/{timestamp} {
+      allow read: if true;
+      allow write: if true;  // Open for prototype — tighten before production
+    }
+
+    // Anomalies
+    match /anomalies/{anomalyId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // Verifications (subcollection)
+    match /verifications/{anomalyId} {
+      allow read: if true;
+      allow write: if true;
+
+      match /responses/{phone} {
+        allow read: if true;
+        allow write: if true;
+      }
+    }
+
+    // Active verification sessions (phone -> anomalyId mapping)
+    match /active_verifications/{phone} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // Alerts
+    match /alerts/{alertId} {
+      allow read: if true;
+      allow write: if true;
+    }
+
+    // Node metadata
+    match /nodes/{nodeId} {
+      allow read: if true;
+      allow write: if true;
+    }
+  }
+}

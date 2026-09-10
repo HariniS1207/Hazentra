@@ -1,688 +1,415 @@
 """
-Hazentra Synthetic Data Generator — Core Engine
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Generates realistic, IMD/CPCB-calibrated sensor time-series for every
-scenario the Hazentra prototype needs to handle:
+Hazentra Synthetic Data Generator — Single-Node Multi-Hazard Engine (Hardened)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Simulates telemetry for the single integrated ESP32 node across 7 scenarios:
+  1. normal        (24h baseline — all sensors nominal)
+  2. earthquake    (1h — sudden vector accel spike >4.0 m/s^2, debounce-verified)
+  3. fire          (4h — gasRaw spike >=150 AND temp rising >0.3C — fusion!)
+  4. flood         (8h — distance falling <=10cm AND soilMoisture rising — fusion!)
+  5. gas_leak      (3h — gasRaw spike >=150 AND temp flat/falling — zero dead zone!)
+  6. landslide     (6h — soilMoisture >=70% AND micro-tremor 3.65-4.0 m/s^2)
+  7. compound      (6h — flood + fire/gas occurring within 90s window)
 
-  • Normal monsoon day  (24 h baseline)
-  • Flood build-up      (12 h progressive event)
-  • Flash flood          (4 h sudden event)
-  • Fire / smoke event   (6 h)
-  • Pollution drift      (8 h gradual AQI deterioration)
-  • Compound event       (12 h — flood + fire from separate nodes)
-
-Physics modelled:
-  - Diurnal temperature / humidity cycles
-  - Rainfall → delayed water-level response (1-3 h lag)
-  - Rain → soil moisture saturation
-  - Sharp vs. gradual gas/smoke rise (fire vs. pollution drift)
-  - Correlated sensor noise and occasional sensor glitches
-
-All output matches the Firestore schema in CLAUDE_Hazentra.md Section 9.
+Schema:
+  /readings/{timestamp}
+    - accel: number (m/s^2)
+    - temp: number (deg C)
+    - distance: number (cm)
+    - gasRaw: number (0-4095 ADC)
+    - soilMoisture: number (%)
+    - cycle: integer (sequence count)
+    - timestamp: ISO 8601 UTC string
 """
 
 import math
 import random
 import uuid
 import copy
-from datetime import datetime, timedelta
+from datetime import datetime, timezone, timedelta
 
 from config import (
-    NODES, NODE_SENSORS, SENSOR_NOISE, THRESHOLDS,
-    TEMP_MONSOON, HUMIDITY_MONSOON,
-    SACHET_PAYLOAD_TEMPLATE,
+    NODE_INFO, BASELINES, FUSION_RULES,
+    SACHET_PAYLOAD_TEMPLATE, VERIFICATION_SETTINGS
 )
 
-
-# ────────────────────────────────────────────────────────────────────────────
-# MATH HELPERS
-# ────────────────────────────────────────────────────────────────────────────
-
-def _clamp(value, lo, hi):
-    return max(lo, min(hi, value))
-
-
-def _add_noise(value, sensor_key, lo=None, hi=None):
-    """Add Gaussian sensor noise and optionally clamp."""
-    sigma = SENSOR_NOISE.get(sensor_key, 0)
-    noisy = value + random.gauss(0, sigma)
-    if lo is not None or hi is not None:
-        noisy = _clamp(noisy, lo if lo is not None else -1e9,
-                        hi if hi is not None else 1e9)
-    return round(noisy, 2)
-
+def _clamp(v, lo, hi):
+    return max(lo, min(hi, v))
 
 def _smooth(t, duration, start, end):
-    """Hermite (smoothstep) interpolation from *start* to *end* over *duration*."""
     if duration <= 0:
         return end
     p = _clamp(t / duration, 0.0, 1.0)
-    s = p * p * (3 - 2 * p)          # smoothstep
+    s = p * p * (3 - 2 * p)
     return start + (end - start) * s
 
-
-def _diurnal(hour, mean, amplitude, peak_hour=14.0):
-    """Sinusoidal 24-h cycle peaking at *peak_hour*."""
-    return mean + amplitude * math.sin((hour - peak_hour + 6) * math.pi / 12)
-
-
-def _hour_of(ts):
-    """Fractional hour-of-day from a datetime."""
-    return ts.hour + ts.minute / 60.0 + ts.second / 3600.0
-
-
 def _iso(ts):
-    return ts.strftime("%Y-%m-%dT%H:%M:%S.000Z")
+    # Ensure timezone-aware UTC representation
+    if ts.tzinfo is None:
+        ts = ts.replace(tzinfo=timezone.utc)
+    else:
+        ts = ts.astimezone(timezone.utc)
+    return ts.strftime("%Y-%m-%dT%H:%M:%S.%f")[:-3] + "Z"
 
 
-def _generate_timestamps(start, duration_hours, interval_seconds):
-    """Yield (datetime, elapsed_minutes) tuples."""
-    total = int(duration_hours * 3600 / interval_seconds)
-    for i in range(total):
-        ts = start + timedelta(seconds=i * interval_seconds)
-        elapsed_min = (i * interval_seconds) / 60.0
-        yield ts, elapsed_min
+class SingleNodeTelemetryGenerator:
+    """Generates continuous telemetry for the single integrated Hazentra node."""
 
+    def __init__(self):
+        self.node_id = NODE_INFO["nodeId"]
+        self.cycle_counter = 186  # match start cycle from real hardware screenshot
 
-# ────────────────────────────────────────────────────────────────────────────
-# FLOOD NODE GENERATOR
-# ────────────────────────────────────────────────────────────────────────────
+    def _add_noise(self, val, sensor):
+        sigma = BASELINES[sensor]["noise_sigma"]
+        return round(val + random.gauss(0, sigma), 2)
 
-class FloodNodeGenerator:
-    """Generates readings for flood-node-01 (HC-SR04, DHT22, soil, MPU6050)."""
+    def generate_single_reading(self, scenario, elapsed_sec, ts, cycle_num=None):
+        """Generates a single reading at a specific elapsed time offset."""
+        if cycle_num is None:
+            cycle_num = self.cycle_counter
+            self.cycle_counter += 1
 
-    def __init__(self, node_id="flood-node-01"):
-        self.node_id = node_id
-        self.node = NODES[node_id]
-        # Running state (random-walk memory)
-        self._water_level = 310.0   # cm from sensor — normal
-        self._soil_moisture = 42.0  # %
-        self._vibration_base = 0.02
+        elapsed_min = elapsed_sec / 60.0
+        hour_of_day = ts.hour + ts.minute / 60.0 + ts.second / 3600.0
 
-    def _reset(self):
-        self._water_level = 310.0
-        self._soil_moisture = 42.0
-        self._vibration_base = 0.02
+        # Base diurnal temperature curve
+        amp = BASELINES["temp"]["diurnal_amp"]
+        temp_diurnal = BASELINES["temp"]["mean"] + amp * math.sin((hour_of_day - 14) * math.pi / 12)
 
-    # ── baseline (normal monsoon day) ───────────────────────────────────
+        accel = BASELINES["accel"]["mean"]
+        temp = temp_diurnal
+        dist = BASELINES["distance"]["mean"]
+        gas = BASELINES["gasRaw"]["mean"]
+        soil = BASELINES["soilMoisture"]["mean"]
 
-    def _baseline(self, ts):
-        hour = _hour_of(ts)
+        # Scenario physics
+        if scenario == "normal":
+            pass
 
-        temp = _diurnal(hour, TEMP_MONSOON["mean"],
-                        TEMP_MONSOON["diurnal_amplitude"])
-        humidity = _diurnal(hour, HUMIDITY_MONSOON["mean"],
-                           -HUMIDITY_MONSOON["diurnal_amplitude"],
-                           peak_hour=14.0)
+        elif scenario == "earthquake":
+            if 15.0 <= elapsed_min < 15.75:
+                accel = random.uniform(4.3, 5.8)  # Sharp seismic event
+            elif 15.75 <= elapsed_min < 22.0:
+                if random.random() < 0.25:
+                    accel = random.uniform(4.05, 4.45)
+                else:
+                    accel = 3.65 + random.uniform(-0.08, 0.08)
 
-        # Light intermittent rain — more likely late afternoon
-        rain_prob = 0.12 + 0.08 * math.sin((hour - 16) * math.pi / 12)
-        if random.random() < rain_prob:
-            rainfall = random.uniform(0.5, 3.0)
-        else:
-            rainfall = random.uniform(0.0, 0.3)
-
-        # Water level: gentle random walk around 310 cm
-        self._water_level += random.gauss(0, 0.4)
-        self._water_level = _clamp(self._water_level, 260, 370)
-
-        # Soil moisture: gentle drift, slight bump when raining
-        self._soil_moisture += random.gauss(0, 0.2)
-        if rainfall > 1.0:
-            self._soil_moisture += 0.15
-        self._soil_moisture = _clamp(self._soil_moisture, 30, 58)
-
-        # Vibration: calm baseline
-        vibration = abs(random.gauss(self._vibration_base, 0.008))
-
-        return {
-            "waterLevel":   _add_noise(self._water_level, "waterLevel", 20, 400),
-            "rainfall":     _add_noise(rainfall, "rainfall", 0, 100),
-            "temp":         _add_noise(temp, "temp", 10, 50),
-            "humidity":     _add_noise(humidity, "humidity", 20, 100),
-            "soilMoisture": _add_noise(self._soil_moisture, "soilMoisture", 0, 100),
-            "vibration":    _add_noise(vibration, "vibration", 0, 5),
-        }
-
-    # ── flood build-up scenario ─────────────────────────────────────────
-
-    def _flood_event(self, ts, elapsed_min, total_min):
-        """
-        12-hour progressive flood event:
-          Phase 1  (0-120 min)  : Rain intensifies from light → heavy
-          Phase 2  (120-300 min): Very heavy rain; water level starts falling
-                                  (= rising water); soil saturates
-          Phase 3  (300-480 min): Peak — water in danger zone, rain eases
-          Phase 4  (480-720 min): Slow recession, rain stops
-        """
-        hour = _hour_of(ts)
-
-        temp = _diurnal(hour, TEMP_MONSOON["mean"] - 2,      # slightly cooler during storm
-                        TEMP_MONSOON["diurnal_amplitude"] * 0.5)
-
-        # ── rainfall envelope ──
-        if elapsed_min < 120:
-            rainfall = _smooth(elapsed_min, 120, 1.5, 22.0)
-        elif elapsed_min < 300:
-            rainfall = _smooth(elapsed_min - 120, 180, 22.0, 45.0)
-            # occasional burst
-            if random.random() < 0.08:
-                rainfall += random.uniform(10, 25)
-        elif elapsed_min < 480:
-            rainfall = _smooth(elapsed_min - 300, 180, 45.0, 8.0)
-        else:
-            rainfall = _smooth(elapsed_min - 480, 240, 8.0, 0.5)
-
-        # ── humidity: spikes with heavy rain ──
-        humidity = min(99, 78 + 0.04 * rainfall + random.gauss(0, 1.5))
-
-        # ── water level: drops (water rises) with ~90-min lag after rain ──
-        rain_lag_min = max(0, elapsed_min - 90)
-        if rain_lag_min < 60:
-            self._water_level = _smooth(rain_lag_min, 60, 310, 280)
-        elif rain_lag_min < 210:
-            self._water_level = _smooth(rain_lag_min - 60, 150, 280, 120)
-        elif rain_lag_min < 390:
-            self._water_level = _smooth(rain_lag_min - 210, 180, 120, 55)
-        elif rain_lag_min < 560:
-            # peak danger zone — holds low
-            self._water_level = 55 + random.gauss(0, 3)
-        else:
-            self._water_level = _smooth(rain_lag_min - 560, 200, 55, 200)
-
-        # ── soil moisture: saturates progressively ──
-        if elapsed_min < 180:
-            self._soil_moisture = _smooth(elapsed_min, 180, 42, 68)
-        elif elapsed_min < 420:
-            self._soil_moisture = _smooth(elapsed_min - 180, 240, 68, 94)
-        else:
-            self._soil_moisture = _smooth(elapsed_min - 420, 300, 94, 70)
-
-        # ── vibration: increases during heavy flow ──
-        vib_mult = 1.0
-        if self._water_level < 120:
-            vib_mult = 2.5
-        elif self._water_level < 200:
-            vib_mult = 1.6
-        vibration = abs(random.gauss(self._vibration_base * vib_mult, 0.015))
-
-        return {
-            "waterLevel":   _add_noise(self._water_level, "waterLevel", 20, 400),
-            "rainfall":     _add_noise(rainfall, "rainfall", 0, 120),
-            "temp":         _add_noise(temp, "temp", 10, 50),
-            "humidity":     _add_noise(humidity, "humidity", 20, 100),
-            "soilMoisture": _add_noise(self._soil_moisture, "soilMoisture", 0, 100),
-            "vibration":    _add_noise(vibration, "vibration", 0, 5),
-        }
-
-    # ── flash flood (rapid onset) ───────────────────────────────────────
-
-    def _flash_flood(self, ts, elapsed_min, total_min):
-        """
-        4-hour flash flood:
-          0-30 min  : Sudden cloudburst, 40-70 mm/hr
-          30-120 min: Water level plummets to danger in ~90 min
-          120-180   : Rain eases, water at peak
-          180-240   : Rapid partial recession
-        """
-        hour = _hour_of(ts)
-        temp = _diurnal(hour, TEMP_MONSOON["mean"] - 3, 2.0)
-
-        if elapsed_min < 30:
-            rainfall = _smooth(elapsed_min, 30, 2.0, 60.0)
-        elif elapsed_min < 120:
-            rainfall = 55 + random.uniform(-8, 12)
-        elif elapsed_min < 180:
-            rainfall = _smooth(elapsed_min - 120, 60, 55.0, 5.0)
-        else:
-            rainfall = _smooth(elapsed_min - 180, 60, 5.0, 0.5)
-
-        humidity = min(99, 85 + 0.03 * rainfall + random.gauss(0, 1.0))
-
-        rain_lag = max(0, elapsed_min - 25)
-        if rain_lag < 90:
-            self._water_level = _smooth(rain_lag, 90, 310, 50)
-        elif rain_lag < 160:
-            self._water_level = 50 + random.gauss(0, 4)
-        else:
-            self._water_level = _smooth(rain_lag - 160, 80, 50, 180)
-
-        if elapsed_min < 60:
-            self._soil_moisture = _smooth(elapsed_min, 60, 42, 75)
-        elif elapsed_min < 150:
-            self._soil_moisture = _smooth(elapsed_min - 60, 90, 75, 95)
-        else:
-            self._soil_moisture = _smooth(elapsed_min - 150, 90, 95, 65)
-
-        vibration = abs(random.gauss(0.04 if self._water_level > 150 else 0.12,
-                                     0.02))
-        return {
-            "waterLevel":   _add_noise(self._water_level, "waterLevel", 20, 400),
-            "rainfall":     _add_noise(rainfall, "rainfall", 0, 120),
-            "temp":         _add_noise(temp, "temp", 10, 50),
-            "humidity":     _add_noise(humidity, "humidity", 20, 100),
-            "soilMoisture": _add_noise(self._soil_moisture, "soilMoisture", 0, 100),
-            "vibration":    _add_noise(vibration, "vibration", 0, 5),
-        }
-
-    # ── public entry point ──────────────────────────────────────────────
-
-    def generate(self, scenario, start_time, duration_hours, interval_sec):
-        self._reset()
-        total_min = duration_hours * 60
-        readings = []
-        for ts, elapsed in _generate_timestamps(start_time, duration_hours,
-                                                 interval_sec):
-            if scenario == "normal":
-                values = self._baseline(ts)
-            elif scenario == "flood":
-                values = self._flood_event(ts, elapsed, total_min)
-            elif scenario == "flash_flood":
-                values = self._flash_flood(ts, elapsed, total_min)
-            elif scenario == "compound":
-                values = self._flood_event(ts, elapsed, total_min)
+        elif scenario == "fire":
+            if elapsed_min < 20:
+                pass
+            elif elapsed_min < 50:
+                gas = _smooth(elapsed_min - 20, 30, 155, 380)
+                temp = _smooth(elapsed_min - 20, 30, temp_diurnal, 41.5)
+            elif elapsed_min < 140:
+                gas = 380 + random.uniform(-25, 40)
+                temp = 41.5 + random.uniform(-0.5, 1.2)
             else:
-                values = self._baseline(ts)
+                gas = _smooth(elapsed_min - 140, 60, 380, 160)
+                temp = _smooth(elapsed_min - 140, 60, 41.5, temp_diurnal)
 
-            readings.append({
-                "nodeId": self.node_id,
-                "timestamp": _iso(ts),
-                **values,
-            })
+        elif scenario == "flood":
+            if elapsed_min < 30:
+                pass
+            elif elapsed_min < 240:
+                dist = _smooth(elapsed_min - 30, 210, 135, 7.5)
+                soil = _smooth(elapsed_min - 30, 210, 42, 89)
+            elif elapsed_min < 380:
+                dist = 7.5 + random.uniform(-1.0, 1.0)
+                soil = 89 + random.uniform(-2.0, 3.0)
+            else:
+                dist = _smooth(elapsed_min - 380, 100, 7.5, 95)
+                soil = _smooth(elapsed_min - 380, 100, 89, 65)
+
+        elif scenario == "gas_leak":
+            if elapsed_min < 15:
+                pass
+            elif elapsed_min < 45:
+                gas = _smooth(elapsed_min - 15, 30, 155, 420)
+                temp = temp_diurnal - 0.4
+            elif elapsed_min < 120:
+                gas = 420 + random.uniform(-30, 30)
+                temp = temp_diurnal - 0.3
+            else:
+                gas = _smooth(elapsed_min - 120, 45, 420, 155)
+
+        elif scenario == "landslide":
+            if elapsed_min < 30:
+                pass
+            elif elapsed_min < 180:
+                soil = _smooth(elapsed_min - 30, 150, 42, 82)
+                accel = _smooth(elapsed_min - 30, 150, 3.50, 3.82)
+            elif elapsed_min < 300:
+                soil = 82 + random.uniform(-1.5, 2.5)
+                accel = 3.82 + random.uniform(-0.06, 0.08)
+            else:
+                soil = _smooth(elapsed_min - 300, 60, 82, 60)
+                accel = _smooth(elapsed_min - 300, 60, 3.82, 3.50)
+
+        elif scenario == "compound":
+            if elapsed_min >= 20:
+                dist = _smooth(elapsed_min - 20, 160, 135, 8.0)
+                soil = _smooth(elapsed_min - 20, 160, 42, 85)
+            if elapsed_min >= 60:
+                gas = _smooth(elapsed_min - 60, 40, 155, 360)
+                temp = _smooth(elapsed_min - 60, 40, temp_diurnal, 39.5)
+
+        final_accel = self._add_noise(accel, "accel")
+        final_temp = self._add_noise(temp, "temp")
+        final_dist = max(2.0, self._add_noise(dist, "distance"))
+        final_gas = int(_clamp(self._add_noise(gas, "gasRaw"), 0, 4095))
+        final_soil = _clamp(self._add_noise(soil, "soilMoisture"), 0, 100)
+
+        return {
+            "cycle": cycle_num,
+            "timestamp": _iso(ts),
+            "accel": round(final_accel, 2),
+            "temp": round(final_temp, 1),
+            "distance": round(final_dist, 1),
+            "gasRaw": final_gas,
+            "soilMoisture": round(final_soil, 1),
+        }
+
+    def generate(self, scenario, start_time, duration_hours, interval_sec=5):
+        total_steps = int(duration_hours * 3600 / interval_sec)
+        readings = []
+
+        for step in range(total_steps):
+            elapsed_sec = step * interval_sec
+            ts = start_time + timedelta(seconds=elapsed_sec)
+            r = self.generate_single_reading(scenario, elapsed_sec, ts)
+            readings.append(r)
+
         return readings
 
 
-# ────────────────────────────────────────────────────────────────────────────
-# AIR-QUALITY NODE GENERATOR
-# ────────────────────────────────────────────────────────────────────────────
+# ============================================================================
+# CLOUD FUSION SIMULATOR (Matches Cloud Functions)
+# ============================================================================
 
-class AirQualityNodeGenerator:
-    """Generates readings for airq-node-01 (MQ-135, MQ-2, DHT22)."""
-
-    def __init__(self, node_id="airq-node-01"):
-        self.node_id = node_id
-        self.node = NODES[node_id]
-        self._pm25 = 48.0
-        self._gas = 95.0
-        self._smoke = 55.0
-
-    def _reset(self):
-        self._pm25 = 48.0
-        self._gas = 95.0
-        self._smoke = 55.0
-
-    # ── baseline (normal monsoon day) ───────────────────────────────────
-
-    def _baseline(self, ts):
-        hour = _hour_of(ts)
-
-        temp = _diurnal(hour, TEMP_MONSOON["mean"],
-                        TEMP_MONSOON["diurnal_amplitude"])
-        humidity = _diurnal(hour, HUMIDITY_MONSOON["mean"],
-                           -HUMIDITY_MONSOON["diurnal_amplitude"],
-                           peak_hour=14.0)
-
-        # PM2.5: Guwahati typical 35-65, peaks morning & evening (traffic)
-        traffic_factor = 1.0 + 0.3 * (
-            math.exp(-0.5 * ((hour - 8.5) / 1.5) ** 2) +
-            math.exp(-0.5 * ((hour - 19) / 1.5) ** 2)
-        )
-        self._pm25 += random.gauss(0, 1.2)
-        self._pm25 = _clamp(self._pm25, 30, 70)
-        pm25 = self._pm25 * traffic_factor
-
-        # Gas: low baseline, gentle drift
-        self._gas += random.gauss(0, 2.0)
-        self._gas = _clamp(self._gas, 60, 140)
-
-        # Smoke: very low baseline
-        self._smoke += random.gauss(0, 1.5)
-        self._smoke = _clamp(self._smoke, 30, 100)
-
-        return {
-            "pm25":     _add_noise(pm25, "pm25", 0, 500),
-            "gas":      _add_noise(self._gas, "gas", 0, 1000),
-            "smoke":    _add_noise(self._smoke, "smoke", 0, 1000),
-            "temp":     _add_noise(temp, "temp", 10, 50),
-            "humidity": _add_noise(humidity, "humidity", 20, 100),
-        }
-
-    # ── fire / smoke event ──────────────────────────────────────────────
-
-    def _fire_event(self, ts, elapsed_min, total_min):
-        """
-        6-hour fire/smoke event:
-          Phase 1 (0-20 min)   : SHARP spike in MQ-2 smoke — this is the
-                                  "sharpness of spike" signal (Section 10)
-          Phase 2 (20-60 min)  : MQ-135 gas and PM2.5 catch up
-          Phase 3 (60-180 min) : Sustained high readings (active fire)
-          Phase 4 (180-360 min): Gradual decay as fire is contained
-        """
-        hour = _hour_of(ts)
-        temp_base = _diurnal(hour, TEMP_MONSOON["mean"],
-                             TEMP_MONSOON["diurnal_amplitude"])
-
-        # ── smoke: SHARP rise (key differentiator from pollution drift) ──
-        if elapsed_min < 8:
-            self._smoke = _smooth(elapsed_min, 8, 60, 180)
-        elif elapsed_min < 20:
-            self._smoke = _smooth(elapsed_min - 8, 12, 180, 680)
-        elif elapsed_min < 180:
-            # sustained with fluctuation
-            self._smoke = 650 + random.uniform(-60, 80)
-        else:
-            self._smoke = _smooth(elapsed_min - 180, 180, 650, 90)
-
-        # ── gas: follows smoke with slight delay ──
-        if elapsed_min < 15:
-            self._gas = _smooth(elapsed_min, 15, 95, 140)
-        elif elapsed_min < 40:
-            self._gas = _smooth(elapsed_min - 15, 25, 140, 480)
-        elif elapsed_min < 180:
-            self._gas = 460 + random.uniform(-40, 50)
-        else:
-            self._gas = _smooth(elapsed_min - 180, 180, 460, 110)
-
-        # ── PM2.5: rises with smoke, peaks slightly after ──
-        if elapsed_min < 25:
-            self._pm25 = _smooth(elapsed_min, 25, 50, 90)
-        elif elapsed_min < 60:
-            self._pm25 = _smooth(elapsed_min - 25, 35, 90, 320)
-        elif elapsed_min < 180:
-            self._pm25 = 300 + random.uniform(-30, 45)
-        else:
-            self._pm25 = _smooth(elapsed_min - 180, 180, 300, 65)
-
-        # Temperature slightly elevated near fire source
-        temp_boost = 0
-        if 20 < elapsed_min < 200:
-            temp_boost = _smooth(min(elapsed_min, 60), 60, 0, 4.5) \
-                         if elapsed_min < 60 else \
-                         _smooth(elapsed_min - 60, 140, 4.5, 0)
-        temp = temp_base + temp_boost
-
-        humidity = _diurnal(hour, HUMIDITY_MONSOON["mean"] - 5,
-                           -HUMIDITY_MONSOON["diurnal_amplitude"],
-                           peak_hour=14.0)
-
-        return {
-            "pm25":     _add_noise(self._pm25, "pm25", 0, 500),
-            "gas":      _add_noise(self._gas, "gas", 0, 1000),
-            "smoke":    _add_noise(self._smoke, "smoke", 0, 1000),
-            "temp":     _add_noise(temp, "temp", 10, 55),
-            "humidity": _add_noise(humidity, "humidity", 15, 100),
-        }
-
-    # ── pollution drift (gradual — NOT fire) ────────────────────────────
-
-    def _pollution_drift(self, ts, elapsed_min, total_min):
-        """
-        8-hour gradual AQI deterioration — no sharp spikes, slow climb.
-        This is the CONTRAST case: fusion logic should NOT flag this as fire.
-          Phase 1 (0-180 min) : Slow PM2.5 rise from satisfactory → poor
-          Phase 2 (180-360 min): Peaks at "very poor" (150-200 μg/m³)
-          Phase 3 (360-480 min): Gradual improvement
-        """
-        hour = _hour_of(ts)
-        temp = _diurnal(hour, TEMP_MONSOON["mean"],
-                        TEMP_MONSOON["diurnal_amplitude"])
-        humidity = _diurnal(hour, HUMIDITY_MONSOON["mean"],
-                           -HUMIDITY_MONSOON["diurnal_amplitude"],
-                           peak_hour=14.0)
-
-        # PM2.5: slow gradual rise and fall
-        if elapsed_min < 180:
-            self._pm25 = _smooth(elapsed_min, 180, 50, 140)
-        elif elapsed_min < 360:
-            self._pm25 = _smooth(elapsed_min - 180, 180, 140, 190)
-        else:
-            self._pm25 = _smooth(elapsed_min - 360, 120, 190, 60)
-        self._pm25 += random.gauss(0, 2.5)   # very gentle noise
-
-        # Gas: mild rise, nothing sharp
-        if elapsed_min < 240:
-            self._gas = _smooth(elapsed_min, 240, 95, 180)
-        else:
-            self._gas = _smooth(elapsed_min - 240, 240, 180, 100)
-
-        # Smoke: stays LOW — this is not a fire
-        self._smoke = 65 + random.gauss(0, 5)
-
-        return {
-            "pm25":     _add_noise(self._pm25, "pm25", 0, 500),
-            "gas":      _add_noise(self._gas, "gas", 0, 1000),
-            "smoke":    _add_noise(self._smoke, "smoke", 0, 1000),
-            "temp":     _add_noise(temp, "temp", 10, 50),
-            "humidity": _add_noise(humidity, "humidity", 20, 100),
-        }
-
-    # ── public entry point ──────────────────────────────────────────────
-
-    def generate(self, scenario, start_time, duration_hours, interval_sec):
-        self._reset()
-        total_min = duration_hours * 60
-        readings = []
-        for ts, elapsed in _generate_timestamps(start_time, duration_hours,
-                                                 interval_sec):
-            if scenario == "normal":
-                values = self._baseline(ts)
-            elif scenario == "fire":
-                values = self._fire_event(ts, elapsed, total_min)
-            elif scenario == "pollution_drift":
-                values = self._pollution_drift(ts, elapsed, total_min)
-            elif scenario == "compound":
-                # Fire event starts 30 min into the compound scenario
-                fire_elapsed = max(0, elapsed - 30)
-                values = self._fire_event(ts, fire_elapsed, total_min)
-            else:
-                values = self._baseline(ts)
-
-            readings.append({
-                "nodeId": self.node_id,
-                "timestamp": _iso(ts),
-                **values,
-            })
-        return readings
-
-
-# ────────────────────────────────────────────────────────────────────────────
-# ANOMALY & ALERT GENERATORS  (for dashboard / verification-loop testing)
-# ────────────────────────────────────────────────────────────────────────────
-
-def generate_sample_anomalies(readings_by_node, thresholds=THRESHOLDS):
+def evaluate_fusion_rules(readings, window_size=10):
     """
-    Scan generated readings and produce anomaly documents whenever sensor
-    values cross the configured thresholds.  This is a SIMPLIFIED version
-    of the real fusion logic — just enough to populate /anomalies for
-    dashboard and verification-loop testing.
+    Evaluates rolling-window fusion rules with 90s compound window
+    and consecutive-read debounce.
     """
     anomalies = []
+    debounce_accel = 0
 
-    for node_id, readings in readings_by_node.items():
-        node_type = NODES[node_id]["type"]
+    for i in range(len(readings)):
+        if i < 2:
+            continue
 
-        for i, r in enumerate(readings):
-            anomaly = None
+        window = readings[max(0, i - window_size + 1):i + 1]
+        current = readings[i]
+        prev = readings[i - 1]
+        oldest = window[0]
 
-            # ── flood detection (simplified) ──
-            if node_type == "flood":
-                wl = r.get("waterLevel")
-                rain = r.get("rainfall", 0)
-                soil = r.get("soilMoisture", 0)
+        temp_trend = (current["temp"] - oldest["temp"])
+        soil_trend = (current["soilMoisture"] - oldest["soilMoisture"])
+        accel_trend = (current["accel"] - oldest["accel"])
+        gas_trend = (current["gasRaw"] - oldest["gasRaw"])
 
-                # Rate-of-rise (look back 5 readings ≈ 2.5 min at 30s interval)
-                rise_rate = 0
-                if i >= 5:
-                    prev_wl = readings[i - 5].get("waterLevel", wl)
-                    rise_rate = (prev_wl - wl) / 2.5  # cm/min (falling distance = rising water)
+        detected_hazards = []
 
-                if wl is not None and wl < thresholds["flood"]["water_level_danger"]:
-                    raw_conf = min(98, 60 + rise_rate * 3 + (rain / 2) + max(0, soil - 60))
-                    anomaly = _make_anomaly(node_id, "flood", raw_conf, r["timestamp"])
-                elif wl is not None and wl < thresholds["flood"]["water_level_warning"]:
-                    raw_conf = min(80, 30 + rise_rate * 2 + (rain / 3))
-                    anomaly = _make_anomaly(node_id, "flood", raw_conf, r["timestamp"])
+        # 1. Earthquake: Standalone, accel > 4.0 m/s^2, 2 consecutive reads
+        if current["accel"] > FUSION_RULES["earthquake"]["accel_threshold"]:
+            debounce_accel += 1
+            if debounce_accel >= FUSION_RULES["earthquake"]["debounce_reads"]:
+                conf = min(98.0, 70.0 + (current["accel"] - 4.0) * 20.0)
+                detected_hazards.append({
+                    "type": "earthquake",
+                    "confidence": round(conf, 1),
+                    "reason": f"Seismic acceleration {current['accel']} m/s^2 exceeded threshold 4.0 m/s^2 across 2 reads",
+                })
+        else:
+            debounce_accel = 0
 
-            # ── fire detection (simplified) ──
-            if node_type == "air_quality":
-                smoke = r.get("smoke", 0)
-                gas = r.get("gas", 0)
-                pm25 = r.get("pm25", 0)
+        # 2 & 4. Fire vs Gas Leak (Spec: Gas >= 150 + spike above ambient)
+        is_gas_anomalous = (current["gasRaw"] >= FUSION_RULES["fire"]["gas_threshold"]) and \
+                           (gas_trend >= FUSION_RULES["fire"]["gas_spike_delta"] or current["gasRaw"] >= 180)
 
-                # Rate-of-change for sharpness detection
-                smoke_roc = 0
-                if i >= 2:
-                    prev_smoke = readings[i - 2].get("smoke", smoke)
-                    smoke_roc = (smoke - prev_smoke)  # ppm per reading
+        if is_gas_anomalous:
+            if temp_trend > FUSION_RULES["fire"]["temp_rising_threshold"]:
+                # Fire: Gas spike + thermal rise
+                conf = min(96.0, 60.0 + (current["gasRaw"] - 150) / 8.0 + temp_trend * 15.0)
+                detected_hazards.append({
+                    "type": "fire",
+                    "confidence": round(conf, 1),
+                    "reason": f"Gas spike ({current['gasRaw']}) correlated with thermal rise (+{temp_trend:.1f}C)",
+                })
+            else:
+                # Gas Leak: Gas spike without thermal rise (No dead zone!)
+                conf = min(92.0, 55.0 + (current["gasRaw"] - 150) / 10.0)
+                detected_hazards.append({
+                    "type": "gas_leak",
+                    "confidence": round(conf, 1),
+                    "reason": f"Isolated gas spike ({current['gasRaw']}) with stable ambient temp ({current['temp']} C)",
+                })
 
-                if smoke > thresholds["fire"]["smoke_spike"] and smoke_roc > 15:
-                    raw_conf = min(97, 50 + smoke_roc * 0.5 + (gas / 10))
-                    anomaly = _make_anomaly(node_id, "fire", raw_conf, r["timestamp"])
-                elif pm25 > thresholds["air_quality"]["pm25_severe"]:
-                    raw_conf = min(85, 35 + (pm25 - 200) / 5)
-                    anomaly = _make_anomaly(node_id, "air_quality", raw_conf, r["timestamp"])
+        # 3. Flood: Distance <= 10cm across 2 consecutive reads AND soil moisture saturated/rising
+        if current["distance"] <= FUSION_RULES["flood"]["distance_threshold"] and \
+           prev["distance"] <= FUSION_RULES["flood"]["distance_threshold"]:
+            if soil_trend > FUSION_RULES["flood"]["soil_rising_threshold"] or current["soilMoisture"] >= 70.0:
+                conf = min(99.0, 65.0 + (10.0 - current["distance"]) * 5.0 + (current["soilMoisture"] - 70) * 0.5)
+                detected_hazards.append({
+                    "type": "flood",
+                    "confidence": round(conf, 1),
+                    "reason": f"Water distance critical ({current['distance']} cm across 2 reads) with ground saturation ({current['soilMoisture']}%)",
+                })
 
-            if anomaly:
-                anomalies.append(anomaly)
+        # 5. Landslide: Soil >= 70% AND micro-tremor 3.65 - 4.0 m/s^2
+        if current["soilMoisture"] >= FUSION_RULES["landslide"]["soil_threshold"]:
+            if FUSION_RULES["landslide"]["accel_min"] <= current["accel"] < FUSION_RULES["landslide"]["accel_max"] and \
+               accel_trend > FUSION_RULES["landslide"]["accel_trend_min"]:
+                conf = min(88.0, 50.0 + (current["soilMoisture"] - 70) * 1.0 + (current["accel"] - 3.5) * 50)
+                detected_hazards.append({
+                    "type": "landslide",
+                    "confidence": round(conf, 1),
+                    "reason": f"Soil saturation critical ({current['soilMoisture']}%) with slope micro-tremors ({current['accel']} m/s^2)",
+                })
 
-    # De-duplicate: keep at most one anomaly per 5-minute window per node
-    return _dedupe_anomalies(anomalies, window_minutes=5)
+        if not detected_hazards:
+            continue
+
+        # Check 90s rolling window for multi-hazard compound events
+        curr_dt = datetime.fromisoformat(current["timestamp"].replace("Z", "+00:00"))
+        past_90s_hazards = [
+            a for a in anomalies
+            if (curr_dt - datetime.fromisoformat(a["timestamp"].replace("Z", "+00:00"))).total_seconds() <= 90
+        ]
+
+        distinct_types = set([h["type"] for h in detected_hazards])
+        for pa in past_90s_hazards:
+            if pa["type"] != "compound":
+                distinct_types.add(pa["type"])
+
+        if len(distinct_types) >= 2:
+            hazard_names = " + ".join(t.upper() for t in distinct_types)
+            compound_conf = min(99.0, max(h["confidence"] for h in detected_hazards) + 12.0)
+            anomalies.append({
+                "anomalyId": f"anomaly-{uuid.uuid4().hex[:10]}",
+                "type": "compound",
+                "subHazards": list(distinct_types),
+                "rawConfidence": round(compound_conf, 1),
+                "verifiedConfidence": round(compound_conf, 1),
+                "status": "pending",
+                "timestamp": current["timestamp"],
+                "reason": f"Cross-hazard correlation (90s window): {hazard_names}",
+                "snapshot": current,
+            })
+        else:
+            h = detected_hazards[0]
+            anomalies.append({
+                "anomalyId": f"anomaly-{uuid.uuid4().hex[:10]}",
+                "type": h["type"],
+                "rawConfidence": h["confidence"],
+                "verifiedConfidence": h["confidence"],
+                "status": "pending",
+                "timestamp": current["timestamp"],
+                "reason": h["reason"],
+                "snapshot": current,
+            })
+
+    return _dedupe_anomalies(anomalies, window_sec=180)
 
 
-def _make_anomaly(node_id, hazard_type, raw_confidence, timestamp):
-    return {
-        "anomalyId": f"anomaly-{uuid.uuid4().hex[:12]}",
-        "nodeId": node_id,
-        "type": hazard_type,
-        "rawConfidence": round(_clamp(raw_confidence, 0, 100), 1),
-        "verifiedConfidence": round(_clamp(raw_confidence, 0, 100), 1),
-        "status": "pending",
-        "timestamp": timestamp,
-    }
-
-
-def _dedupe_anomalies(anomalies, window_minutes=5):
-    """Keep only the highest-confidence anomaly per node per time window."""
+def _dedupe_anomalies(anomalies, window_sec=180):
+    """
+    Fixed deduplication: tracks the exact index per hazard type,
+    ensuring updates replace the correct entry and do not overwrite other hazards.
+    """
     if not anomalies:
         return []
     deduped = []
-    last_by_node = {}
+    last_seen = {}  # htype -> (index_in_deduped, timestamp, confidence)
+
     for a in sorted(anomalies, key=lambda x: x["timestamp"]):
-        key = (a["nodeId"], a["type"])
-        if key in last_by_node:
-            last_ts = datetime.strptime(last_by_node[key]["timestamp"],
-                                        "%Y-%m-%dT%H:%M:%S.000Z")
-            curr_ts = datetime.strptime(a["timestamp"],
-                                        "%Y-%m-%dT%H:%M:%S.000Z")
-            if (curr_ts - last_ts).total_seconds() < window_minutes * 60:
-                # Within window — keep higher confidence
-                if a["rawConfidence"] > last_by_node[key]["rawConfidence"]:
-                    deduped[-1] = a
-                    last_by_node[key] = a
+        htype = a["type"]
+        ts = datetime.fromisoformat(a["timestamp"].replace("Z", "+00:00"))
+
+        if htype in last_seen:
+            idx, last_ts, last_conf = last_seen[htype]
+            if (ts - last_ts).total_seconds() < window_sec:
+                if a["rawConfidence"] > last_conf:
+                    deduped[idx] = a
+                    last_seen[htype] = (idx, ts, a["rawConfidence"])
                 continue
+
         deduped.append(a)
-        last_by_node[key] = a
+        last_seen[htype] = (len(deduped) - 1, ts, a["rawConfidence"])
+
     return deduped
 
 
-# ────────────────────────────────────────────────────────────────────────────
-# SAMPLE ALERT + SACHET PAYLOAD
-# ────────────────────────────────────────────────────────────────────────────
+# ============================================================================
+# ALERT & SACHET PAYLOAD BUILDER
+# ============================================================================
 
-def generate_sample_alerts(anomalies, nodes=NODES):
-    """
-    Promote high-confidence anomalies to alerts with SACHET-style payloads.
-    Simulates the verification loop having already run.
-    """
+def generate_alerts_and_verifications(anomalies):
+    """Generates verification responses and escalated alerts with SACHET payloads."""
     alerts = []
-    for a in anomalies:
-        if a["rawConfidence"] < 55:
-            continue
-
-        node = nodes[a["nodeId"]]
-
-        # Simulate community verification adjusting confidence
-        yes_votes = random.randint(2, 5)
-        no_votes = random.randint(0, 1)
-        verified_conf = min(100, a["rawConfidence"] + (yes_votes - no_votes) * 4)
-
-        severity = "advisory"
-        if verified_conf > 85:
-            severity = "danger"
-        elif verified_conf > 70:
-            severity = "warning"
-        elif verified_conf > 55:
-            severity = "watch"
-
-        sachet = copy.deepcopy(SACHET_PAYLOAD_TEMPLATE)
-        sachet.update({
-            "sourceNodeId": a["nodeId"],
-            "hazardType": a["type"],
-            "severity": severity,
-            "confidence": round(verified_conf, 1),
-            "verificationStatus": "verified",
-            "timestamp": a["timestamp"],
-            "message": f"{a['type'].upper()} {severity.upper()} - "
-                       f"Confidence {verified_conf:.0f}% - "
-                       f"Community-verified ({yes_votes}Y/{no_votes}N)",
-        })
-        sachet["location"].update({
-            "lat": node["lat"],
-            "lng": node["lng"],
-            "description": node["name"],
-        })
-
-        alerts.append({
-            "alertId": f"alert-{uuid.uuid4().hex[:12]}",
-            "anomalyId": a["anomalyId"],
-            "hazardType": a["type"],
-            "confidenceScore": round(verified_conf, 1),
-            "message": sachet["message"],
-            "channelsSent": ["sms", "dashboard", "push"],
-            "sachetPayload": sachet,
-            "timestamp": a["timestamp"],
-        })
-
-    return alerts
-
-
-# ────────────────────────────────────────────────────────────────────────────
-# SAMPLE VERIFICATION RESPONSES
-# ────────────────────────────────────────────────────────────────────────────
-
-def generate_sample_verifications(anomalies, test_phones=None):
-    """Generate simulated SMS verification responses for anomalies."""
-    if test_phones is None:
-        test_phones = ["+919876543210", "+919876543211", "+919876543212"]
-
     verifications = {}
+
     for a in anomalies:
-        if a["rawConfidence"] < 40:
-            continue
+        aid = a["anomalyId"]
+        htype = a["type"]
+        raw_conf = a["rawConfidence"]
+
         responses = {}
-        for phone in test_phones:
-            # Higher-confidence anomalies more likely to get YES responses
-            yes_prob = min(0.95, 0.4 + a["rawConfidence"] / 200)
-            ts = datetime.strptime(a["timestamp"], "%Y-%m-%dT%H:%M:%S.000Z")
-            reply_delay = timedelta(seconds=random.randint(30, 300))
+        yes_count = 0
+        no_count = 0
+
+        for phone in VERIFICATION_SETTINGS["test_numbers"]:
+            yes_prob = min(0.95, 0.45 + raw_conf / 180.0)
+            is_yes = random.random() < yes_prob
+            if is_yes:
+                yes_count += 1
+            else:
+                no_count += 1
+
+            t_reply = datetime.fromisoformat(a["timestamp"].replace("Z", "+00:00")) + timedelta(seconds=random.randint(15, 90))
             responses[phone.replace("+", "")] = {
-                "response": "YES" if random.random() < yes_prob else "NO",
-                "timestamp": _iso(ts + reply_delay),
+                "response": "YES" if is_yes else "NO",
+                "timestamp": _iso(t_reply),
             }
-        verifications[a["anomalyId"]] = responses
-    return verifications
 
+        verifications[aid] = responses
 
-# ────────────────────────────────────────────────────────────────────────────
-# NODE REGISTRATION DOCUMENTS
-# ────────────────────────────────────────────────────────────────────────────
+        verified_conf = _clamp(
+            raw_conf + (yes_count * VERIFICATION_SETTINGS["yes_weight"]) + (no_count * VERIFICATION_SETTINGS["no_weight"]),
+            0.0, 100.0
+        )
+        a["verifiedConfidence"] = round(verified_conf, 1)
 
-def generate_node_docs(start_time):
-    """Generate /nodes/{nodeId} Firestore documents."""
-    docs = {}
-    for nid, n in NODES.items():
-        docs[nid] = {
-            **n,
-            "lastSeen": _iso(start_time),
-        }
-    return docs
+        if verified_conf >= VERIFICATION_SETTINGS["escalation_threshold"]:
+            a["status"] = "escalated"
+            severity = "warning"
+            if verified_conf > 85.0:
+                severity = "danger"
+            elif verified_conf < 70.0:
+                severity = "watch"
+
+            sachet = copy.deepcopy(SACHET_PAYLOAD_TEMPLATE)
+            sachet.update({
+                "hazardType": htype,
+                "severity": severity,
+                "confidence": round(verified_conf, 1),
+                "verificationStatus": "verified",
+                "timestamp": a["timestamp"],
+                "sensorData": a.get("snapshot", {}),
+                "message": f"HAZENTRA {htype.upper()} {severity.upper()} - Confidence {verified_conf:.0f}% - Community Verified ({yes_count}Y/{no_count}N)",
+            })
+
+            alerts.append({
+                "alertId": f"alert-{uuid.uuid4().hex[:10]}",
+                "anomalyId": aid,
+                "hazardType": htype,
+                "confidenceScore": round(verified_conf, 1),
+                "message": sachet["message"],
+                "channelsSent": ["sms_fast2sms", "dashboard_live"],
+                "sachetPayload": sachet,
+                "timestamp": a["timestamp"],
+            })
+        else:
+            a["status"] = "denied" if no_count > yes_count else "pending"
+
+    return alerts, verifications

@@ -1,22 +1,16 @@
 """
-Hazentra Simulator - Firebase Firestore Uploader
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Uploads generated JSON data to Firestore in two modes:
+Hazentra Simulator — Firebase Firestore Uploader (Hardened)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Uploads generated synthetic data to Firestore matching CLAUDE.md Section 9 schema:
+  /readings/{timestamp} -> { accel, temp, distance, gasRaw, soilMoisture, cycle, timestamp }
+  /anomalies/{anomalyId}
+  /verifications/{anomalyId}/responses/{phone}
+  /alerts/{alertId}
 
-  1. BATCH MODE (default):
-     Reads pre-generated JSON files from output/ and writes them all at once.
-
-  2. LIVE MODE (--live):
-     Generates readings in real time at the configured interval and streams
-     them to Firestore, simulating live sensor nodes for demo purposes.
-
-Setup:
-  1. Place your Firebase service account key JSON at:
-       simulator/serviceAccountKey.json
-     (or set GOOGLE_APPLICATION_CREDENTIALS env var)
-  2. pip install firebase-admin
-  3. python firebase_push.py --batch       # upload pre-generated data
-     python firebase_push.py --live flood  # stream flood scenario live
+Features:
+  1. BATCH MODE (--batch): Uploads pre-generated JSON files with native Timestamp conversion.
+  2. LIVE STREAMING (--live <scenario>): Continuous time-progressed streaming where scenario
+     events (e.g. fire at 20m, flood at 30m) evolve realistically in real time.
 """
 
 import argparse
@@ -24,9 +18,8 @@ import json
 import os
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 
-# Defer firebase-admin import to give a clean error if not installed
 try:
     import firebase_admin
     from firebase_admin import credentials, firestore
@@ -34,254 +27,199 @@ try:
 except ImportError:
     HAS_FIREBASE = False
 
-
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DEFAULT_KEY_PATH = os.path.join(SCRIPT_DIR, "serviceAccountKey.json")
 DEFAULT_OUTPUT_DIR = os.path.join(SCRIPT_DIR, "output")
 
 
 def _init_firestore(key_path=None):
-    """Initialise Firebase Admin SDK and return a Firestore client."""
     if not HAS_FIREBASE:
         print("ERROR: firebase-admin is not installed.")
-        print("  Install it:  pip install firebase-admin")
+        print("  Install it: pip install firebase-admin")
         sys.exit(1)
 
-    key = key_path or os.environ.get("GOOGLE_APPLICATION_CREDENTIALS",
-                                      DEFAULT_KEY_PATH)
+    key = key_path or os.environ.get("GOOGLE_APPLICATION_CREDENTIALS", DEFAULT_KEY_PATH)
     if not os.path.exists(key):
         print(f"ERROR: Service account key not found at {key}")
-        print("  Download it from Firebase Console -> Project Settings -> "
-              "Service Accounts -> Generate New Private Key")
+        print("  Place your serviceAccountKey.json in the simulator/ directory or specify with --key")
         sys.exit(1)
 
     cred = credentials.Certificate(key)
-    firebase_admin.initialize_app(cred)
+    if not firebase_admin._apps:
+        firebase_admin.initialize_app(cred)
     return firestore.client()
 
 
-# ----------------------------------------------------------------------------
-# BATCH UPLOAD
-# ----------------------------------------------------------------------------
+def _to_native_dt(iso_str):
+    """Converts ISO 8601 string to Python datetime with UTC timezone for native Firestore Timestamp storage."""
+    try:
+        return datetime.fromisoformat(iso_str.replace("Z", "+00:00"))
+    except Exception:
+        return datetime.now(timezone.utc)
+
 
 def batch_upload(db, output_dir=DEFAULT_OUTPUT_DIR, scenario=None):
-    """Upload all generated JSON data to Firestore."""
     print("\n=======================================================")
-    print("  BATCH UPLOAD TO FIRESTORE")
+    print("  BATCH UPLOAD TO FIRESTORE (NATIVE TIMESTAMP STORAGE)")
     print("=======================================================\n")
 
-    # -- 1. Nodes --
-    nodes_path = os.path.join(output_dir, "nodes.json")
-    if os.path.exists(nodes_path):
-        with open(nodes_path) as f:
-            nodes = json.load(f)
-        for node_id, data in nodes.items():
-            db.collection("nodes").document(node_id).set(data)
-        print(f"  [OK] Uploaded {len(nodes)} node documents")
+    # 1. Node Metadata
+    node_file = os.path.join(output_dir, "node_info.json")
+    if os.path.exists(node_file):
+        with open(node_file, "r", encoding="utf-8") as f:
+            node_data = json.load(f)
+        db.collection("nodes").document(node_data["nodeId"]).set(node_data)
+        print(f"  [OK] Uploaded node metadata for {node_data['nodeId']}")
 
-    # -- 2. Readings --
+    # 2. Readings (/readings/{timestamp})
     readings_dir = os.path.join(output_dir, "readings")
     if os.path.exists(readings_dir):
-        for fname in os.listdir(readings_dir):
+        for fname in sorted(os.listdir(readings_dir)):
             if scenario and scenario not in fname:
                 continue
             if not fname.endswith(".json"):
                 continue
             fpath = os.path.join(readings_dir, fname)
-            with open(fpath) as f:
+            with open(fpath, "r", encoding="utf-8") as f:
                 readings = json.load(f)
 
             batch = db.batch()
             count = 0
             for r in readings:
-                node_id = r.pop("nodeId", "unknown")
-                ts = r.get("timestamp", "")
-                doc_ref = db.collection("readings").document(node_id) \
-                            .collection("logs").document(ts)
-                batch.set(doc_ref, r)
+                ts_str = r["timestamp"]
+                doc_data = dict(r)
+                # Store as native Firestore Timestamp
+                doc_data["timestamp"] = _to_native_dt(ts_str)
+
+                doc_ref = db.collection("readings").document(ts_str)
+                batch.set(doc_ref, doc_data)
                 count += 1
-                if count % 500 == 0:
+                if count % 400 == 0:
                     batch.commit()
                     batch = db.batch()
             batch.commit()
-            print(f"  [OK] Uploaded {count} readings from {fname}")
+            print(f"  [OK] Uploaded {count} readings from {fname} (with native Timestamps)")
 
-    # -- 3. Anomalies --
+    # 3. Anomalies (/anomalies/{anomalyId})
     anomalies_dir = os.path.join(output_dir, "anomalies")
     if os.path.exists(anomalies_dir):
-        for fname in os.listdir(anomalies_dir):
+        for fname in sorted(os.listdir(anomalies_dir)):
             if scenario and scenario not in fname:
                 continue
             if not fname.endswith(".json"):
                 continue
             fpath = os.path.join(anomalies_dir, fname)
-            with open(fpath) as f:
+            with open(fpath, "r", encoding="utf-8") as f:
                 anomalies = json.load(f)
             for a in anomalies:
-                aid = a.pop("anomalyId", None)
-                if aid:
-                    db.collection("anomalies").document(aid).set(a)
+                aid = a["anomalyId"]
+                doc_data = dict(a)
+                doc_data["timestamp"] = _to_native_dt(a["timestamp"])
+                db.collection("anomalies").document(aid).set(doc_data)
             print(f"  [OK] Uploaded {len(anomalies)} anomalies from {fname}")
 
-    # -- 4. Alerts --
+    # 4. Alerts (/alerts/{alertId})
     alerts_dir = os.path.join(output_dir, "alerts")
     if os.path.exists(alerts_dir):
-        for fname in os.listdir(alerts_dir):
+        for fname in sorted(os.listdir(alerts_dir)):
             if scenario and scenario not in fname:
                 continue
             if not fname.endswith(".json"):
                 continue
             fpath = os.path.join(alerts_dir, fname)
-            with open(fpath) as f:
+            with open(fpath, "r", encoding="utf-8") as f:
                 alerts = json.load(f)
             for al in alerts:
-                alid = al.pop("alertId", None)
-                if alid:
-                    db.collection("alerts").document(alid).set(al)
+                alid = al["alertId"]
+                doc_data = dict(al)
+                doc_data["timestamp"] = _to_native_dt(al["timestamp"])
+                if "sachetPayload" in doc_data and "timestamp" in doc_data["sachetPayload"]:
+                    doc_data["sachetPayload"]["timestamp"] = _to_native_dt(doc_data["sachetPayload"]["timestamp"])
+                db.collection("alerts").document(alid).set(doc_data)
             print(f"  [OK] Uploaded {len(alerts)} alerts from {fname}")
 
-    # -- 5. Verifications --
-    verif_dir = os.path.join(output_dir, "verifications")
-    if os.path.exists(verif_dir):
-        for fname in os.listdir(verif_dir):
+    # 5. Verifications (/verifications/{anomalyId}/responses/{phone})
+    verifs_dir = os.path.join(output_dir, "verifications")
+    if os.path.exists(verifs_dir):
+        for fname in sorted(os.listdir(verifs_dir)):
             if scenario and scenario not in fname:
                 continue
             if not fname.endswith(".json"):
                 continue
-            fpath = os.path.join(verif_dir, fname)
-            with open(fpath) as f:
-                verifications = json.load(f)
-            for anomaly_id, responses in verifications.items():
-                for phone, data in responses.items():
-                    db.collection("verifications").document(anomaly_id) \
-                      .collection("responses").document(phone).set(data)
+            fpath = os.path.join(verifs_dir, fname)
+            with open(fpath, "r", encoding="utf-8") as f:
+                verifs = json.load(f)
+            for aid, phones in verifs.items():
+                db.collection("verifications").document(aid).set({"anomalyId": aid}, merge=True)
+                for phone, pdata in phones.items():
+                    p_doc = dict(pdata)
+                    p_doc["timestamp"] = _to_native_dt(pdata["timestamp"])
+                    db.collection("verifications").document(aid).collection("responses").document(phone).set(p_doc)
             print(f"  [OK] Uploaded verifications from {fname}")
 
     print("\n  [OK] Batch upload complete!\n")
 
 
-# ----------------------------------------------------------------------------
-# LIVE STREAMING
-# ----------------------------------------------------------------------------
-
-def live_stream(db, scenario_name, interval_sec=30):
+def live_stream(db, scenario_name, interval_sec=5, time_scale=1.0):
     """
-    Generate and stream readings to Firestore in real time.
-    This simulates live sensor nodes for demo / dashboard testing.
-    Press Ctrl+C to stop.
+    Live streaming with accumulating elapsed seconds.
+    Ensures scenario physics evolve realistically over time.
     """
-    from generator import FloodNodeGenerator, AirQualityNodeGenerator
-    from config import NODES
-    import random
-
-    random.seed()  # non-deterministic for live mode
+    from generator import SingleNodeTelemetryGenerator
+    gen = SingleNodeTelemetryGenerator()
 
     print("\n=======================================================")
-    print(f"  LIVE STREAMING - Scenario: {scenario_name.upper()}")
-    print(f"  Interval: {interval_sec}s  |  Press Ctrl+C to stop")
+    print(f"  LIVE STREAMING — Scenario: {scenario_name.upper()}")
+    print(f"  Interval: {interval_sec}s  |  Time Acceleration: {time_scale}x")
+    print("  Press Ctrl+C to stop")
     print("=======================================================\n")
 
-    # Determine which generator method to use
-    flood_gen = FloodNodeGenerator("flood-node-01")
-    airq_gen = AirQualityNodeGenerator("airq-node-01")
-
-    scenario_map = {
-        "normal":          ("normal", "normal"),
-        "flood":           ("flood", "normal"),
-        "flash_flood":     ("flash_flood", "normal"),
-        "fire":            ("normal", "fire"),
-        "pollution_drift": ("normal", "pollution_drift"),
-        "compound":        ("compound", "compound"),
-    }
-
-    flood_scen, airq_scen = scenario_map.get(scenario_name, ("normal", "normal"))
-
-    start_time = datetime.now()
-    reading_count = 0
-
-    # Upload node docs
-    for nid, ndata in NODES.items():
-        db.collection("nodes").document(nid).set({
-            **ndata,
-            "lastSeen": start_time.isoformat() + "Z",
-        })
+    step = 0
+    elapsed_sim_seconds = 0.0
 
     try:
         while True:
-            now = datetime.now()
-            elapsed_min = (now - start_time).total_seconds() / 60.0
+            now_dt = datetime.now(timezone.utc)
+            # Generate reading at the current simulated elapsed point
+            r = gen.generate_single_reading(scenario_name, elapsed_sim_seconds, now_dt)
+            ts_str = r["timestamp"]
 
-            # Generate readings
-            flood_reading = flood_gen.generate(
-                flood_scen, now, interval_sec / 3600, interval_sec
-            )
-            airq_reading = airq_gen.generate(
-                airq_scen, now, interval_sec / 3600, interval_sec
-            )
+            doc_data = dict(r)
+            doc_data["timestamp"] = _to_native_dt(ts_str)
 
-            # Take just the first reading from each (we're doing one at a time)
-            for readings, node_id in [(flood_reading, "flood-node-01"),
-                                      (airq_reading, "airq-node-01")]:
-                if readings:
-                    r = readings[0]
-                    r.pop("nodeId", None)
-                    ts = r.get("timestamp", now.isoformat() + "Z")
+            if db:
+                db.collection("readings").document(ts_str).set(doc_data)
 
-                    # Write to Firestore
-                    db.collection("readings").document(node_id) \
-                      .collection("logs").document(ts).set(r)
+            step += 1
+            min_elapsed = elapsed_sim_seconds / 60.0
+            print(f"  [{step:04d} | Sim +{min_elapsed:.1f}m] Accel: {r['accel']} m/s^2 | "
+                  f"Temp: {r['temp']} C | Gas: {r['gasRaw']} | Dist: {r['distance']} cm | Soil: {r['soilMoisture']}%")
 
-                    # Update node lastSeen
-                    db.collection("nodes").document(node_id).update({
-                        "lastSeen": ts,
-                        "status": "online",
-                    })
-
-            reading_count += 2
-            elapsed_str = f"{int(elapsed_min)}m{int((elapsed_min % 1) * 60)}s"
-            print(f"  [{elapsed_str}] Streamed reading pair #{reading_count // 2} "
-                  f"(total: {reading_count} readings)")
-
+            # Advance simulated time
+            elapsed_sim_seconds += (interval_sec * time_scale)
             time.sleep(interval_sec)
 
     except KeyboardInterrupt:
-        print(f"\n\n  [OK] Stopped. Total readings streamed: {reading_count}")
-        print(f"  [OK] Duration: {(datetime.now() - start_time).total_seconds() / 60:.1f} min\n")
+        print(f"\n  [OK] Live streaming stopped after {step} readings.\n")
 
-
-# ----------------------------------------------------------------------------
-# CLI
-# ----------------------------------------------------------------------------
 
 def main():
-    parser = argparse.ArgumentParser(
-        description="Upload Hazentra synthetic data to Firebase Firestore"
-    )
-    mode = parser.add_mutually_exclusive_group(required=True)
-    mode.add_argument("--batch", action="store_true",
-                      help="Upload pre-generated JSON files")
-    mode.add_argument("--live", metavar="SCENARIO",
-                      choices=["normal", "flood", "flash_flood", "fire",
-                               "pollution_drift", "compound"],
-                      help="Stream readings in real-time for a scenario")
+    parser = argparse.ArgumentParser(description="Upload Hazentra Telemetry to Firestore")
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument("--batch", action="store_true", help="Batch upload JSON files")
+    group.add_argument("--live", metavar="SCENARIO", help="Live stream simulated readings")
 
-    parser.add_argument("--key", default=None,
-                        help="Path to Firebase service account key JSON")
-    parser.add_argument("--output-dir", default=DEFAULT_OUTPUT_DIR,
-                        help="Directory with generated JSON files (batch mode)")
-    parser.add_argument("--scenario", default=None,
-                        help="Filter batch upload to a specific scenario")
-    parser.add_argument("--interval", type=int, default=30,
-                        help="Polling interval in seconds (live mode, default: 30)")
-
+    parser.add_argument("--key", default=None, help="Path to serviceAccountKey.json")
+    parser.add_argument("--scenario", default=None, help="Filter batch to specific scenario")
+    parser.add_argument("--interval", type=int, default=5, help="Live interval in seconds")
+    parser.add_argument("--scale", type=float, default=1.0, help="Simulation time acceleration factor (e.g. 5.0 for 5x fast forward)")
     args = parser.parse_args()
 
     db = _init_firestore(args.key)
-
     if args.batch:
-        batch_upload(db, args.output_dir, args.scenario)
+        batch_upload(db, scenario=args.scenario)
     else:
-        live_stream(db, args.live, args.interval)
+        live_stream(db, args.live, args.interval, args.scale)
 
 
 if __name__ == "__main__":

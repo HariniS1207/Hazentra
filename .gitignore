@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+**/node_modules/
+__pycache__/
+**/__pycache__/
+*.pyc
+**/*.pyc
+
+# Secrets & Credentials — NEVER commit these
+serviceAccountKey.json
+**/serviceAccountKey.json
+functions/.env
+.env
+*.env
+
+# Generated simulator output (large data files)
+simulator/output/
+output/
+
+# Temporary / diagnostic files
+pitch_doc_*
+*.tmp
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
